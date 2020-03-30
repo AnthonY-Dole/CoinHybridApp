@@ -27,6 +27,9 @@
 <p>Affichage de la navigation à la fin du projet</p>
 </p>
 
+## Lien du cahier des charge
+* [cahier des charge](https://docs.google.com/document/d/1bb34p5BNpaevR5uX_ln8dcOfPDYpZjAMtMcyFkAWfGo/edit#heading=h.8nenr8bbznpo)
+
 
 ## Prérequis :warning:
 
