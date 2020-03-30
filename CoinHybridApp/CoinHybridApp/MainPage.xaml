@@ -10,7 +10,7 @@
     <TabBar>
         <Tab Title="Prix" Icon="icon.png">
             <ShellContent>
-                <local:Page1 Title="Liste des cryptomonnaie"/>
+                <local:Page1 Title="Liste  cryptomonnaie"/>
             </ShellContent>
             
         </Tab>
