@@ -10,11 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace CoinHybridApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class ListPage : ContentPage
     {
-        public Page1()
+        public ListPage()
         {
             InitializeComponent();
+
         }
     }
 }
