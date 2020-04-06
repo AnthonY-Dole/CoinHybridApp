@@ -13,9 +13,9 @@ namespace CoinHybridApp.ViewModel
         public ListPageViewModel()
         {
             CryptoList = new ObservableCollection<CryptoModel>();
-            CryptoList.Add(new CryptoModel { Name = "BTC", Image = "https://btcdirect.eu/media/42/download/bitcoin-logo.svg?v=1", Detail = "Bitcoin", Price = "4532$" });
+            CryptoList.Add(new CryptoModel { Name = "BTC", Image = "https://res.cloudinary.com/anvukekorp/image/upload/icon/btc.png", Detail = "Bitcoin", Price = "4532$" });
             //you can add here multiple list items 
-            CryptoList.Add(new CryptoModel { Name = "ETH", Image = "https://btcdirect.eu/media/42/download/bitcoin-logo.svg?v=1", Detail = "Etherum", Price = "234$" });
+            CryptoList.Add(new CryptoModel { Name = "ETH", Image = "https://res.cloudinary.com/anvukekorp/image/upload/icon/eth.png", Detail = "Etherum", Price = "234$" });
 
         }
     }
