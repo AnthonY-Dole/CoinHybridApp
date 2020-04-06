@@ -24,7 +24,7 @@
 ## Navigation
 
 <p align="center">
-<p>Affichage de la navigation à la fin du projet</p>
+<img src ="screenshot/menu.jpg" title = "Icon" alt = "Icon" width="200" height="400" >
 </p>
 
 ## Lien du cahier des charge
