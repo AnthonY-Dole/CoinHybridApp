@@ -4,12 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.ListPage">
+             x:Class="CoinHybridApp.ListPage"
+              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             >
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding FoodList}"
+        <ListView ItemsSource="{Binding CryptoList}"
                    HasUnevenRows="true"
                    SeparatorVisibility="None"
-                >
+                   ItemTapped="OnItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -23,7 +25,22 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
 
-                          
+                            <Image
+                                
+                                       HeightRequest="60"
+                                        HorizontalOptions="CenterAndExpand"
+                                        VerticalOptions="CenterAndExpand"
+                                        Aspect="AspectFill"
+                                       WidthRequest="66"
+                                       Grid.RowSpan="2"
+                                       Source="{Binding Image}"/>
+                            <Label Grid.Column="1"
+                                       Text="{Binding Name}"
+                                       VerticalOptions="End"/>
+                            <Label Grid.Column="1"
+                                       Grid.Row="1"
+                                       VerticalOptions="Start"
+                                       Text="{Binding Detail}"/>
                         </Grid>
                     </ViewCell>
                    
