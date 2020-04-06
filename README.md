@@ -24,8 +24,11 @@
 ## Navigation
 
 <p align="center">
-<p>Affichage de la navigation à la fin du projet</p>
+<img src ="screenshot/menu.jpg" title = "Icon" alt = "Icon" width="200" height="400" >
 </p>
+
+## Lien du cahier des charge
+* [cahier des charge](https://docs.google.com/document/d/1bb34p5BNpaevR5uX_ln8dcOfPDYpZjAMtMcyFkAWfGo/edit#heading=h.8nenr8bbznpo)
 
 
 ## Prérequis :warning:
