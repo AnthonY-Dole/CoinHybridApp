@@ -33,13 +33,13 @@
 
 ## Prérequis :warning:
 
-- 
--
+- Android 6.0
+- Internet
 
 
 ## Teléchargement
 Lien rapide:
-* 
+
 
 
 ## Installation 
