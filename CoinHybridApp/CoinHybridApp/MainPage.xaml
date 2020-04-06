@@ -8,25 +8,25 @@
              x:Class="CoinHybridApp.MainPage">
 
     <TabBar>
-        <Tab Title="Prix" Icon="icon.png">
+        <Tab Title="Prix" Icon="ic_action_euro_symbol.png">
             <ShellContent>
                 <local:Page1 Title="Liste  cryptomonnaie"/>
             </ShellContent>
             
         </Tab>
-        <Tab Title="Achat/Vente" Icon="icon.png">
+        <Tab Title="Achat/Vente" Icon="ic_action_add_shopping_cart.png">
             <ShellContent>
                 <local:Page2 Title="Achat/Vente"/>
             </ShellContent>
 
         </Tab>
-        <Tab Title=" Profil" Icon="icon.png">
+        <Tab Title=" Profil" Icon="ic_action_account_circle.png">
             <ShellContent>
                 <local:Page3 Title="Mon Profil"/>
             </ShellContent>
 
         </Tab>
-        <Tab Title="Créer" Icon="icon.png">
+        <Tab Title="Créer" Icon="ic_action_euro_symbol.png">
             <ShellContent>
                 <local:Page4 Title="creer une cryptomonnaie"/>
             </ShellContent>

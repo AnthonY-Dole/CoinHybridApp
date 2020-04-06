@@ -7,7 +7,7 @@
              x:Class="CoinHybridApp.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="¨Page1"
+            <Label Text="En construction"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
