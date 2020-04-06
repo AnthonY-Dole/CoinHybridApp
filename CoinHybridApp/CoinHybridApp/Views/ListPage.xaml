@@ -27,11 +27,11 @@
 
                             <Image
                                 
-                                       HeightRequest="60"
+                                       HeightRequest="70"
                                         HorizontalOptions="CenterAndExpand"
                                         VerticalOptions="CenterAndExpand"
                                         Aspect="AspectFill"
-                                       WidthRequest="66"
+                                       WidthRequest="70"
                                        Grid.RowSpan="2"
                                        Source="{Binding Image}"/>
                             <Label Grid.Column="1"
