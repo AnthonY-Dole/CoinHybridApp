@@ -16,6 +16,7 @@ namespace CoinHybridApp
         public MainPage()
         {
             InitializeComponent();
+
         }
     }
 }

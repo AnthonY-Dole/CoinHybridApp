@@ -5,8 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                 xmlns:local="clr-namespace:CoinHybridApp"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.MainPage">
-
+             x:Class="CoinHybridApp.MainPage" >
+   
     <TabBar>
         <Tab Title="Prix" Icon="ic_action_euro_symbol.png">
             <ShellContent>

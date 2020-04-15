@@ -18,12 +18,14 @@ namespace CoinHybridApp
         public ListPage()
         {
             InitializeComponent();
-            BindingContext = new ListPageViewModel();
+            var vm = new ListPageViewModel();
+            BindingContext = vm;
+
         }
         private async void OnItemSelected(Object sender, ItemTappedEventArgs e)
         {
-            var mydetails = e.Item as CryptoModel;
-            await Navigation.PushAsync(new ListPageDetail(mydetails.Name, mydetails.Price, mydetails.Image));
+            var mydetails = e.Item as CryptocurencyModel;
+            await Navigation.PushAsync(new ListPageDetail(mydetails.Name, mydetails.PriceUsd, mydetails.Symbol,mydetails.ChangePercent24Hr,mydetails.VolumeUsd24Hr,mydetails.MarketCapUsd,mydetails.Supply));
 
         }
     }

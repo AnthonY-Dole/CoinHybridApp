@@ -12,15 +12,16 @@ namespace CoinHybridApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListPageDetail : ContentPage
     {
-        public ListPageDetail(string Name,string Price,string source)
+        public ListPageDetail(string Name,string PriceUsd,string Symbol,string ChangePercent24Hr,string VolumeUsd24Hr,string MarketCapUsd,string Supply)
         {
             InitializeComponent();
-            MyItemNameShow.Text = Name;
-            MypriceItemShow.Text = Price;
-            MyImageCell.Source = new UriImageSource()
-            {
-                Uri = new Uri(source)
-            };
+            MyCryptoName.Text = Name;
+            MyCryptoPrice.Text = PriceUsd;
+             MyCryptoSymbol.Text = Symbol;
+            MyCryptoChange.Text = ChangePercent24Hr;
+            MyCryptoVolume.Text = VolumeUsd24Hr;
+            MyCryptoMarket.Text = MarketCapUsd;
+            MyCryptoSupply.Text = Supply;
         }
     }
 }

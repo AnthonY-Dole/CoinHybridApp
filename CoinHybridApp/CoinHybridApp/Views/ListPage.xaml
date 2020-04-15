@@ -5,49 +5,31 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="CoinHybridApp.ListPage"
-              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              >
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding CryptoList}"
-                   HasUnevenRows="true"
-                   SeparatorVisibility="None"
-                   ItemTapped="OnItemSelected">
+        <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ItemTapped="OnItemSelected"  AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                        <Grid Padding="10">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-
-                            <Image
-                                
-                                       HeightRequest="70"
-                                        HorizontalOptions="CenterAndExpand"
-                                        VerticalOptions="CenterAndExpand"
-                                        Aspect="AspectFill"
-                                       WidthRequest="70"
-                                       Grid.RowSpan="2"
-                                       Source="{Binding Image}"/>
-                            <Label Grid.Column="1"
-                                       Text="{Binding Name}"
-                                       VerticalOptions="End"/>
-                            <Label Grid.Column="1"
-                                       Grid.Row="1"
-                                       VerticalOptions="Start"
-                                       Text="{Binding Detail}"/>
+                            <!--
+                            <Image Grid.RowSpan="2" Source="{Binding Image.Url}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60" /> -->
+                            <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Grid.Column="2" Text="{Binding PriceUsd}" HorizontalOptions="End" TextColor="#42a5f5"/>
+                            <Label Grid.Row="2" Grid.Column="2" Text="{Binding ChangePercent24Hr }" TextColor="#009688"/>
+                            <Label Grid.Row="1" Grid.Column="1" Text="{Binding Symbol}" VerticalOptions="End" FontSize="Caption" />
                         </Grid>
                     </ViewCell>
-                   
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
-
     </ContentPage.Content>
 </ContentPage>
