@@ -32,7 +32,7 @@
                 </StackLayout>
             
             <StackLayout VerticalOptions="End">
-                <Button CornerRadius="20" Text="Connexion via Google" FontSize="Subtitle"  BackgroundColor="#448AFF" Margin="50,0,50,0"/>
+                <Button CornerRadius="20" Text="Créer un profil" FontSize="Subtitle"  BackgroundColor="#448AFF" Margin="50,0,50,0" Clicked="Button_Clicked"/>
             </StackLayout>
 
         </StackLayout>
