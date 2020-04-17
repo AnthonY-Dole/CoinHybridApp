@@ -39,5 +39,14 @@ namespace CoinHybridApp.Models
 
         [JsonProperty("vwap24Hr")]
         public string Vwap24Hr { get; set; }
+       
+        //--------------For charts-------------------
+        [JsonProperty("time")]
+        public object Time { get; set; }
+
+        [JsonProperty("date")]
+        public DateTime Date { get; set; }
+
+       
     }
 }

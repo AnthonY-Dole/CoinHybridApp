@@ -26,6 +26,7 @@ namespace CoinHybridApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microcharts.Droid.Resource.String.library_name = global::CoinHybridApp.Droid.Resource.String.library_name;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::CoinHybridApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::CoinHybridApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::CoinHybridApp.Droid.Resource.Attribute.font;
@@ -5768,79 +5769,82 @@ namespace CoinHybridApp.Droid
 			public const int ic_action_euro_symbol = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int ic_mtrl_chip_checked_black = 2131230822;
+			public const int ic_action_settings = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int ic_mtrl_chip_checked_circle = 2131230823;
+			public const int ic_mtrl_chip_checked_black = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int ic_mtrl_chip_close_circle = 2131230824;
+			public const int ic_mtrl_chip_checked_circle = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int logo = 2131230825;
+			public const int ic_mtrl_chip_close_circle = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int logo128 = 2131230826;
+			public const int logo = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int mtrl_snackbar_background = 2131230827;
+			public const int logo128 = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int mtrl_tabs_default_indicator = 2131230828;
+			public const int mtrl_snackbar_background = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int navigation_empty_icon = 2131230829;
+			public const int mtrl_tabs_default_indicator = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int notification_action_background = 2131230830;
+			public const int navigation_empty_icon = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int notification_bg = 2131230831;
+			public const int notification_action_background = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int notification_bg_low = 2131230832;
+			public const int notification_bg = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int notification_bg_low_normal = 2131230833;
+			public const int notification_bg_low = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int notification_bg_low_pressed = 2131230834;
+			public const int notification_bg_low_normal = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int notification_bg_normal = 2131230835;
+			public const int notification_bg_low_pressed = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int notification_bg_normal_pressed = 2131230836;
+			public const int notification_bg_normal = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int notification_icon_background = 2131230837;
+			public const int notification_bg_normal_pressed = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int notification_template_icon_bg = 2131230838;
+			public const int notification_icon_background = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int notification_template_icon_low_bg = 2131230839;
+			public const int notification_template_icon_bg = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int notification_tile_bg = 2131230840;
+			public const int notification_template_icon_low_bg = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int notify_panel_notification_icon_bg = 2131230841;
+			public const int notification_tile_bg = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int overlay = 2131230842;
+			public const int notify_panel_notification_icon_bg = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int splash_logo = 2131230843;
+			public const int overlay = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int splash_screen = 2131230844;
+			public const int splash_logo = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int tooltip_frame_dark = 2131230845;
+			public const int splash_screen = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int tooltip_frame_light = 2131230846;
+			public const int tooltip_frame_dark = 2131230846;
+			
+			// aapt resource value: 0x7F08007F
+			public const int tooltip_frame_light = 2131230847;
 			
 			static Drawable()
 			{
@@ -6962,28 +6966,31 @@ namespace CoinHybridApp.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int mtrl_chip_close_icon_content_description = 2131623982;
+			public const int library_name = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int password_toggle_content_description = 2131623983;
+			public const int mtrl_chip_close_icon_content_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int path_password_eye = 2131623984;
+			public const int password_toggle_content_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int path_password_eye_mask_strike_through = 2131623985;
+			public const int path_password_eye = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int path_password_eye_mask_visible = 2131623986;
+			public const int path_password_eye_mask_strike_through = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int path_password_strike_through = 2131623987;
+			public const int path_password_eye_mask_visible = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int search_menu_title = 2131623988;
+			public const int path_password_strike_through = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int status_bar_notification_info_overflow = 2131623989;
+			public const int search_menu_title = 2131623989;
+			
+			// aapt resource value: 0x7F0E0036
+			public const int status_bar_notification_info_overflow = 2131623990;
 			
 			static String()
 			{

@@ -10,5 +10,11 @@ namespace CoinHybridApp.Models
 
         [JsonProperty("data")]
         public IEnumerable<CryptocurencyModel> Cryptos { get; set; }
+        public IEnumerable<CryptocurencyModel> CryptosChart { get; set; }
+
+
+
+
     }
+   
 }

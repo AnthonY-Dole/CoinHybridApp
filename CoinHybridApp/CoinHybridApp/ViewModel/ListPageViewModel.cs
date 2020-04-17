@@ -66,6 +66,7 @@ namespace CoinHybridApp.ViewModel
             {
                 var crypto = await GetCryptoAssets();
                 crypto.ForEach(Cryptos.Add);
+                Debug.WriteLine(Cryptos);
             });
         }
 

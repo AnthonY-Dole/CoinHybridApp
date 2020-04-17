@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CoinHybridApp.ViewModel;
+using Microcharts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,8 @@ namespace CoinHybridApp.Views
         public ListPageDetail(string Name,string PriceUsd,string Symbol,string ChangePercent24Hr,string VolumeUsd24Hr,string MarketCapUsd,string Supply)
         {
             InitializeComponent();
+            BindingContext = new ListPageDetailViewModel();
+            
             MyCryptoName.Text = Name;
             MyCryptoPrice.Text = PriceUsd;
              MyCryptoSymbol.Text = Symbol;
@@ -24,4 +28,5 @@ namespace CoinHybridApp.Views
             MyCryptoSupply.Text = Supply;
         }
     }
+
 }

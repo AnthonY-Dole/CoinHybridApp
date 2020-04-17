@@ -6,6 +6,9 @@
              mc:Ignorable="d"
              x:Class="CoinHybridApp.ListPage"
              >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_settings.png" Text="Item 2" Priority="1" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ItemTapped="OnItemSelected"  AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
             <ListView.ItemTemplate>

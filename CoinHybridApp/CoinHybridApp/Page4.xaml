@@ -5,7 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="CoinHybridApp.Page4">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_settings.png" Text="Item 2" Priority="1" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
+        
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
