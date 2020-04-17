@@ -23,7 +23,7 @@
         </Tab>
         <Tab Title=" Profil" Icon="ic_action_account_circle.png">
             <ShellContent>
-                <local:Page3 Title="Mon Profil"/>
+                <local:Profile Title="Mon Profil"/>
             </ShellContent>
 
         </Tab>

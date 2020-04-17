@@ -4,12 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.Page3">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_settings.png" Text="Item 2" Priority="1" />
-    </ContentPage.ToolbarItems>
+             x:Class="CoinHybridApp.Profile">
     <ContentPage.Content>
-        
         <StackLayout Margin="0,0,0,0">
 
             <StackLayout VerticalOptions="StartAndExpand">
@@ -36,7 +32,7 @@
                 </StackLayout>
             
             <StackLayout VerticalOptions="End">
-                <Button CornerRadius="20" Text="Connexion via Google" FontSize="Subtitle"  BackgroundColor="#448AFF" Margin="50,0,50,0"/>
+                <Button CornerRadius="20" Text="Créer un profil" FontSize="Subtitle"  BackgroundColor="#448AFF" Margin="50,0,50,0" Clicked="Button_Clicked"/>
             </StackLayout>
 
         </StackLayout>
