@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
              x:Class="CoinHybridApp.Views.ListPageDetail">
 
     <ContentPage.Content>
@@ -16,13 +16,24 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <Image Source="overlay.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
+            <magic:GradientView HeightRequest="300" VerticalOptions="StartAndExpand">
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                  linear-gradient(0deg, rgb(61, 103, 216),rgb(65, 80, 170),rgb(53, 69, 115))
+                ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+           
             <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center" VerticalOptions="Start" Margin="20,50">
-                <Label  x:Name="MyCryptoName" FontSize="16" VerticalOptions="Center" TextColor="White"/>
+                <Label  x:Name="MyCryptoName" FontSize="35" VerticalOptions="Center" FontAttributes="Bold" TextColor="White"/>
             </StackLayout>
             <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image x:Name="MyImageUrl" WidthRequest="50" HeightRequest="50" VerticalOptions="Center"/>
+                    <Image x:Name="MyImageUrl" WidthRequest="75" HeightRequest="75" VerticalOptions="Center"/>
                     <Label  x:Name="MyCryptoPrice" TextColor="White" FontSize="20" FontAttributes="Bold" VerticalOptions="Center"/>
                   
                 </StackLayout>
@@ -40,32 +51,39 @@
                     <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
                         <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                             <Label x:Name="MyCryptoChange" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                            <Label Text="ChangePercent24Hr" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                            <Label Text="Volume d'échange" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                         </StackLayout>
                     </StackLayout>
                     <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
 
                         <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                             <Label x:Name="MyCryptoVolume" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                            <Label Text="VolumeUsd24Hr" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                            <Label Text="Volume (24h)" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                         </StackLayout>
                     </StackLayout>
                     <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
                         <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                             <Label x:Name="MyCryptoMarket" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                            <Label Text="MarketCapUsd" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                            <Label Text="Cap. Marché" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                         </StackLayout>
                     </StackLayout>
                     <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
                         <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                             <Label  x:Name="MyCryptoSupply" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                            <Label Text="Supply" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                            <Label Text="Offre en Circulation" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                         </StackLayout>
                     </StackLayout>
 
                 </Grid>
             </Frame>
-            <microcharts:ChartView x:Name="ChartOne" Chart="{Binding Chart}" HeightRequest="150" />
+            <StackLayout Grid.Row="2" BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Heure" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50"  BackgroundColor="Transparent" TextColor="Black"/>
+                <Button Text="Jour" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50" BackgroundColor="Transparent" TextColor="Black"/>
+                    <Button Text="Semaine" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50"  BackgroundColor="Transparent" TextColor="Black"/>
+                <Button Text="mois" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50"  BackgroundColor="Transparent" TextColor="Black"/>
+            </StackLayout>
+            <Label Grid.Row="3" Text="Graphique temps réel :" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <microcharts:ChartView Grid.Row="4" x:Name="ChartOne" Chart="{Binding Chart}" HeightRequest="150" />
         </Grid>
 
     </ContentPage.Content>

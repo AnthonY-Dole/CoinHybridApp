@@ -11,6 +11,10 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ItemTapped="OnItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
+            <ListView.Header>
+                <Label Text="Liste des Cryptomonnaie" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                
+            </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -23,11 +27,11 @@
                                 <ColumnDefinition Width="Auto" />
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            
+                        
                            <Image Grid.RowSpan="2" Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60" />
                             <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" />
-                            <Label Grid.Row="1" Grid.Column="2" Text="{Binding PriceUsd}" HorizontalOptions="End" TextColor="#42a5f5"/>
-                            <Label Grid.Row="2" Grid.Column="2" Text="{Binding ChangePercent24Hr }" TextColor="#009688"/>
+                            <Label Grid.Row="1" Grid.Column="2" Text="{Binding PriceUsd}" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
+                            <Label Grid.Row="2" Grid.Column="2" Text="{Binding ChangePercent24Hr }" TextColor="Black" HorizontalOptions="Center"/>
                             <Label Grid.Row="1" Grid.Column="1" Text="{Binding Symbol}" VerticalOptions="End" FontSize="Caption" />
                         </Grid>
                     </ViewCell>
