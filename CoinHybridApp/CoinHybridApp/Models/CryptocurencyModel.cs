@@ -5,6 +5,11 @@ using System.Text;
 
 namespace CoinHybridApp.Models
 {
+    using Newtonsoft.Json;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public class CryptocurencyModel
     {
         [JsonProperty("id")]
@@ -39,14 +44,17 @@ namespace CoinHybridApp.Models
 
         [JsonProperty("vwap24Hr")]
         public string Vwap24Hr { get; set; }
-       
+        public string ImageUrl { get; set; }
+
         //--------------For charts-------------------
         [JsonProperty("time")]
         public object Time { get; set; }
 
         [JsonProperty("date")]
         public DateTime Date { get; set; }
+        [JsonProperty("data")]
+        public IEnumerable<CryptocurencyModel> Cryptos { get; set; }
 
-       
+
     }
 }

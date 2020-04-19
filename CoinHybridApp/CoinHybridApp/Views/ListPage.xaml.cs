@@ -15,18 +15,26 @@ namespace CoinHybridApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListPage : ContentPage
     {
+        ListPageViewModel vm;
         public ListPage()
         {
             InitializeComponent();
-            var vm = new ListPageViewModel();
+             vm = new ListPageViewModel();
             BindingContext = vm;
 
         }
-        private async void OnItemSelected(Object sender, ItemTappedEventArgs e)
+        protected override async void OnAppearing()
         {
-            var mydetails = e.Item as CryptocurencyModel;
-            await Navigation.PushAsync(new ListPageDetail(mydetails.Name, mydetails.PriceUsd, mydetails.Symbol,mydetails.ChangePercent24Hr,mydetails.VolumeUsd24Hr,mydetails.MarketCapUsd,mydetails.Supply));
-
+            base.OnAppearing();
+            await vm.UpdateAssetsAsync();
         }
+
+   
+        private async void OnItemSelected(Object sender, ItemTappedEventArgs e)
+            {
+             var mydetails = e.Item as CryptocurencyModel;
+             await Navigation.PushAsync(new ListPageDetail(mydetails.Name, mydetails.PriceUsd, mydetails.Symbol,mydetails.ChangePercent24Hr,mydetails.VolumeUsd24Hr,mydetails.MarketCapUsd,mydetails.Supply,mydetails.ImageUrl));
+
+            }
     }
 }

@@ -1,13 +1,6 @@
 ﻿using CoinHybridApp.Models;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
+using CoinHybridApp.Service;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Net.Http;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -17,26 +10,7 @@ namespace CoinHybridApp.ViewModel
 {
     public class ListPageViewModel : BaseViewModel
     {
-        ObservableCollection<CryptocurencyModel> _cryptos;
-        public ObservableCollection<CryptocurencyModel> Cryptos
-        {
-            get
-            {
-                if (_cryptos == null)
-                {
-                    _cryptos = new ObservableCollection<CryptocurencyModel>();
-                }
-                return _cryptos;
-            }
-            set
-            {
-                if (value != _cryptos)
-                {
-                    _cryptos = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
+        public ObservableCollection<CryptocurencyModel> Cryptos { get; set; }
         private bool _isRefreshing = false;
         public bool IsRefreshing
         {
@@ -53,24 +27,18 @@ namespace CoinHybridApp.ViewModel
                 return new Command(async () =>
                 {
                     IsRefreshing = true;
-                        var crypto = await GetCryptoAssets();
-                        crypto.ForEach(Cryptos.Add);
-                  
+                       await UpdateAssetsAsync();
+                      
                     IsRefreshing = false;
                 });
             }
         }
         public ListPageViewModel()
         {
-            Task.Run(async () =>
-            {
-                var crypto = await GetCryptoAssets();
-                crypto.ForEach(Cryptos.Add);
-                Debug.WriteLine(Cryptos);
-            });
+            this.Cryptos = new ObservableCollection<CryptocurencyModel>();
         }
 
-        private async Task<IEnumerable<CryptocurencyModel>> GetCryptoAssets()
+       /* private async Task<IEnumerable<CryptocurencyModel>> GetCryptoAssets()
         {
             var client = new HttpClient();
             try
@@ -86,6 +54,23 @@ namespace CoinHybridApp.ViewModel
                 Debug.WriteLine(ex.Message);
                 return null;
             }
+        }*/
+
+        public async Task UpdateAssetsAsync()
+        {
+
+            var newPosts = await HttpService.GetAssetsAsync();
+            this.Cryptos.Clear();
+            newPosts.ForEach((post) =>
+            {
+                var price = post.PriceUsd.Substring(0, post.PriceUsd.IndexOf(".") + 3);
+                var changePercent = post.ChangePercent24Hr.Substring(0, post.PriceUsd.IndexOf(".") + 3);
+                post.ImageUrl = "https://res.cloudinary.com/anvukekorp/image/upload/icon/" + post.Symbol.ToLower();
+                post.PriceUsd = price + '$';
+                post.ChangePercent24Hr = changePercent + '%';
+                this.Cryptos.Add(post);
+
+            });
         }
     }
 

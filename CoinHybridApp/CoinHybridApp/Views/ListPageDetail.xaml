@@ -22,9 +22,9 @@
             </StackLayout>
             <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="logo.png" WidthRequest="50" HeightRequest="50" VerticalOptions="Center"/>
+                    <Image x:Name="MyImageUrl" WidthRequest="50" HeightRequest="50" VerticalOptions="Center"/>
                     <Label  x:Name="MyCryptoPrice" TextColor="White" FontSize="20" FontAttributes="Bold" VerticalOptions="Center"/>
-                    <Label Text="$" TextColor="White" FontSize="34" VerticalOptions="Center"/>
+                  
                 </StackLayout>
                 <Label x:Name="MyCryptoSymbol" TextColor="White" FontSize="16" HorizontalOptions="Center"/>
 

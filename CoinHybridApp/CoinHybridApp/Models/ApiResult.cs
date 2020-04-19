@@ -8,10 +8,9 @@ namespace CoinHybridApp.Models
    public class ApiResult
     {
 
-        [JsonProperty("data")]
-        public IEnumerable<CryptocurencyModel> Cryptos { get; set; }
-        public IEnumerable<CryptocurencyModel> CryptosChart { get; set; }
-
+       [JsonProperty("data")]
+       public IEnumerable<CryptocurencyModel> CryptosChart { get; set; }
+        
 
 
 
