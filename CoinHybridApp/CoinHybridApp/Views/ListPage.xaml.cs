@@ -45,7 +45,7 @@ namespace CoinHybridApp
             if (string.IsNullOrWhiteSpace(e.NewTextValue))
                 CryptoListView.ItemsSource = _container.Cryptos;
             else
-                CryptoListView.ItemsSource = _container.Cryptos.Where(i => i.Name.Contains(e.NewTextValue));
+                CryptoListView.ItemsSource = _container.Cryptos.Where(i => i.Name.ToLower().Contains(e.NewTextValue.ToLower()));
 
             CryptoListView.EndRefresh();
         }
