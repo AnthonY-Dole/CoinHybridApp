@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -66,7 +67,7 @@ namespace CoinHybridApp.ViewModel
                 {
                     takeData++;
 
-                    Entry newentry = new Entry(float.Parse(price))
+                    Entry newentry = new Entry(float.Parse(price, CultureInfo.InvariantCulture.NumberFormat))
                     {
                         Color = SKColor.Parse("#f7931a"),
                     };
@@ -79,7 +80,7 @@ namespace CoinHybridApp.ViewModel
 
                 }
                 string lowestPrices = coinPrices.Min();
-                var chart = new LineChart() { Entries = entries, LineMode = LineMode.Straight, LineSize = 2f, MinValue = float.Parse(lowestPrices.ToString()), PointMode = PointMode.None };
+                var chart = new LineChart() { Entries = entries, LineMode = LineMode.Straight, LineSize = 2f, MinValue = (float.Parse(lowestPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)), PointMode = PointMode.None };
               
                 return JsonConvert.DeserializeObject<ApiResult>(data).CryptosChart;
             }
