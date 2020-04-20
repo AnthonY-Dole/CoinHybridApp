@@ -52,6 +52,7 @@ namespace CoinHybridApp.Models
 
         [JsonProperty("date")]
         public DateTime Date { get; set; }
+
         [JsonProperty("data")]
         public IEnumerable<CryptocurencyModel> Cryptos { get; set; }
 

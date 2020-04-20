@@ -23,5 +23,17 @@ namespace CoinHybridApp.Service
                 return posts;
             }
         }
+
+        public static async Task<IEnumerable<CryptocurencyModel>> GetValuesChartAsync()
+        {
+            using (var httpClient = new HttpClient())
+            {
+
+                var jsonString = await httpClient.GetStringAsync(BASE_URL + ASSETS_ENDPOINT);
+                var chart = JsonConvert.DeserializeObject<CryptocurencyModel>(jsonString).Cryptos;
+                return chart;
+
+            }
+        }
     }
 }

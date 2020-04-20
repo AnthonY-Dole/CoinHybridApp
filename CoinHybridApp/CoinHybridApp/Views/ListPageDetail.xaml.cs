@@ -14,14 +14,15 @@ namespace CoinHybridApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListPageDetail : ContentPage
     {
-        public ListPageDetail(string Name,string PriceUsd,string Symbol,string ChangePercent24Hr,string VolumeUsd24Hr,string MarketCapUsd,string Supply, string ImageUrl)
+        ListPageDetailViewModel vm;
+        public ListPageDetail(string Name, string PriceUsd, string Symbol, string ChangePercent24Hr, string VolumeUsd24Hr, string MarketCapUsd, string Supply, string ImageUrl)
         {
             InitializeComponent();
-            BindingContext = new ListPageDetailViewModel();
-            
+            vm = new ListPageDetailViewModel();
+            BindingContext = vm;
             MyCryptoName.Text = Name;
             MyCryptoPrice.Text = PriceUsd;
-             MyCryptoSymbol.Text = Symbol;
+            MyCryptoSymbol.Text = Symbol;
             MyCryptoChange.Text = ChangePercent24Hr;
             MyCryptoVolume.Text = VolumeUsd24Hr;
             MyCryptoMarket.Text = MarketCapUsd;
@@ -30,7 +31,15 @@ namespace CoinHybridApp.Views
             {
                 Uri = new Uri(ImageUrl)
             };
+            
+
+        }
+        protected override async void OnAppearing()
+        {
+            
+            base.OnAppearing();
+            await vm.UpdateValuesChartAsync();
+          
         }
     }
-
 }
