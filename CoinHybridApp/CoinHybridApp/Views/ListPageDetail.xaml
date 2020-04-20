@@ -8,8 +8,8 @@
              x:Class="CoinHybridApp.Views.ListPageDetail">
 
     <ContentPage.Content>
-
-        <Grid VerticalOptions="FillAndExpand">
+        <ScrollView>
+            <Grid VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -40,7 +40,7 @@
                 <Label x:Name="MyCryptoSymbol" TextColor="White" FontSize="16" HorizontalOptions="Center"/>
 
             </StackLayout>
-            <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="20,-40,20,0" Padding="0" HeightRequest="120" VerticalOptions="Start">
+            <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="20,-50,20,0" Padding="0" HeightRequest="125" VerticalOptions="Start">
                 <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -85,6 +85,6 @@
             <Label Grid.Row="3" Text="Graphique temps réel :" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
             <microcharts:ChartView Grid.Row="4" x:Name="ChartOne" Chart="{Binding Chart}" HeightRequest="150" />
         </Grid>
-
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

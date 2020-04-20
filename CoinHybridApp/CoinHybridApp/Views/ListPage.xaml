@@ -9,12 +9,17 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_settings.png" Text="Item 2" Priority="1" />
     </ContentPage.ToolbarItems>
+  
     <ContentPage.Content>
-        <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ItemTapped="OnItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
+        <StackLayout>
+            <SearchBar TextChanged="SearchBar_TextChanged"></SearchBar>
+   
+        <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All" x:Name="CryptoListView" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ItemTapped="OnItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
             <ListView.Header>
                 <Label Text="Liste des Cryptomonnaie" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 
             </ListView.Header>
+            
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -38,5 +43,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
