@@ -24,7 +24,7 @@ namespace CoinHybridApp.Droid
         /// <summary>
         /// Nom de la base de données
         /// </summary>
-        string nomBDD = "database.tUsers";
+        string nomBDD = "database.CoinHybridAPP";
 
         /// <summary>
         /// Retourne le path vers la base de données

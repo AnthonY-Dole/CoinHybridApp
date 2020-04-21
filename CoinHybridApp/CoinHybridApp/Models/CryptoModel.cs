@@ -17,7 +17,7 @@ namespace CoinHybridApp.Models
         public string Abreviation { get; set; }
 
         [Column("Detail")]
-        public string Detail { get; set; }
+        public string Details { get; set; }
 
         [Column("Logo")]
         public string Image { get; set; }
@@ -43,12 +43,12 @@ namespace CoinHybridApp.Models
         {
             Name = PName;
             Abreviation = PAbrev;
-            Detail = Pdetail;
+            Details = Pdetail;
             Image = PImage;
             Price = Pprice;
             MaxSupply = PmaxSupply;
             CirculatingSupply = PcirculatingSupply;
-            Capitalisation = (Convert.ToInt32(Pprice) * Convert.ToInt32(PcirculatingSupply)).ToString();
+            Capitalisation = (Convert.ToDecimal(Pprice) * Convert.ToDecimal(PcirculatingSupply)).ToString();
         }
 
     }

@@ -22,7 +22,7 @@ namespace CoinHybridApp.DAL
             {
                 lock (DbConnection.Locker)
                 {
-                    if (!db.Table<CryptoModel>().Any(a => a.Name == c.Name && a.Abreviation == c.Abreviation && a.Detail == c.Detail && a.Price == c.Price && a.MaxSupply == c.MaxSupply && a.CirculatingSupply == c.CirculatingSupply && a.Capitalisation == c.Capitalisation))
+                    if (!db.Table<CryptoModel>().Any(a => a.Name == c.Name && a.Abreviation == c.Abreviation && a.Details == c.Details && a.Price == c.Price && a.MaxSupply == c.MaxSupply && a.CirculatingSupply == c.CirculatingSupply && a.Capitalisation == c.Capitalisation))
                     {
                         if ((test = db.Insert(c)) > 0)
                         {
@@ -39,7 +39,7 @@ namespace CoinHybridApp.DAL
         /// Liste tous les enregistrements de la table CryptoModel
         /// </summary>
         /// <returns></returns>
-        public static List<CryptoModel> GetUsers()
+        public static List<CryptoModel> GetAssets()
         {
             List<CryptoModel> results = new List<CryptoModel>();
             using (SQLiteConnection db = DbConnection.GetConnection())
@@ -52,7 +52,7 @@ namespace CoinHybridApp.DAL
             return results;
         }
 
-        public static bool UpdateUser(CryptoModel c)
+        public static bool UpdateAsset(CryptoModel c)
         {
             bool b = false;
             using (SQLiteConnection db = DbConnection.GetConnection())
@@ -71,7 +71,7 @@ namespace CoinHybridApp.DAL
             return b;
         }
 
-        public static bool DeleteUser(CryptoModel c)
+        public static bool DeleteAsset(CryptoModel c)
         {
             bool b = false;
             using (SQLiteConnection db = DbConnection.GetConnection())

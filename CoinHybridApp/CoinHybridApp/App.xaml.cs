@@ -9,7 +9,8 @@ namespace CoinHybridApp
         public App()
         {
             InitializeComponent();
-
+            //Création de la BDD CoinHybridAPP si non existante.
+            DAL.DbConnection.CreateDb();
             MainPage = new MainPage();
         }
 

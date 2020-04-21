@@ -30,7 +30,7 @@
         </Tab>
         <Tab Title="Créer" Icon="ic_action_add.png">
             <ShellContent>
-                <local:Page4 Title="creer une cryptomonnaie"/>
+                <local:Page4 Title="Créer une cryptomonnaie"/>
             </ShellContent>
 
         </Tab>

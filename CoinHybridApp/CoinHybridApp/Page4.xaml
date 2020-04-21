@@ -5,13 +5,64 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="CoinHybridApp.Page4">
-   
     <ContentPage.Content>
-        
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <Grid ColumnSpacing="0" RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="1" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="AUTO" />
+                </Grid.RowDefinitions>
+
+                <!-- background -->
+                <Image Aspect="AspectFill"/>
+                <Image VerticalOptions="End" Source="https://image.freepik.com/free-vector/gradient-geometric-shape-background_78532-374.jpg" HeightRequest="150" Aspect="AspectFill" Margin="0,0,0,-1"/>
+
+                <!-- Asset image -->
+                <Image  Margin="0,0,0,-50" Aspect="AspectFill" Source="https://cdn0.iconfinder.com/data/icons/famous-character-vol-2-colored/48/JD-04-512.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
+
+
+
+                <!-- Asset -->
+                <Grid Grid.Row="1" ColumnSpacing="0" RowSpacing="0" Margin="0,30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Entry Grid.Column="0" HorizontalTextAlignment="Center"  Placeholder="Nom"  Text="{Binding Nom,Mode=TwoWay}" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold" />
+                    <Entry Grid.Column="1" HorizontalTextAlignment="Center"  Placeholder="Abréviation" Text="{Binding Abrev,Mode=TwoWay}" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold"  />
+                    <Entry Grid.Column="2" HorizontalTextAlignment="Center"  Placeholder="Prix $" Text="{Binding Price,Mode=TwoWay}" Keyboard="Numeric" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold"/>
+
+                </Grid>
+
+                <BoxView HorizontalOptions="FillAndExpand" Grid.Row="2" Margin="20,0,20,0"  WidthRequest="1" Color="#bdc3c7"/>
+                <!-- Détails  -->
+                <StackLayout  Grid.Row="3">
+                    <Label Margin="20,0" HorizontalTextAlignment="Start"  FontSize="Title" FontAttributes="Bold"
+				Text="Informations:" />
+                    <Entry Placeholder="Circulating supply" Margin="20,0" Keyboard="Numeric" HorizontalTextAlignment="Start"  FontSize="Medium"
+                   
+				Text="{Binding CircuSupply,Mode=TwoWay}"  />
+                    <Entry Placeholder="Max supply" Margin="20,0" Keyboard="Numeric" HorizontalTextAlignment="Start"  FontSize="Medium"
+                   
+				Text="{Binding MaxSupply,Mode=TwoWay}" />
+                    <Label  Margin="20,0" HorizontalTextAlignment="Start" FontSize="Title" FontAttributes="Bold"
+				Text="Description:" />
+                    <Editor Margin="20,0,20,0"  FontSize="Medium"
+                 Text="{Binding Details,Mode=TwoWay}" />
+                </StackLayout>
+
+
+                <!-- create button -->
+
+                <Button Grid.Row="3" Text="Créer" Margin="20"  HeightRequest="50" CornerRadius="10" Clicked="Button_Clicked"  VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"/>
+
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
+
