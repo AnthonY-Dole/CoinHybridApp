@@ -59,7 +59,10 @@
 
                 <!-- create button -->
 
-                <Button Grid.Row="3" Text="Créer" Margin="20"  HeightRequest="50" CornerRadius="10" Clicked="Button_Clicked"  VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"/>
+                <Button Grid.Row="3" Text="Créer" Margin="20,0,20,80"  HeightRequest="50" CornerRadius="10" Clicked="ButtonCreate_Clicked"  VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"/>
+
+                <Button Grid.Row="3" Text="Liste des cryptos" Margin="20"  HeightRequest="50" CornerRadius="10" Clicked="ButtonList_Clicked"  VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"/>
+
 
             </Grid>
         </ScrollView>

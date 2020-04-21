@@ -21,10 +21,15 @@ namespace CoinHybridApp.Views
             this.BindingContext = VM;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void ButtonCreate_Clicked(object sender, EventArgs e)
         {
             VM.newAsset();
             Navigation.PopAsync();
+        }
+
+        private async void ButtonList_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CreatedAssetList());
         }
     }
 }
