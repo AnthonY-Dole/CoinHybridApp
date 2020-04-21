@@ -31,5 +31,6 @@ namespace CoinHybridApp.Views
             await vm.UpdateValuesChartAsync();
           
         }
+      
     }
 }

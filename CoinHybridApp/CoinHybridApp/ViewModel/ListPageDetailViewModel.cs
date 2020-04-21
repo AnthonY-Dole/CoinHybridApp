@@ -93,7 +93,8 @@ namespace CoinHybridApp.ViewModel
          
           
         }
-
         
-    }
+
+
+        }
 }

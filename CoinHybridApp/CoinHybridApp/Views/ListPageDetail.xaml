@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="CoinHybridApp.Views.ListPageDetail"
              >
 
@@ -34,7 +34,7 @@
             </StackLayout>
             <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image  Source="{x:Binding Detail.ImageUrl}" WidthRequest="75" HeightRequest="75" VerticalOptions="Center"/>
+                        <ffimageloading:CachedImage   Grid.RowSpan="2" Source="{x:Binding Detail.ImageUrl}" LoadingPlaceholder= "LoaderImage "  CacheDuration= "50" RetryCount= "2" RetryDelay= "600"  Aspect="AspectFill"  WidthRequest="75" HeightRequest="75" VerticalOptions="Center" DownsampleToViewSize = "true"/>
                         <Label Text="{x:Binding Detail.PriceUsd}" TextColor="White" FontSize="20" FontAttributes="Bold" VerticalOptions="Center"/>
                   
                 </StackLayout>

@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="CoinHybridApp.ListPage"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              >
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_settings.png" Text="Item 2" Priority="1" />
@@ -14,7 +15,7 @@
         <StackLayout>
             <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Nom d'un actif"></SearchBar>
 
-            <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}"  SelectedItem="{x:Binding SelectDetail}"  ItemSelected="Handle_ItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
+            <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView"  CachingStrategy="RecycleElementAndDataTemplate"  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}"  SelectedItem="{x:Binding SelectDetail}"  ItemSelected="Handle_ItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
             <ListView.Header>
                 <Label Text="Liste des Cryptomonnaie" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 
@@ -28,12 +29,12 @@
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                        
-                           <Image Grid.RowSpan="2" Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60" />
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <ffimageloading:CachedImage   Grid.RowSpan="2" Source="{Binding ImageUrl}" LoadingPlaceholder= "LoaderImage "  ErrorPlaceholder= "ErrorImage" CacheDuration= "50" RetryCount= "2" RetryDelay= "600"  Aspect="AspectFill" HeightRequest="60" WidthRequest="60" DownsampleToViewSize = "true"/>
+                               
                             <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" />
                             <Label Grid.Row="1" Grid.Column="2" Text="{Binding PriceUsd}" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
                             <Label Grid.Row="2" Grid.Column="2" Text="{Binding ChangePercent24Hr }" TextColor="Black" HorizontalOptions="Center"/>
