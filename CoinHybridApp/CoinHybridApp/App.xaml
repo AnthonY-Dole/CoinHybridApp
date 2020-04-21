@@ -6,6 +6,8 @@
              mc:Ignorable="d"
              x:Class="CoinHybridApp.App">
     <Application.Resources>
-
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="#304ffe"/>
+        </Style>
     </Application.Resources>
 </Application>

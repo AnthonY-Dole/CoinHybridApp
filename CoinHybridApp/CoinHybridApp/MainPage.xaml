@@ -3,19 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                xmlns:local="clr-namespace:CoinHybridApp"
-             mc:Ignorable="d"
+                xmlns:local="clr-namespace:CoinHybridApp" xmlns:local1="clr-namespace:CoinHybridApp.Views"
+       mc:Ignorable="d"
              x:Class="CoinHybridApp.MainPage" >
 
-
+   
     <TabBar>
-        <Tab Title="Prix" Icon="ic_action_euro_symbol.png">
+        
+        <Tab Title="Prix" Icon="ic_action_equalizer.png">
             <ShellContent>
-                <local:ListPage Title="Liste  cryptomonnaie"/>
+                <local:ListPage Title="Liste des cryptomonnaie"/>
             </ShellContent>
             
         </Tab>
-        <Tab Title="Achat/Vente" Icon="ic_action_add_shopping_cart.png">
+        <Tab Title="Achat/Vente" Icon="ic_action_local_atm.png">
             <ShellContent>
                 <local:Page2 Title="Achat/Vente"/>
             </ShellContent>
@@ -27,9 +28,15 @@
             </ShellContent>
 
         </Tab>
-        <Tab Title="Créer" Icon="ic_action_euro_symbol.png">
+        <Tab Title="Créer" Icon="ic_action_add.png">
             <ShellContent>
                 <local:Page4 Title="creer une cryptomonnaie"/>
+            </ShellContent>
+
+        </Tab>
+        <Tab Title="Paramètre" Icon="ic_action_settings.png">
+            <ShellContent>
+                <local1:SettingsPage Title="Paramètre"/>
             </ShellContent>
 
         </Tab>

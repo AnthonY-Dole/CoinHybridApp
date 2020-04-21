@@ -30,36 +30,10 @@ namespace CoinHybridApp.ViewModel
             }
         }
 
-        /*   ObservableCollection<CryptocurencyModel> _cryptosCharts;
-           public ObservableCollection<CryptocurencyModel> CryptosChart
-           {
-               get
-               {
-                   if (_cryptosCharts == null)
-                   {
-                       _cryptosCharts = new ObservableCollection<CryptocurencyModel>();
-                   }
-                   return _cryptosCharts;
-               }
-               set
-               {
-                   if (value != _cryptosCharts)
-                   {
-                       _cryptosCharts = value;
-                       OnPropertyChanged();
-                   }
-               }
-           }
-           */
 
         public ListPageDetailViewModel()
         {
-            /*
-            Task.Run(async () =>
-            {
-           await GetValuesChartAsync();
-              
-            });*/
+          
             this.Cryptos = new ObservableCollection<CryptocurencyModel>();
         }
 
@@ -77,7 +51,7 @@ namespace CoinHybridApp.ViewModel
 
                 Entry newentry = new Entry(float.Parse(price, CultureInfo.InvariantCulture.NumberFormat))
                 {
-                    Color = SKColor.Parse("#f7931a"),
+                    Color = SKColor.Parse("#3498db"),
                 };
 
                 if (takeData == 2)
@@ -88,18 +62,17 @@ namespace CoinHybridApp.ViewModel
 
             }
             string lowestPrices = coinPrices.Min();
-             var chart = new LineChart() { Entries = entries, LineMode = LineMode.Straight, LineSize = 2f, MinValue = (float.Parse(lowestPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)), PointMode = PointMode.None };
-
+            
             this.Chart = new LineChart()
             {
                 Entries = entries,
                 LineMode = LineMode.Straight,
-                LineSize = 2f,
+                LineSize = 4f,
                 MinValue = (float.Parse(lowestPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)),
                 PointMode = PointMode.None
             
         };
-            // this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(this.Chart)));
+           
          
          
           

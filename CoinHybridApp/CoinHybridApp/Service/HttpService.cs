@@ -12,6 +12,9 @@ namespace CoinHybridApp.Service
     {
         const string BASE_URL = "https://api.coincap.io/v2/";
         const string ASSETS_ENDPOINT = "assets";
+        const string HISTORY_ENDPOINT = "assets/bitcoin/history?interval=h1";
+
+
 
         public static async Task<IEnumerable<CryptocurencyModel>> GetAssetsAsync()
         {
@@ -29,7 +32,7 @@ namespace CoinHybridApp.Service
             using (var httpClient = new HttpClient())
             {
 
-                var jsonString = await httpClient.GetStringAsync(BASE_URL + ASSETS_ENDPOINT);
+                var jsonString = await httpClient.GetStringAsync(BASE_URL + HISTORY_ENDPOINT);
                 var chart = JsonConvert.DeserializeObject<CryptocurencyModel>(jsonString).Cryptos;
                 return chart;
 
