@@ -30,12 +30,12 @@ namespace CoinHybridApp
         }
 
    
-        private async void OnItemSelected(Object sender, ItemTappedEventArgs e)
-            {
-             var mydetails = e.Item as CryptocurencyModel;
-             await Navigation.PushAsync(new ListPageDetail(mydetails.Name, mydetails.PriceUsd, mydetails.Symbol,mydetails.ChangePercent24Hr,mydetails.VolumeUsd24Hr,mydetails.MarketCapUsd,mydetails.Supply,mydetails.ImageUrl));
-
-            }
+       
+        async void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var postDetailPage = new ListPageDetail(e.SelectedItem as CryptocurencyModel);
+            await Navigation.PushAsync(postDetailPage);
+        }
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -49,5 +49,7 @@ namespace CoinHybridApp
 
             CryptoListView.EndRefresh();
         }
+
+     
     }
 }

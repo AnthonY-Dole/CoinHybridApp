@@ -13,8 +13,8 @@
     <ContentPage.Content>
         <StackLayout>
             <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Nom d'un actif"></SearchBar>
-   
-        <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ItemTapped="OnItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
+
+            <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView" IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}"  SelectedItem="{x:Binding SelectDetail}"  ItemSelected="Handle_ItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
             <ListView.Header>
                 <Label Text="Liste des Cryptomonnaie" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 

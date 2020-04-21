@@ -1,5 +1,6 @@
 ﻿using CoinHybridApp.Models;
 using CoinHybridApp.Service;
+using CoinHybridApp.Views;
 using System;
 using System.Collections.ObjectModel;
 using System.Globalization;
@@ -39,7 +40,8 @@ namespace CoinHybridApp.ViewModel
         {
             this.Cryptos = new ObservableCollection<CryptocurencyModel>();
         }
-       public static string Convertion(string n)
+       
+        public static string Convertion(string n)
         {
 
             float result = float.Parse(n, CultureInfo.InvariantCulture.NumberFormat);
