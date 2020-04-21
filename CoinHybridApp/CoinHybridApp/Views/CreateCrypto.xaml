@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.Page4">
+             x:Class="CoinHybridApp.Views.CreateCrypto">
     <ContentPage.Content>
         <ScrollView>
             <Grid ColumnSpacing="0" RowSpacing="0">
@@ -65,4 +65,3 @@
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
-

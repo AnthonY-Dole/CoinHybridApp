@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace CoinHybridApp
+namespace CoinHybridApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page4 : ContentPage
+    public partial class CreateCrypto : ContentPage
     {
         CreateCryptoViewModel VM;
-        public Page4()
+        public CreateCrypto()
         {
             InitializeComponent();
             VM = new CreateCryptoViewModel();
