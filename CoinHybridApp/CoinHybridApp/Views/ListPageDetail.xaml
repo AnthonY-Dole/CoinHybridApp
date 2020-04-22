@@ -88,7 +88,7 @@
                     <microcharts:ChartView Grid.Row="4" x:Name="ChartOne" Chart="{Binding Chart}" HeightRequest="150" />
                     
                 </Frame>
-                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" HeightRequest="50" WidthRequest="50" Grid.Row="4" />
+                <ActivityIndicator IsVisible="{Binding IsBusy}" Scale="0.5" IsRunning="{Binding IsBusy}" HeightRequest="50" WidthRequest="50" Grid.Row="4" />
                 <Label Grid.Row="4" Text="{Binding TextError}" TextColor="Red" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Medium"/>
             </Grid>
         </ScrollView>

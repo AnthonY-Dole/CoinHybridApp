@@ -14,6 +14,7 @@
     <ContentPage.Content>
         <StackLayout>
             <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Nom d'un actif"></SearchBar>
+            <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"  />
 
             <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView"  CachingStrategy="RecycleElementAndDataTemplate"  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}"  SelectedItem="{x:Binding SelectDetail}"  ItemSelected="Handle_ItemSelected" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding Cryptos}">
             <ListView.Header>

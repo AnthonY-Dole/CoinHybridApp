@@ -81,7 +81,8 @@ namespace CoinHybridApp.ViewModel
         }
         public async Task UpdateAssetsAsync()
         {
-          
+            if (IsBusy) return;
+            IsBusy = true;
             var newPosts = await HttpService.GetAssetsAsync();
             this.Cryptos.Clear();
             newPosts.ForEach((post) =>
@@ -98,6 +99,7 @@ namespace CoinHybridApp.ViewModel
                 this.Cryptos.Add(post);
 
             });
+            IsBusy = false;
         }
     }
 
