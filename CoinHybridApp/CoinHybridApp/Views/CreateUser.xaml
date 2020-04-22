@@ -4,27 +4,27 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.Views.CreateProfile">
+             x:Class="CoinHybridApp.Views.CreateUser">
     <ContentPage.Content>
         <StackLayout Margin="10,10,10,10">
             <StackLayout VerticalOptions="StartAndExpand">
                 <Label Text="Nom"/>
-                <Entry Placeholder="Obligatoire"/>
+                <Entry Placeholder="Obligatoire" Text="{Binding Nom, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout VerticalOptions="StartAndExpand">
                 <Label Text="Adresse mail"/>
-                <Entry Placeholder="Obligatoire, ex: exemple@gmail.com"/>
+                <Entry Placeholder="Obligatoire, ex: exemple@gmail.com" Text="{Binding Mail, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout VerticalOptions="StartAndExpand">
                 <Label Text="Mot de passe"/>
-                <Entry Placeholder="Obligatoire" IsPassword="True"/>
+                <Entry Placeholder="Obligatoire" IsPassword="True" Text="{Binding Password, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout VerticalOptions="StartAndExpand">
                 <Label Text="Solde"/>
-                <Entry Keyboard="Numeric" Placeholder="Obligatoire, entiers seulement"/>
+                <Entry Keyboard="Numeric" Placeholder="Obligatoire, entiers seulement" Text="{Binding Money, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout VerticalOptions="EndAndExpand">
-                <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" Clicked="createProfile"/>
+                <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" Clicked="createUser"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

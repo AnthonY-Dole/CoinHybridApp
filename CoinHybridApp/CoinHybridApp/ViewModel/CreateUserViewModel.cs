@@ -76,7 +76,6 @@ namespace CoinHybridApp.ViewModel
         public void newUser()
         {
             UserModel User = new UserModel(Nom, Mail, Password, Image, Money);
-
             UserModelDAL.InsertIfNotExist(User);
             List<UserModel> listeControle = new List<UserModel>(UserModelDAL.GetUsers());
         }

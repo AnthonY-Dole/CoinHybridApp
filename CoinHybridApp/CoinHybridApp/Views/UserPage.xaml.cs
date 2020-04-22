@@ -10,22 +10,22 @@ using Xamarin.Forms.Xaml;
 namespace CoinHybridApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Profile : ContentPage
+    public partial class UserPage : ContentPage
     {
-        public Profile()
+        public UserPage()
         {
             InitializeComponent();
         }
 
-        private void createProfilePage(object sender, EventArgs e)
+        private void createUserPage(object sender, EventArgs e)
         {
             Device.BeginInvokeOnMainThread(async () =>
             {
-                await Application.Current.MainPage.Navigation.PushAsync(new CreateProfile());
+                await Application.Current.MainPage.Navigation.PushAsync(new CreateUser());
             });
         }
 
-        private void connectToProfilePage(object sender, EventArgs e)
+        private void connectToUserPage(object sender, EventArgs e)
         {
 
         }

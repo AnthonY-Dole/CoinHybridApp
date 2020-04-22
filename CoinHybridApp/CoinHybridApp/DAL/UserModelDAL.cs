@@ -22,8 +22,12 @@ namespace CoinHybridApp.DAL
                         if ((test = db.Insert(c)) > 0)
                         {
                             result = c.ID;
+                            Console.WriteLine("USER ADDED TO LIST SUCCESSFULLY");
                         }
 
+                    } else
+                    {
+                        Console.WriteLine("ERROR!!!! A USER ALREADY EXISTS WITH THIS EMAIL ADDRESS");
                     }
                 }
             }
