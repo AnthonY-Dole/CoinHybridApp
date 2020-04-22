@@ -17,12 +17,17 @@ namespace CoinHybridApp
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void createProfilePage(object sender, EventArgs e)
         {
             Device.BeginInvokeOnMainThread(async () =>
             {
                 await Application.Current.MainPage.Navigation.PushAsync(new CreateProfile());
             });
+        }
+
+        private void connectToProfilePage(object sender, EventArgs e)
+        {
+
         }
     }
 }

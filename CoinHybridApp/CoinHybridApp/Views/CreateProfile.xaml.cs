@@ -15,6 +15,11 @@ namespace CoinHybridApp.Views
         public CreateProfile()
         {
             InitializeComponent();
+            Title = "Créer un profil";
+        }
+
+        private void createProfile(object sender, EventArgs e)
+        {
         }
     }
 }
