@@ -28,7 +28,7 @@ namespace CoinHybridApp.Views
         {
             
             base.OnAppearing();
-            await vm.UpdateValuesChartAsync();
+            await vm.UpdateValuesChartAsync("h1");
           
         }
       

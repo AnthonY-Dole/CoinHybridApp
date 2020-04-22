@@ -24,6 +24,16 @@ namespace CoinHybridApp.ViewModel
                 OnPropertyChanged(nameof(IsRefreshing));
             }
         }
+        private Color __colorPercent = Color.Black;
+        private  Color ColorPercent
+        {
+            get { return __colorPercent; }
+            set
+            {
+                __colorPercent = value;
+                OnPropertyChanged(nameof(IsRefreshing));
+            }
+        }
         public ICommand RefreshCommand
         {
             get {
@@ -76,13 +86,14 @@ namespace CoinHybridApp.ViewModel
             this.Cryptos.Clear();
             newPosts.ForEach((post) =>
             {
-                var price = post.PriceUsd.Substring(0, post.PriceUsd.IndexOf(".") + 3);
+                var price = post.PriceUsd.Substring(0, post.PriceUsd.IndexOf(".") + 4);
                 var changePercent = post.ChangePercent24Hr.Substring(0, post.ChangePercent24Hr.IndexOf(".") + 4);
                 post.ImageUrl = "https://res.cloudinary.com/anvukekorp/image/upload/icon/" + post.Symbol.ToLower();
                 post.PriceUsd = price + '$';
                 post.Supply = Convertion(post.Supply);
                post.MarketCapUsd = Convertion(post.MarketCapUsd);
                post.VolumeUsd24Hr = Convertion(post.VolumeUsd24Hr);
+              
                 post.ChangePercent24Hr = changePercent + '%';
                 this.Cryptos.Add(post);
 

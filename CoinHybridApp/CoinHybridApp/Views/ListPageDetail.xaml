@@ -34,7 +34,7 @@
             </StackLayout>
             <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <ffimageloading:CachedImage   Grid.RowSpan="2" Source="{x:Binding Detail.ImageUrl}" LoadingPlaceholder= "LoaderImage "  CacheDuration= "50" RetryCount= "2" RetryDelay= "600"  Aspect="AspectFill"  WidthRequest="75" HeightRequest="75" VerticalOptions="Center" DownsampleToViewSize = "true"/>
+                        <ffimageloading:CachedImage   Grid.RowSpan="2" Source="{x:Binding Detail.ImageUrl}" LoadingPlaceholder= "LoaderImage "  CacheDuration= "50" RetryCount= "3" RetryDelay= "600"  Aspect="AspectFill"  WidthRequest="75" HeightRequest="75" VerticalOptions="Center" DownsampleToViewSize = "true"/>
                         <Label Text="{x:Binding Detail.PriceUsd}" TextColor="White" FontSize="20" FontAttributes="Bold" VerticalOptions="Center"/>
                   
                 </StackLayout>
@@ -78,15 +78,17 @@
                 </Grid>
             </Frame>
             <StackLayout Grid.Row="2" BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button Text="Heure" BorderWidth="3" Command="{Binding hour}" BorderColor="#3498db"  BorderRadius="50"  BackgroundColor="Transparent" TextColor="Black"/>
-                <Button Text="Jour" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50" BackgroundColor="Transparent" TextColor="Black"/>
-                    <Button Text="Semaine" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50"  BackgroundColor="Transparent" TextColor="Black"/>
-                <Button Text="mois" BorderWidth="3"  BorderColor="#3498db"  BorderRadius="50"  BackgroundColor="Transparent" TextColor="Black"/>
+                    <Button Text="Heure" BorderWidth="3" Command="{Binding Hour}"  BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
+                    <Button Text="Jour" BorderWidth="3"  Command="{Binding Day}"   BorderRadius="50" BackgroundColor="#304ffe" TextColor="White"/>
+                    <Button Text="Semaine" BorderWidth="3" Command="{Binding Minute}"   BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
+                    <Button Text="mois" BorderWidth="3" Command="{Binding Month}"   BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
             </StackLayout>
             <Label Grid.Row="3" Text="Graphique temps réel :" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <Frame Grid.Row="4" HasShadow="True" IsClippedToBounds="True" CornerRadius="10" Margin="10,-60,10,0" Padding="2" HeightRequest="150" VerticalOptions="Start">
                     <microcharts:ChartView Grid.Row="4" x:Name="ChartOne" Chart="{Binding Chart}" HeightRequest="150" />
+                    
                 </Frame>
+                <Label Grid.Row="4" Text="{Binding TextError}" TextColor="Red" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Medium"/>
             </Grid>
         </ScrollView>
     </ContentPage.Content>

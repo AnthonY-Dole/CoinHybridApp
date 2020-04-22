@@ -37,7 +37,7 @@
                                
                             <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" />
                             <Label Grid.Row="1" Grid.Column="2" Text="{Binding PriceUsd}" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
-                            <Label Grid.Row="2" Grid.Column="2" Text="{Binding ChangePercent24Hr }" TextColor="Black" HorizontalOptions="Center"/>
+                                <Label Grid.Row="2" Grid.Column="2" Text="{Binding ChangePercent24Hr }"  HorizontalOptions="Center"/>
                             <Label Grid.Row="1" Grid.Column="1" Text="{Binding Symbol}" VerticalOptions="End" FontSize="Caption" />
                         </Grid>
                     </ViewCell>
