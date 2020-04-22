@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.Profile">
+             x:Class="CoinHybridApp.UserPage">
     <ContentPage.Content>
         
         <StackLayout Margin="0,0,0,0">
@@ -33,8 +33,8 @@
                 </StackLayout>
             
             <StackLayout VerticalOptions="End">
-                <Button Text="Créer un profil" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" Clicked="createProfilePage"  VerticalOptions="End" BackgroundColor="#2ecc71" TextColor="White"/>
-                <Button Text="Connexion" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" Clicked="connectToProfilePage"  VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"/>
+                <Button Text="Créer un profil" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" Clicked="createUserPage"  VerticalOptions="End" BackgroundColor="#2ecc71" TextColor="White"/>
+                <Button Text="Connexion" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" Clicked="connectToUserPage"  VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"/>
             </StackLayout>
 
         </StackLayout>

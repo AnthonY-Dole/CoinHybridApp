@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.Views.CreateProfile">
+             x:Class="CoinHybridApp.Views.CreateUser">
     <ContentPage.Content>
         <StackLayout Margin="10,10,10,10">
             <StackLayout VerticalOptions="StartAndExpand">
@@ -24,7 +24,7 @@
                 <Entry Keyboard="Numeric" Placeholder="Obligatoire, entiers seulement"/>
             </StackLayout>
             <StackLayout VerticalOptions="EndAndExpand">
-                <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" Clicked="createProfile"/>
+                <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" Clicked="createUser"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

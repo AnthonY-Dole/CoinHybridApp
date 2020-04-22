@@ -10,15 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace CoinHybridApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CreateProfile : ContentPage
+    public partial class CreateUser : ContentPage
     {
-        public CreateProfile()
+        public CreateUser()
         {
             InitializeComponent();
             Title = "Créer un profil";
         }
 
-        private void createProfile(object sender, EventArgs e)
+        private void createUser(object sender, EventArgs e)
         {
         }
     }

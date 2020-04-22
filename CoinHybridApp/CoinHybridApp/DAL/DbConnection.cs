@@ -40,5 +40,16 @@ namespace CoinHybridApp.DAL
                 }
             }
         }
+
+        public static void CreateUserDb()
+        {
+            using (SQLiteConnection db = GetConnection())
+            {
+                lock (Locker)
+                {
+                    db.CreateTable<UserModel>();
+                }
+            }
+        }
     }
 }
