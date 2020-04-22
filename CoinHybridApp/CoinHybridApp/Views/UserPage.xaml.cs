@@ -27,7 +27,10 @@ namespace CoinHybridApp
 
         private void connectToUserPage(object sender, EventArgs e)
         {
-
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                await Application.Current.MainPage.Navigation.PushAsync(new ConnectUserPage());
+            });
         }
     }
 }
