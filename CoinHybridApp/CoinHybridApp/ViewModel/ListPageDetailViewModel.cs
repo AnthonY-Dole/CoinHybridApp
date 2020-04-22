@@ -75,7 +75,8 @@ namespace CoinHybridApp.ViewModel
         {
            var DatailName = this.Detail.Name.ToLower();
             var asset = DatailName.Replace(' ', '-');
-
+            if (IsBusy) return;
+            IsBusy = true;
             var newChart = await HttpService.GetValuesChartAsync(asset, time);
 
                 this.Cryptos.Clear();
@@ -127,7 +128,7 @@ namespace CoinHybridApp.ViewModel
             {
                 Console.WriteLine(ex.Message);
             }
-                 
-            }    
+            IsBusy = false;
+        }    
         }     
 }
