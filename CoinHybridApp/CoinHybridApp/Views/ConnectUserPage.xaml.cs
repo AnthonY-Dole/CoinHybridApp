@@ -17,5 +17,9 @@ namespace CoinHybridApp.Views
             InitializeComponent();
             Title = "Connexion";
         }
+
+        private void connectToUser(object sender, EventArgs e)
+        {
+        }
     }
 }
