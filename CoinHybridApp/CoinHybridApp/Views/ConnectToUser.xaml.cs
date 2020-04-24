@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoinHybridApp.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,16 +11,23 @@ using Xamarin.Forms.Xaml;
 namespace CoinHybridApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ConnectUserPage : ContentPage
+    public partial class ConnectToUser : ContentPage
     {
-        public ConnectUserPage()
+        CreateUserViewModel VM;
+        public ConnectToUser()
         {
             InitializeComponent();
             Title = "Connexion";
+            VM = new CreateUserViewModel();
+            this.BindingContext = VM;
         }
 
         private void connectToUser(object sender, EventArgs e)
         {
+            var mail = mailtyped.Text;
+            var password = passwordtyped.Text;
+
+
         }
     }
 }

@@ -4,16 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CoinHybridApp.Views.ConnectUserPage">
+             x:Class="CoinHybridApp.Views.ConnectToUser">
     <ContentPage.Content>
         <StackLayout Margin="10,10,10,10">
             <StackLayout VerticalOptions="StartAndExpand">
                 <Label Text="Adresse mail"/>
-                <Entry Text="{Binding Mail, Mode=TwoWay}"/>
+                <Entry x:Name="mailtyped" Text="{Binding Mail, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout VerticalOptions="StartAndExpand">
                 <Label Text="Mot de passe"/>
-                <Entry Text="{Binding Password, Mode=TwoWay}" IsPassword="True"/>
+                <Entry x:Name="passwordtyped" Text="{Binding Password, Mode=TwoWay}" IsPassword="True"/>
             </StackLayout>
             <StackLayout VerticalOptions="EndAndExpand">
                 <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" Clicked="connectToUser" />

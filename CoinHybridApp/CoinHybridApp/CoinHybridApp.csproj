@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\ConnectUserPage.xaml">
+    <EmbeddedResource Update="Views\ConnectToUser.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\CreateCrypto.xaml">
