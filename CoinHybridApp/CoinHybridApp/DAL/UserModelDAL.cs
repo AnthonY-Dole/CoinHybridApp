@@ -67,8 +67,9 @@ namespace CoinHybridApp.DAL
             return b;
         }
 
-        public static void TryToConnect(string mail, string password)
-        {   
+        public static UserModel TryToConnect(string mail, string password)
+        {
+            UserModel user = new UserModel();
             using (SQLiteConnection db = DbConnection.GetConnection())
             {
                 lock (DbConnection.Locker)
@@ -78,11 +79,13 @@ namespace CoinHybridApp.DAL
                         if(u.Mail == mail && u.Password == password)
                         {
                             Console.WriteLine("i found something");
+                            user = new UserModel(u.Name, u.Mail);
                         }
                     }
                 }
             }
             Console.WriteLine("and thats all");
+            return user;
         }
 
         public static bool DeleteUser(UserModel c)

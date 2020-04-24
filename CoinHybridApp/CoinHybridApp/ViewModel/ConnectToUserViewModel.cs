@@ -53,8 +53,9 @@ namespace CoinHybridApp.ViewModel
 
         public void connectToUser(string mail, string password)
         {
+            
             RefreshData();
-            DAL.UserModelDAL.TryToConnect(mail, password);
+            data.u = UserModelDAL.TryToConnect(mail, password);
         }
     }
 }

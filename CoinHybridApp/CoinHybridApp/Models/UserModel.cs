@@ -39,5 +39,12 @@ namespace CoinHybridApp.Models
             Money = PMoney;
         }
 
+        public UserModel(string PName, string PMail)
+        {
+            Name = PName;
+            Mail = PMail;
+            
+        }
+
     }
 }
