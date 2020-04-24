@@ -31,6 +31,7 @@ namespace CoinHybridApp.DAL
                     }
                 }
             }
+            
             return result;
         }
 
@@ -66,6 +67,24 @@ namespace CoinHybridApp.DAL
             return b;
         }
 
+        public static void TryToConnect(string mail, string password)
+        {   
+            using (SQLiteConnection db = DbConnection.GetConnection())
+            {
+                lock (DbConnection.Locker)
+                {
+                    foreach (UserModel u in db.Table<UserModel>())
+                    {
+                        if(u.Mail == mail && u.Password == password)
+                        {
+                            Console.WriteLine("i found something");
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("and thats all");
+        }
+
         public static bool DeleteUser(UserModel c)
         {
             bool b = false;
@@ -80,9 +99,6 @@ namespace CoinHybridApp.DAL
                             db.Delete(u);
                         }
                     }
-
-
-
                 }
             }
             return b;
