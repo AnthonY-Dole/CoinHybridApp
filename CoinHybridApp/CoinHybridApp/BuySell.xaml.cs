@@ -1,4 +1,5 @@
-﻿using CoinHybridApp.Models;
+﻿using CoinHybridApp.Controls;
+using CoinHybridApp.Models;
 using CoinHybridApp.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -20,9 +21,17 @@ namespace CoinHybridApp
         {
             InitializeComponent();
             vm = new BuySellViewModel();
+            button1.Clicked += button1_Clicked;
             BindingContext = vm;
          
         }
+        private void button1_Clicked(object sender, EventArgs e)
+        {
+            borderlessPicker1.Focus();
+        }
+
+        
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();

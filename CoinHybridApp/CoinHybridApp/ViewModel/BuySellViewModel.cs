@@ -12,7 +12,7 @@ namespace CoinHybridApp.ViewModel
 {
 	public class BuySellViewModel : BaseViewModel
 	{
-		public IList<CryptocurencyModel> Monkeys { get { return CryptoData.Monkeys; } }
+	
 		public ObservableCollection<CryptocurencyModel> Cryptos { get; set; }
 
 		
