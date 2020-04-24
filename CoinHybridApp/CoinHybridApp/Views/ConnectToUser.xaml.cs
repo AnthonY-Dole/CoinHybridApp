@@ -14,6 +14,7 @@ namespace CoinHybridApp.Views
     public partial class ConnectToUser : ContentPage
     {
         ConnectToUserViewModel VM;
+        bool lancementApplication = true;
         public ConnectToUser()
         {
             InitializeComponent();
@@ -28,6 +29,20 @@ namespace CoinHybridApp.Views
             var password = passwordtyped.Text;
 
             VM.connectToUser(mail, password);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if(lancementApplication)
+            {
+                lancementApplication = false;
+            } 
+            else
+            {
+                VM.RefreshData();
+            }
         }
     }
 }

@@ -31,6 +31,7 @@ namespace CoinHybridApp.DAL
                     }
                 }
             }
+            
             return result;
         }
 
@@ -98,9 +99,6 @@ namespace CoinHybridApp.DAL
                             db.Delete(u);
                         }
                     }
-
-
-
                 }
             }
             return b;
