@@ -24,7 +24,7 @@
                 <Entry Keyboard="Numeric" Placeholder="Obligatoire, entiers seulement" Text="{Binding Money, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout VerticalOptions="EndAndExpand">
-                <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" Clicked="createUser"/>
+                <Button Text="Valider" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
