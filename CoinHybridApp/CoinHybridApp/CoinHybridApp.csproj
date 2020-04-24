@@ -36,7 +36,7 @@
     <EmbeddedResource Update="Views\ListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page2.xaml">
+    <EmbeddedResource Update="BuySell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\UserPage.xaml">
@@ -51,6 +51,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="BuySell.xaml.cs">
+      <DependentUpon>BuySell.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\CreateUser.xaml.cs">
       <DependentUpon>CreateUser.xaml</DependentUpon>
     </Compile>

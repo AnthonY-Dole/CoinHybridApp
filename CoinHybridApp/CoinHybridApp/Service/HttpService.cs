@@ -12,7 +12,7 @@ namespace CoinHybridApp.Service
     {
         const string BASE_URL = "https://api.coincap.io/v2/";
         const string ASSETS_ENDPOINT = "assets";
-        //const string HISTORY_ENDPOINT = "assets/bitcoin/history?interval=h1";
+        const string ASSETS_ENDPOINT_Limit = "assets/?limit=10";
         const string HISTORYS_ENDPOINT = "/history?interval=";
 
 
@@ -27,7 +27,16 @@ namespace CoinHybridApp.Service
                 return posts;
             }
         }
+        public static async Task<IEnumerable<CryptocurencyModel>> GetAssetsLimitAsync()
+        {
+            using (var httpClient = new HttpClient())
+            {
 
+                var jsonString = await httpClient.GetStringAsync(BASE_URL + ASSETS_ENDPOINT_Limit);
+                var postsLimit = JsonConvert.DeserializeObject<CryptocurencyModel>(jsonString).Cryptos;
+                return postsLimit;
+            }
+        }
         public static async Task<IEnumerable<CryptocurencyModel>> GetValuesChartAsync(string asset,string time)
         {
             using (var httpClient = new HttpClient())

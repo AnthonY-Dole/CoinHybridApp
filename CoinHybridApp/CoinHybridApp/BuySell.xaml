@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoinHybridApp.BuySell">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="Fill" VerticalOptions="Fill" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--fila 1-->
+            <StackLayout Grid.Column="0" Grid.Row="0"  HorizontalOptions="Fill">
+                <Picker Title="Choix de la cryptomonnaie"
+                    ItemsSource="{Binding Cryptos}"
+                    ItemDisplayBinding="{Binding Name}"
+                      
+                    SelectedItem="{Binding SelectedCrypto}"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="0"  HorizontalOptions="Fill">
+
+                <Label Text="{Binding SelectedCrypto.Name}" HorizontalOptions="Center" Style="{DynamicResource TitleStyle}" />
+                <Label Text="{Binding SelectedCrypto.PriceUsd}" FontAttributes="Italic" HorizontalOptions="Center" />
+                <Image Source="{Binding SelectedCrypto.ImageUrl}" HeightRequest="200" WidthRequest="200" HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding SelectedCrypto.Details}" Style="{DynamicResource BodyStyle}" />
+
+
+            </StackLayout>
+            <!--fila 2-->
+            <StackLayout Grid.Column="0" Grid.Row="1"  HorizontalOptions="Fill"></StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="1" HorizontalOptions="Fill"></StackLayout>
+            <!--fila 3-->
+            <StackLayout Grid.Column="0" Grid.Row="2"  HorizontalOptions="Fill">
+                <Button Text="Acheter" WidthRequest="50" HeightRequest="50" BorderRadius="50" VerticalOptions="CenterAndExpand"  BackgroundColor="#304ffe" TextColor="White"/>
+               
+
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="2"   HorizontalOptions="Fill">
+                <Button Text="Vendre"  BorderWidth="3"   WidthRequest="50" HeightRequest="50"  BorderRadius="50" BackgroundColor="#304ffe" VerticalOptions="CenterAndExpand" TextColor="White"/>
+            </StackLayout>
+        </Grid>
+        
+               
+    </ContentPage.Content>
+</ContentPage>

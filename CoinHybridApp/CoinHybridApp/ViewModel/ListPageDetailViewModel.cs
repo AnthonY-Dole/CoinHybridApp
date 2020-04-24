@@ -11,6 +11,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
@@ -53,7 +54,7 @@ namespace CoinHybridApp.ViewModel
         public ICommand Hour { get; private set; }
         public ICommand Day { get; private set; }
         public ICommand Minute { get; private set; }
-        public ICommand Month { get; private set; }
+        public ICommand All { get; private set; }
 
 
 
@@ -64,10 +65,10 @@ namespace CoinHybridApp.ViewModel
             Hour = new Command
               (async () => await UpdateValuesChartAsync("h1"));
             Day = new Command
-             (async () => await UpdateValuesChartAsync("d1"));
+             (async () => await UpdateValuesChartAsync("h12"));
             Minute = new Command
            (async () => await UpdateValuesChartAsync("m1"));
-            Day = new Command
+          All = new Command
              (async () => await UpdateValuesChartAsync("d1"));
         }
      
@@ -78,21 +79,21 @@ namespace CoinHybridApp.ViewModel
             if (IsBusy) return;
             IsBusy = true;
             var newChart = await HttpService.GetValuesChartAsync(asset, time);
-
-                this.Cryptos.Clear();
-                List<string> coinPrices = newChart.Select(x => x.PriceUsd).ToList();
+         
+            this.Cryptos.Clear();
+                List<string> coinPrices = newChart.Select(x => x.PriceUsd ).ToList();
                 List<Microcharts.Entry> entries = new List<Microcharts.Entry>();
                 int takeData = 0;
                 foreach (string price in coinPrices)
                 {
                     takeData++;
 
-                Microcharts.Entry newentry = new Microcharts.Entry(float.Parse(price, CultureInfo.InvariantCulture.NumberFormat))
-                {
-                    Color = SKColor.Parse("#3498db"),
-                   
+                    Microcharts.Entry newentry = new Microcharts.Entry(float.Parse(price, CultureInfo.InvariantCulture.NumberFormat))
+                    {
+                        Color = SKColor.Parse("#3498db"),
 
-            };
+
+                    };
 
                     if (takeData == 2)
                     {
@@ -102,33 +103,25 @@ namespace CoinHybridApp.ViewModel
 
                 }
                 string lowestPrices = coinPrices.Min();
-            string hightPrices = coinPrices.Max();
-            try {
-               if(entries.Count > 1)
-                {
-                    this.Chart = new LineChart()
-                    {
-                        Entries = entries,
-                        LineMode = LineMode.Straight,
-                        LineSize = 4f,
-                        MinValue = (float.Parse(lowestPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)),
-                        PointMode = PointMode.None,
-                        MaxValue = (float.Parse(hightPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)),
-
-                    };
-                }
-                else
-                {
-                    TextError = "Ah! aucun Graphique disponible";
-                }
-
-                
-            }
-            catch (Exception ex)
+                string hightPrices = coinPrices.Max();
+            if (entries.Count > 1)
             {
-                Console.WriteLine(ex.Message);
+                this.Chart = new LineChart()
+                {
+                    Entries = entries,
+                    LineMode = LineMode.Straight,
+                    LineSize = 4f,
+                    MinValue = (float.Parse(lowestPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)),
+                    PointMode = PointMode.None,
+                    MaxValue = (float.Parse(hightPrices.ToString(), CultureInfo.InvariantCulture.NumberFormat)),
+
+                };
             }
-            IsBusy = false;
+            else
+            {
+                TextError = "Ah! aucun Graphique disponible";
+            }
+                IsBusy = false;
         }    
-        }     
+    }     
 }

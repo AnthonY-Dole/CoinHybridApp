@@ -24,16 +24,7 @@ namespace CoinHybridApp.ViewModel
                 OnPropertyChanged(nameof(IsRefreshing));
             }
         }
-        private Color __colorPercent = Color.Black;
-        private  Color ColorPercent
-        {
-            get { return __colorPercent; }
-            set
-            {
-                __colorPercent = value;
-                OnPropertyChanged(nameof(IsRefreshing));
-            }
-        }
+      
         public ICommand RefreshCommand
         {
             get {
