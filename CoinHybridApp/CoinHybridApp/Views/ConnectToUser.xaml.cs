@@ -13,12 +13,12 @@ namespace CoinHybridApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ConnectToUser : ContentPage
     {
-        CreateUserViewModel VM;
+        ConnectToUserViewModel VM;
         public ConnectToUser()
         {
             InitializeComponent();
             Title = "Connexion";
-            VM = new CreateUserViewModel();
+            VM = new ConnectToUserViewModel();
             this.BindingContext = VM;
         }
 
@@ -27,7 +27,7 @@ namespace CoinHybridApp.Views
             var mail = mailtyped.Text;
             var password = passwordtyped.Text;
 
-
+            VM.connectToUser(mail, password);
         }
     }
 }
