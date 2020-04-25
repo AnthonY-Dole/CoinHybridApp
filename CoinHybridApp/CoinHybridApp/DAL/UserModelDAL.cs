@@ -79,7 +79,8 @@ namespace CoinHybridApp.DAL
                         if(u.Mail == mail && u.Password == password)
                         {
                             Console.WriteLine("i found something");
-                            user = new UserModel(u.Name, u.Mail);
+                            user = new UserModel(u.Name, u.Mail, u.Password, u.Image, u.Money);
+                            data.currentUser = user;
                         }
                     }
                 }

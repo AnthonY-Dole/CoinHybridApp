@@ -12,9 +12,12 @@ namespace CoinHybridApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UserPage : ContentPage
     {
+        data VM;
         public UserPage()
         {
             InitializeComponent();
+            VM = new data();
+            this.BindingContext = VM;
         }
 
         private void createUserPage(object sender, EventArgs e)
