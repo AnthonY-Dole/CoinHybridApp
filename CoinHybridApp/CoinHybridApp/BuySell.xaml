@@ -55,6 +55,7 @@
                                 <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" />
                                 <Label Grid.Row="1" Grid.Column="2" Text="{Binding Wallet, StringFormat='+{0:N}'}" VerticalOptions="Start" FontSize="Caption"    FontAttributes="Bold"/>
                                 <Label Grid.Column="2" Text="{Binding PriceUsd, StringFormat='${0:N}'}" FontSize="Medium" TextColor="Black" FontAttributes="Bold" />
+                                <Label Grid.Row="1" Grid.Column="1" Text="{Binding Date, StringFormat='acheté le:{0:N}'}" VerticalOptions="End" FontSize="Caption" />
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

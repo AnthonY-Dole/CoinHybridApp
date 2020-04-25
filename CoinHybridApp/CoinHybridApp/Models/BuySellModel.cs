@@ -16,20 +16,22 @@ namespace CoinHybridApp.Models
         public string Wallet { get; set; }
         [Column("PriceUsd")]
         public string PriceUsd { get; set; }
+        [Column("Date")]
+        public string Date { get; set; }
         [Column("ImageUrl")]
         public string ImageUrl { get; set; }
         public BuySellModel()
         {
 
         }
-        public BuySellModel(string PName, string Pprice,string PWallet, string PImage)
+        public BuySellModel(string PName, string Pprice,string PWallet, string PImage, string PDate)
         {
             Name = PName;
 
             PriceUsd = Pprice;
             Wallet = PWallet;
             ImageUrl = PImage;
-
+            Date = PDate;
         }
     }
 }

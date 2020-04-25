@@ -14,11 +14,14 @@
                 <SwitchCell x:Name="Coin" AutomationId="CoinSwitch" Text="Convertir dollar en euro" />
                 <SwitchCell x:Name="NotificationSwitch" AutomationId="maestroSwitch" Text="Activé les notifications" />
                 <SwitchCell x:Name="DarkModeSwitch" AutomationId="amexSwitch" Text="Dark mode" />
+            </TableSection>
+            <TableSection Title="Mon Compte">
+                <TextCell Text="Nom"  />
+                <TextCell Text="Email"  />
                 <ViewCell>
                     <ViewCell.View>
                         <StackLayout Orientation="Horizontal" Padding="16,0">
-                            <Label Text="Currency" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
-                            <Picker x:Name="currencyPicker" Title="Currency" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Picker x:Name="currencyPicker" Title="Votre solde" VerticalOptions="Center" HorizontalOptions="End" />
                         </StackLayout>
                     </ViewCell.View>
                 </ViewCell>

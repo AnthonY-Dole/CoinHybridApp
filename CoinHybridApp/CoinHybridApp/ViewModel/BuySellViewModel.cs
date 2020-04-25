@@ -54,8 +54,23 @@ namespace CoinHybridApp.ViewModel
             }
         }
 
-   
 
+        string date;
+        public string Date
+        {
+            get
+            {
+                return date;
+            }
+            set
+            {
+                if (date != value)
+                {
+                    date = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         CryptocurencyModel selectedCrypto;
 		public CryptocurencyModel SelectedCrypto
@@ -88,8 +103,10 @@ namespace CoinHybridApp.ViewModel
             var test = float.Parse(PriceUsd);
             var test2 = float.Parse(SelectedCrypto.PriceUsd.Replace("$",""), CultureInfo.InvariantCulture.NumberFormat);
             float yourbuy = test / test2;
-
-            BuySellModel BuyAsset = new BuySellModel(selectedCrypto.Name, PriceUsd , yourbuy.ToString(),SelectedCrypto.ImageUrl);
+            DateTime localDate = DateTime.Now;
+            Date = localDate.ToString();
+          
+            BuySellModel BuyAsset = new BuySellModel(selectedCrypto.Name, PriceUsd , yourbuy.ToString(),SelectedCrypto.ImageUrl,Date);
 
             CryptoModelDAL.InsertIfNotExistS(BuyAsset);
          

@@ -8,7 +8,7 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              >
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_settings.png" Text="Item 2" Priority="1" />
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_action_notifications.png" Text="Item 2" Priority="1" />
     </ContentPage.ToolbarItems>
   
     <ContentPage.Content>

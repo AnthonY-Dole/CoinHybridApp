@@ -22,7 +22,7 @@
                     <magic:CssGradientSource>
                         <x:String>
                             <![CDATA[
-                  linear-gradient(0deg, rgb(61, 103, 216),rgb(65, 80, 170),rgb(53, 69, 115))
+       linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)
                 ]]>
                         </x:String>
                     </magic:CssGradientSource>
@@ -81,7 +81,7 @@
                     <Button Text="Minute" BorderWidth="3" Command="{Binding Minute}"   BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
                     <Button Text="Heure" BorderWidth="3" Command="{Binding Hour}"  BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
                     <Button Text="Jour" BorderWidth="3"  Command="{Binding Day}"   BorderRadius="50" BackgroundColor="#304ffe" TextColor="White"/>
-                    <Button Text="Tout" BorderWidth="3" Command="{Binding All}"   BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
+                    <Button Text="Année" BorderWidth="3" Command="{Binding All}"   BorderRadius="50"  BackgroundColor="#304ffe" TextColor="White"/>
             </StackLayout>
             <Label Grid.Row="3" Text="Graphique temps réel :" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <Frame Grid.Row="4" HasShadow="True" IsClippedToBounds="True" CornerRadius="10" Margin="10,-60,10,0" Padding="2" HeightRequest="150" VerticalOptions="Start">
