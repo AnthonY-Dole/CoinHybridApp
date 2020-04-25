@@ -6,14 +6,19 @@ using System.Text;
 namespace CoinHybridApp.Models
 {
     using Newtonsoft.Json;
+    using SQLite;
     using System;
     using System.Collections.Generic;
     using System.Text;
 
     public class CryptocurencyModel
     {
+        
         [JsonProperty("id")]
         public string Id { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
 
         [JsonProperty("rank")]
         public string Rank { get; set; }
@@ -21,8 +26,8 @@ namespace CoinHybridApp.Models
         [JsonProperty("symbol")]
         public string Symbol { get; set; }
 
-        [JsonProperty("name")]
-        public string Name { get; set; }
+        
+       
 
         [JsonProperty("supply")]
         public string Supply { get; set; }
@@ -38,7 +43,7 @@ namespace CoinHybridApp.Models
 
         [JsonProperty("changePercent24Hr")]
         public string ChangePercent24Hr { get; set; }
-
+        [Column("PriceUsd")]
         [JsonProperty("priceUsd")]
         public string PriceUsd { get; set; }
 
@@ -54,8 +59,12 @@ namespace CoinHybridApp.Models
         public DateTime Date { get; set; }
 
         [JsonProperty("data")]
+        [Ignore]
         public IEnumerable<CryptocurencyModel> Cryptos { get; set; }
+        public CryptocurencyModel()
+        {
 
-
+        }
+      
     }
 }

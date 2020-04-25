@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:app1="clr-namespace:CoinHybridApp.Controls"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:app1="clr-namespace:CoinHybridApp.Controls" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              mc:Ignorable="d"
              x:Class="CoinHybridApp.BuySell">
     <ContentPage.Content>
@@ -12,20 +12,54 @@
             <StackLayout Orientation="Horizontal" >
 
                 <Image Source="{Binding SelectedCrypto.ImageUrl}"  HeightRequest="40" WidthRequest="40" HorizontalOptions="CenterAndExpand" />
-            <app1:BorderlessPicker x:Name="borderlessPicker1" Title="Choix de la cryptomonnaie" WidthRequest="250" ItemsSource="{Binding Cryptos}"  ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding SelectedCrypto}" VerticalOptions="CenterAndExpand"   Margin="0, 0,0, 0"  />
+                <app1:BorderlessPicker x:Name="borderlessPicker1" SelectedIndex="1" Title="Choix de la cryptomonnaie" WidthRequest="250" ItemsSource="{Binding Cryptos}"  ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding SelectedCrypto}" VerticalOptions="CenterAndExpand"   Margin="0, 0,0, 0"  />
             <Button  x:Name="button1" Image="ic_action_keyboard_arrow_down" BackgroundColor="Transparent" Padding="0,0,-80,0" Scale="0.5" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                
-                <Label Text="{Binding SelectedCrypto.PriceUsd}" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding SelectedCrypto.Name, StringFormat='Prix du {0:N}'}" FontAttributes="Bold" FontSize="Large" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding SelectedCrypto.PriceUsd}" FontAttributes="Bold" FontSize="Large" TextColor="Black" HorizontalOptions="StartAndExpand" />
             </StackLayout>
-            <StackLayout>
-                
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Montant :" FontAttributes="Bold" TextColor="Black" FontSize="Medium"/>
             </StackLayout>
-            <StackLayout Orientation="Horizontal"  >
-                <Button Text="Acheter"  HorizontalOptions="FillAndExpand" WidthRequest="50" HeightRequest="50" BorderRadius="50" VerticalOptions="CenterAndExpand"  BackgroundColor="#304ffe" TextColor="White"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="$" TextColor="Black" Padding="10" FontSize="30"  FontAttributes="Bold"/>
+                <app1:CustomEntry HorizontalOptions="Center" WidthRequest="200"  Text="{Binding PriceUsd,Mode=TwoWay}" FontFamily="Bold" FontSize="Large" Keyboard="Numeric" Placeholder="0.00" PlaceholderColor="Accent"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="20,0,0,0"  >
+                <Button Text="Acheter" Clicked="Button_Clicked"  HorizontalOptions="FillAndExpand" WidthRequest="50" HeightRequest="50" BorderRadius="50" VerticalOptions="CenterAndExpand"  BackgroundColor="#304ffe" TextColor="White"/>
                 <Button Text="Vendre"  BorderWidth="3" HorizontalOptions="FillAndExpand"  WidthRequest="50" HeightRequest="50"  BorderRadius="50" BackgroundColor="#304ffe" VerticalOptions="CenterAndExpand" TextColor="White"/>
                 </StackLayout>
+            <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"  />
+            <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView"  CachingStrategy="RecycleElementAndDataTemplate"   AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding BuyAssets}">
+                <ListView.Header>
+                    <Label Text="Historique des achats" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+                </ListView.Header>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                
+                                <ffimageloading:CachedImage   Grid.RowSpan="2" Source="{Binding ImageUrl}" LoadingPlaceholder= "LoaderImage "  ErrorPlaceholder= "ErrorImage" CacheDuration= "50" RetryCount= "2" RetryDelay= "600"  Aspect="AspectFill" HeightRequest="80" WidthRequest="80" DownsampleToViewSize = "true"/>
+
+                                <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" />
+                                <Label Grid.Row="1" Grid.Column="2" Text="{Binding Wallet, StringFormat='+{0:N}'}" VerticalOptions="Start" FontSize="Caption"    FontAttributes="Bold"/>
+                                <Label Grid.Column="2" Text="{Binding PriceUsd, StringFormat='${0:N}'}" FontSize="Medium" TextColor="Black" FontAttributes="Bold" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
 
 

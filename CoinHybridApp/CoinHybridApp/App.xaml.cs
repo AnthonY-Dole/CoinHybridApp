@@ -12,6 +12,7 @@ namespace CoinHybridApp
             //Création de la BDD et les tables de CoinHybridAPP si non existantes.
             DAL.DbConnection.CreateDb();
             DAL.DbConnection.CreateUserDb();
+
             MainPage = new MainPage();
            
         }

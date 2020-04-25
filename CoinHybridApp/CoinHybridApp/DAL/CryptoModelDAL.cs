@@ -13,6 +13,7 @@ namespace CoinHybridApp.DAL
         /// Insert un objet CryptoModel en BDD
         /// </summary>
         /// <param name="c"></param>
+        ///  /// <param name="s"></param>
         /// <returns>l'ID de l'enregistrement </returns>
         public static int InsertIfNotExist(CryptoModel c)
         {
@@ -27,6 +28,26 @@ namespace CoinHybridApp.DAL
                         if ((test = db.Insert(c)) > 0)
                         {
                             result = c.ID;
+                        }
+
+                    }
+                }
+            }
+            return result;
+        }
+        public static int InsertIfNotExistS(BuySellModel s)
+        {
+            int result = 0;
+            int test = 0;
+            using (SQLiteConnection db = DbConnection.GetConnection())
+            {
+                lock (DbConnection.Locker)
+                {
+                    if (!db.Table<BuySellModel>().Any(a => a.Name == s.Name && a.PriceUsd == s.PriceUsd))
+                    {
+                        if ((test = db.Insert(s)) > 0)
+                        {
+                            result = s.ID;
                         }
 
                     }
@@ -51,7 +72,18 @@ namespace CoinHybridApp.DAL
             }
             return results;
         }
-
+        public static List<BuySellModel> GetbuyAssets()
+        {
+            List<BuySellModel> results = new List<BuySellModel>();
+            using (SQLiteConnection db = DbConnection.GetConnection())
+            {
+                lock (DbConnection.Locker)
+                {
+                    results = db.Table<BuySellModel>().ToList();
+                }
+            }
+            return results;
+        }
         public static bool UpdateAsset(CryptoModel c)
         {
             bool b = false;

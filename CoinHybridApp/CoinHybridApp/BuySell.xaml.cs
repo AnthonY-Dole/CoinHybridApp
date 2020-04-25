@@ -38,5 +38,12 @@ namespace CoinHybridApp
             await vm.UpdateAssetsLimitAsync();
 
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            vm.newBuy();
+            Navigation.PopAsync();
+            vm.RefreshData();
+        }
     }
 }

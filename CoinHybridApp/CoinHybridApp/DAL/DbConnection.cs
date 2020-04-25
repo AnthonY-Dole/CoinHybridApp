@@ -37,10 +37,11 @@ namespace CoinHybridApp.DAL
                 lock (Locker)
                 {
                     db.CreateTable<CryptoModel>();
+                    db.CreateTable<BuySellModel>();
                 }
             }
         }
-
+     
         public static void CreateUserDb()
         {
             using (SQLiteConnection db = GetConnection())
