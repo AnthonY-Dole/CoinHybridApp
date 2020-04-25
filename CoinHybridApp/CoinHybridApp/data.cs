@@ -7,6 +7,6 @@ namespace CoinHybridApp
 {
     public  class data
     {
-        public static UserModel currentUser = new UserModel("???","???","???","???","0");
+        public static UserModel currentUser = new UserModel("User","???","???","???","0");
     }
 }
