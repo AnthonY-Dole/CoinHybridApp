@@ -14,6 +14,7 @@ namespace CoinHybridApp.ViewModel
     public class ListPageViewModel : BaseViewModel
     {
         public ObservableCollection<CryptocurencyModel> Cryptos { get; set; }
+        //Property binding
         private bool _isRefreshing = false;
         public bool IsRefreshing
         {
@@ -41,7 +42,7 @@ namespace CoinHybridApp.ViewModel
         {
             this.Cryptos = new ObservableCollection<CryptocurencyModel>();
         }
-       
+       //Price convertion for receive data api
         public static string Convertion(string n)
         {
 
@@ -74,12 +75,16 @@ namespace CoinHybridApp.ViewModel
         {
             if (IsBusy) return;
             IsBusy = true;
+            //call the api method
             var newPosts = await HttpService.GetAssetsAsync();
             this.Cryptos.Clear();
+            //create list with each price data
             newPosts.ForEach((post) =>
             {
+                //trim data for visibility
                 var price = post.PriceUsd.Substring(0, post.PriceUsd.IndexOf(".") + 4);
                 var changePercent = post.ChangePercent24Hr.Substring(0, post.ChangePercent24Hr.IndexOf(".") + 4);
+                //Add image with our image server with the correct symbol 
                 post.ImageUrl = "https://res.cloudinary.com/anvukekorp/image/upload/icon/" + post.Symbol.ToLower();
                 post.PriceUsd = price + '$';
                 post.Supply = Convertion(post.Supply);
@@ -87,6 +92,7 @@ namespace CoinHybridApp.ViewModel
                post.VolumeUsd24Hr = Convertion(post.VolumeUsd24Hr);
               
                 post.ChangePercent24Hr = changePercent + '%';
+                //Add the data on the Observable collection Cryptos
                 this.Cryptos.Add(post);
 
             });

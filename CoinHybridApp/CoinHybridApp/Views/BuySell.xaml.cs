@@ -34,7 +34,8 @@ namespace CoinHybridApp
 
         public async void HandleConfirmation(BuySellViewModel sender)
         {
-           if(vm.SelectedCrypto.Name != null)
+          
+           if(vm.SelectedCrypto.PriceUsd != null)
             {
                 var config = new ConfirmConfig()
                 {
@@ -46,10 +47,12 @@ namespace CoinHybridApp
                 if (await UserDialogs.Instance.ConfirmAsync(config))
                 {
                     vm.DoSomething();
+                    vm.RefreshData();
                 }
             }
             
         }
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();

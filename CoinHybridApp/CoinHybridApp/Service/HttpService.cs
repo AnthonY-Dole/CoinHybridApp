@@ -10,13 +10,14 @@ namespace CoinHybridApp.Service
 {
    public static class HttpService
     {
+        //String for call api
         const string BASE_URL = "https://api.coincap.io/v2/";
         const string ASSETS_ENDPOINT = "assets";
         const string ASSETS_ENDPOINT_Limit = "assets/?limit=10";
         const string HISTORYS_ENDPOINT = "/history?interval=";
 
 
-
+        //Get all cryptocurrency data (name,price etc..)
         public static async Task<IEnumerable<CryptocurencyModel>> GetAssetsAsync()
         {
             using (var httpClient = new HttpClient())
@@ -27,6 +28,7 @@ namespace CoinHybridApp.Service
                 return posts;
             }
         }
+        //Get cryptocurency with limit for buy sell
         public static async Task<IEnumerable<CryptocurencyModel>> GetAssetsLimitAsync()
         {
             using (var httpClient = new HttpClient())
@@ -37,6 +39,7 @@ namespace CoinHybridApp.Service
                 return postsLimit;
             }
         }
+        //Get history data for one cryptocurrency in parameter
         public static async Task<IEnumerable<CryptocurencyModel>> GetValuesChartAsync(string asset,string time)
         {
             using (var httpClient = new HttpClient())

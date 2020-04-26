@@ -59,6 +59,7 @@ namespace CoinHybridApp.ViewModel
             Asset = asset;
 
             CryptoModelDAL.DeleteAsset(Asset);
+            
         }
 
     }
