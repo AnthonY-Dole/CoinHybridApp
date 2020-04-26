@@ -12,7 +12,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Padding="20">
+                            <StackLayout Padding="20" >
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="0.5*"/>
@@ -25,16 +25,23 @@
                                         <RowDefinition Height="1*"/>
                                     </Grid.RowDefinitions>
 
-                                    <Label Grid.Column="0" Grid.Row="0" Text="{Binding Name, StringFormat='{0}'}" />
-                                    <Label Grid.Column="0" Grid.Row="1" Text="{Binding Abreviation, StringFormat='{0}'}" />
-                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding Price, StringFormat='Price : ${0}'}" />
-                                    <Label Grid.Column="2" Grid.Row="0" Text="{Binding MaxSupply, StringFormat='Max Supply : {0}'}" />
-                                    <Label Grid.Column="2" Grid.Row="1" Text="{Binding CirculatingSupply, StringFormat='Circ Supply : {0}'}" />
-                                    <Label Grid.Column="1" Grid.Row="1" Text="{Binding Capitalisation, StringFormat='Mkt Cap : ${0}'}" />
-                                    <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Text="Détails :" />
-                                    <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Text="{Binding Details, StringFormat='{0}'}" Margin="0,20,0,0" />
+                                    <Label Grid.Column="0" TextColor="Black" FontSize="20" FontAttributes="Bold" Grid.Row="0" Text="{Binding Name, StringFormat='{0}'}" />
+                                    <Label Grid.Column="0" Grid.Row="1" FontAttributes="Italic" Text="{Binding Abreviation, StringFormat='{0}'}" />
+                                    <Label Grid.Column="1" FontAttributes="Bold" Margin="0,5,0,0" Grid.Row="0" Text="{Binding Price, StringFormat='${0}'}" />
+                                    <Label Grid.Column="2" FontAttributes="Bold" Grid.Row="0" Text="{Binding MaxSupply, StringFormat='Max Supply : {0}'}" />
+                                    <Label Grid.Column="2" Grid.Row="1">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="{Binding CirculatingSupply, StringFormat='Circ Supply : {0}'}" FontAttributes="Bold" />
+                                                <Span Text="{Binding Abreviation}" FontAttributes="Italic" FontSize="10" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label Grid.Column="1" FontAttributes="Bold" Grid.Row="1" Text="{Binding Capitalisation, StringFormat='Mkt Cap : ${0}'}" />
+                                    <Label Grid.Column="0" FontAttributes="Bold"  Grid.ColumnSpan="2" Grid.Row="2" Text="Détails :" />
+                                    <Label Grid.Column="0" FontAttributes="Bold" Grid.ColumnSpan="2" Grid.Row="2" Text="{Binding Details, StringFormat='{0}'}" Margin="0,20,0,0" />
 
-                                    <Button x:Name="Delete" Grid.Column="2" Grid.Row="2" Text="X" Clicked="Delete_Clicked"  HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#3498db" TextColor="White"></Button>
+                                    <Button x:Name="Delete" Grid.Column="2" Grid.Row="2" Text="X" Clicked="Delete_Clicked"  HeightRequest="50" CornerRadius="10" VerticalOptions="End" BackgroundColor="#304ffe" TextColor="White"></Button>
                                 </Grid>
                             </StackLayout>
                         </ViewCell>
