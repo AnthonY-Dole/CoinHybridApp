@@ -29,6 +29,8 @@ namespace CoinHybridApp.Views
             var password = passwordtyped.Text;
 
             VM.connectToUser(mail, password);
+            Navigation.PopAsync();
+
         }
 
         protected override void OnAppearing()

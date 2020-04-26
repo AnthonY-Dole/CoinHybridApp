@@ -8,6 +8,18 @@ namespace CoinHybridApp.ViewModel
     public class DisplayUserDataViewModel : BaseViewModel
     {
         UserModel u = new UserModel();
+        public UserModel U
+        {
+            get
+            {
+                return u;
+            }
+            set
+            {
+                SetProperty(ref u, value);
+            }
+        }
+
         string name;
         public string Name
         {
@@ -37,6 +49,7 @@ namespace CoinHybridApp.ViewModel
         public void refresh()
         {
             u = data.currentUser;
+            Console.WriteLine(data.currentUser.Name.ToString());
         }
 
         public DisplayUserDataViewModel(UserModel user)
