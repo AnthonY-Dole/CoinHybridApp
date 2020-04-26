@@ -27,10 +27,20 @@ namespace CoinHybridApp.Views
         {
             var mail = mailtyped.Text;
             var password = passwordtyped.Text;
-
-            VM.connectToUser(mail, password);
-            Navigation.PopAsync();
-
+            if(string.IsNullOrEmpty(mailtyped.Text))
+            {
+                DisplayAlert("Erreur","Le champ d'adresse mail n'a pas été rempli.","OK");
+            } else
+            {
+                if(string.IsNullOrEmpty(passwordtyped.Text))
+                {
+                    DisplayAlert("Erreur", "Le champ du mot de passe n'a pas été rempli.", "OK");
+                } else
+                {
+                    VM.connectToUser(mail, password);
+                    Navigation.PopAsync();
+                }
+            }
         }
 
         protected override void OnAppearing()
