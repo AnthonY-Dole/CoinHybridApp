@@ -25,8 +25,15 @@ namespace CoinHybridApp.Views
 
         private void createUser(object sender, EventArgs e)
         {
-            VM.newUser();
-            Navigation.PopAsync();
+            int result = VM.newUser();
+            if(result == 0)
+            {
+                DisplayAlert("Erreur", "Ce compte existe déjà à cette adresse mail.", "OK");
+            } else
+            {
+                Navigation.PopAsync();
+            }
+            
         }
     }
 }

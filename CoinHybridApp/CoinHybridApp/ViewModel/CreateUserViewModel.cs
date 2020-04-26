@@ -73,11 +73,21 @@ namespace CoinHybridApp.ViewModel
             }
         }
 
-        public void newUser()
+        public int newUser()
         {
             UserModel User = new UserModel(Nom, Mail, Password, Image, Money);
-            UserModelDAL.InsertIfNotExist(User);
+            int result = UserModelDAL.InsertIfNotExist(User);
+            if (result == 0)
+            {
+                result = 0;
+            }
+            else
+            {
+                result = 1;
+            }
             List<UserModel> listeControle = new List<UserModel>(UserModelDAL.GetUsers());
+            Console.WriteLine("In newUser(), result is: " + result.ToString());
+            return result;
         }
     }
 }

@@ -23,6 +23,8 @@ namespace CoinHybridApp.DAL
                         {
                             result = c.ID;
                             Console.WriteLine("USER ADDED TO LIST SUCCESSFULLY");
+                            Console.WriteLine(result.ToString());
+                            return result;
                         }
 
                     } else
