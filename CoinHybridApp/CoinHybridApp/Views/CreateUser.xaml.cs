@@ -25,15 +25,42 @@ namespace CoinHybridApp.Views
 
         private void createUser(object sender, EventArgs e)
         {
-            int result = VM.newUser();
-            if(result == 0)
+            if (string.IsNullOrEmpty(nametyped.Text))
             {
-                DisplayAlert("Erreur", "Ce compte existe déjà à cette adresse mail.", "OK");
+                DisplayAlert("Erreur", "Le champ du nom n'a pas été rempli.", "OK");
             } else
             {
-                Navigation.PopAsync();
+                if (string.IsNullOrEmpty(mailtyped.Text))
+                {
+                    DisplayAlert("Erreur", "Le champ d'adresse mail n'a pas été rempli.", "OK");
+                }
+                else
+                {
+                    if(string.IsNullOrEmpty(passwordtyped.Text))
+                    {
+                        DisplayAlert("Erreur", "Le champ du mot de passe n'a pas été rempli.", "OK");
+                    }
+                    else
+                    {
+                        if(string.IsNullOrEmpty(moneytyped.Text))
+                        {
+                            DisplayAlert("Erreur", "Le champ du solde n'a pas été rempli.", "OK");
+                        }
+                        else
+                        {
+                            int result = VM.newUser();
+                            if (result == 0)
+                            {
+                                DisplayAlert("Erreur", "Ce compte existe déjà à cette adresse mail.", "OK");
+                            }
+                            else
+                            {
+                                Navigation.PopAsync();
+                            }
+                        }
+                    }
+                }
             }
-            
         }
     }
 }
