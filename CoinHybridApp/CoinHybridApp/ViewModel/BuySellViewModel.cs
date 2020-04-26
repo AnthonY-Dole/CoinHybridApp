@@ -97,8 +97,13 @@ namespace CoinHybridApp.ViewModel
         }
         public void DoSomething()
         {
+          
+
+            BuySellModel SellAsset = new BuySellModel(SelectedMe.Name, SelectedMe.PriceUsd, SelectedMe.Wallet, SelectedMe.ImageUrl, SelectedMe.Date);
+            CryptoModelDAL.DeleteBuyAsset(SellAsset);
             var index = BuyAssets.IndexOf(SelectedMe);
             BuyAssets.Remove(BuyAssets[index]);
+
         }
         CryptocurencyModel selectedCrypto;
 		public CryptocurencyModel SelectedCrypto
@@ -123,9 +128,10 @@ namespace CoinHybridApp.ViewModel
         {
             List<BuySellModel> listeBuyAsset = new List<BuySellModel>(DAL.CryptoModelDAL.GetbuyAssets());
 
-
+           
             if (listeBuyAsset != null && listeBuyAsset.Any())
                 buyAssets = new ObservableCollection<BuySellModel>(listeBuyAsset);
+        
         }
         public void newBuy()
         {
@@ -140,6 +146,8 @@ namespace CoinHybridApp.ViewModel
                 BuySellModel BuyAsset = new BuySellModel(selectedCrypto.Name, PriceUsd, yourbuy.ToString(), SelectedCrypto.ImageUrl, Date);
 
                 CryptoModelDAL.InsertIfNotExistS(BuyAsset);
+                
+
             }
           
          

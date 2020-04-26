@@ -84,7 +84,7 @@ namespace CoinHybridApp.DAL
             }
             return results;
         }
-        public static bool DeleteBuyAsset(CryptoModel c)
+        public static bool DeleteBuyAsset( BuySellModel c)
         {
             bool b = false;
             using (SQLiteConnection db = DbConnection.GetConnection())

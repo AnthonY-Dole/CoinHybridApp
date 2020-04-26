@@ -34,18 +34,21 @@ namespace CoinHybridApp
 
         public async void HandleConfirmation(BuySellViewModel sender)
         {
-           
-            var config = new ConfirmConfig()
+           if(vm.SelectedCrypto.Name != null)
             {
-                Title = "Revendre?",
-                Message = "Voulez vous revendre du "+vm.SelectedCrypto.Name + "qui vaut " +vm.SelectedCrypto.PriceUsd+"$ ?",
-                OkText = "Oui",
-                CancelText = "Non",
-            };
-            if (await UserDialogs.Instance.ConfirmAsync(config))
-            {
-                vm.DoSomething();
+                var config = new ConfirmConfig()
+                {
+                    Title = "Revendre?",
+                    Message = "Voulez vous revendre du " + vm.SelectedCrypto.Name + "qui vaut " + vm.SelectedCrypto.PriceUsd + "$ ?",
+                    OkText = "Oui",
+                    CancelText = "Non",
+                };
+                if (await UserDialogs.Instance.ConfirmAsync(config))
+                {
+                    vm.DoSomething();
+                }
             }
+            
         }
         protected override async void OnAppearing()
         {
