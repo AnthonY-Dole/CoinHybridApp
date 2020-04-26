@@ -43,7 +43,7 @@ namespace CoinHybridApp.Models
 
         [JsonProperty("changePercent24Hr")]
         public string ChangePercent24Hr { get; set; }
-        [Column("PriceUsd")]
+
         [JsonProperty("priceUsd")]
         public string PriceUsd { get; set; }
 
