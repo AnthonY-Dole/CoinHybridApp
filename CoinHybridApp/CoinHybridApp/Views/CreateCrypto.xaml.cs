@@ -30,15 +30,15 @@ namespace CoinHybridApp.Views
             string Max = this.FindByName<Entry>("Max").Text;
             string Det = this.FindByName<Editor>("Det").Text;
 
-            if (Name == "" || Abrev == "" || Price == ""|| Circ == "" || Max == "" || Det == "")
+            if (Name == "" || Name == null || Abrev == "" || Abrev == null || Price == "" || Price == null || Circ == "" || Circ == null || Max == "" || Max == null || Det == "" || Det == null)
             {
                 await DisplayAlert("Alert", "Make sure to complete all entry.", "OK");
             }
-            else if(Convert.ToDecimal(Circ) > Convert.ToDecimal(Max))
+            else if (Convert.ToDecimal(Circ) > Convert.ToDecimal(Max))
             {
                 await DisplayAlert("Alert", "Circulating supply can't exceed max supply.", "OK");
             }
-            else if(Abrev.Count() > 4)
+            else if (Abrev.Count() > 4)
             {
                 await DisplayAlert("Alert", "Abbreviation can't exceed 4 characters.", "OK");
 
