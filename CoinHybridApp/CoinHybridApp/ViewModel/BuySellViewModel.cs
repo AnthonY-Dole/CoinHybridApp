@@ -5,10 +5,12 @@ using CoinHybridApp.Service;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
 namespace CoinHybridApp.ViewModel
@@ -71,7 +73,28 @@ namespace CoinHybridApp.ViewModel
                 }
             }
         }
+        BuySellModel _isSelected;
+        public BuySellModel SelectedMe
+        {
+            get { return _isSelected; }
+            set
+            {
+                if (_isSelected != value)
+                {
+                    _isSelected = value;
+                    OnPropertyChanged("SelectedMe");
+                    HandleIsSelected();
+                }
+            }
+        }
+        private void HandleIsSelected()
+        {
+            MessagingCenter.Subscribe<BuySell, string>(this, "Hi", async (sender, arg) =>
+            {
+                await Application.Current.MainPage.DisplayAlert("AA", "BB", "Ok");
+            });
 
+        }
         CryptocurencyModel selectedCrypto;
 		public CryptocurencyModel SelectedCrypto
         {
@@ -82,6 +105,7 @@ namespace CoinHybridApp.ViewModel
 				{
 					selectedCrypto = value;
 					OnPropertyChanged();
+
 				}
 			}
 		}

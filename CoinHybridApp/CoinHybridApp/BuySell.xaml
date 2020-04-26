@@ -31,7 +31,7 @@
                 <Button Text="Vendre"  BorderWidth="3" HorizontalOptions="FillAndExpand"  WidthRequest="50" HeightRequest="50"  BorderRadius="50" BackgroundColor="#304ffe" VerticalOptions="CenterAndExpand" TextColor="White"/>
                 </StackLayout>
             <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"  />
-            <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView"  CachingStrategy="RecycleElementAndDataTemplate"   AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding BuyAssets}">
+            <ListView RowHeight="100" AbsoluteLayout.LayoutFlags="All"  x:Name="CryptoListView"  CachingStrategy="RecycleElementAndDataTemplate"   SelectedItem="{Binding SelectedMe, Mode=TwoWay}" AbsoluteLayout.LayoutBounds="1,1,1,1" ItemsSource="{Binding BuyAssets}">
                 <ListView.Header>
                     <Label Text="Historique des achats" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
 

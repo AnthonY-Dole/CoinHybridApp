@@ -45,5 +45,8 @@ namespace CoinHybridApp
             Navigation.PopAsync();
             vm.RefreshData();
         }
+
+       
+     
     }
 }
