@@ -30,7 +30,7 @@ namespace CoinHybridApp.Views
             string Max = this.FindByName<Entry>("Max").Text;
             string Det = this.FindByName<Editor>("Det").Text;
 
-            if (Name == null || Abrev == null || Price == null || Circ == null || Max == null || Det == null)
+            if (Name == "" || Abrev == "" || Price == ""|| Circ == "" || Max == "" || Det == "")
             {
                 await DisplayAlert("Alert", "Make sure to complete all entry.", "OK");
             }
@@ -54,21 +54,6 @@ namespace CoinHybridApp.Views
                 this.FindByName<Editor>("Det").Text = string.Empty;
             }
         }
-
-        private async Task AlertAsync(string i)
-        {
-            if(i == "1")
-            {
-                await DisplayAlert("Alert", "Make sure to complete all entry.", "OK");
-
-            }
-            else
-            {
-                await DisplayAlert("Alert", "Circulating supply can't exceed max supply.", "OK");
-            }
-
-        }
-
 
         private async void ButtonList_Clicked(object sender, EventArgs e)
         {
