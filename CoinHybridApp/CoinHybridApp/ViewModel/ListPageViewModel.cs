@@ -83,7 +83,16 @@ namespace CoinHybridApp.ViewModel
             {
                 //trim data for visibility
                 var price = post.PriceUsd.Substring(0, post.PriceUsd.IndexOf(".") + 4);
-                var changePercent = post.ChangePercent24Hr.Substring(0, post.ChangePercent24Hr.IndexOf(".") + 4);
+                if (post.ChangePercent24Hr != null)
+                {
+                    var changePercent = post.ChangePercent24Hr.Substring(0, post.ChangePercent24Hr.IndexOf(".") + 4);
+                    post.ChangePercent24Hr = changePercent + '%';
+                }
+                else
+                {
+                    post.ChangePercent24Hr = "0" + '%';
+                }
+               
                 //Add image with our image server with the correct symbol 
                 post.ImageUrl = "https://res.cloudinary.com/anvukekorp/image/upload/icon/" + post.Symbol.ToLower();
                 post.PriceUsd = price + '$';
@@ -91,7 +100,7 @@ namespace CoinHybridApp.ViewModel
                post.MarketCapUsd = Convertion(post.MarketCapUsd);
                post.VolumeUsd24Hr = Convertion(post.VolumeUsd24Hr);
               
-                post.ChangePercent24Hr = changePercent + '%';
+               
                 //Add the data on the Observable collection Cryptos
                 this.Cryptos.Add(post);
 
