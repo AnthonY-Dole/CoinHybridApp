@@ -84,6 +84,27 @@ namespace CoinHybridApp.DAL
             }
             return results;
         }
+        public static bool DeleteBuyAsset(CryptoModel c)
+        {
+            bool b = false;
+            using (SQLiteConnection db = DbConnection.GetConnection())
+            {
+                lock (DbConnection.Locker)
+                {
+                    foreach (BuySellModel u in db.Table<BuySellModel>())
+                    {
+                        if (u.ID == c.ID)
+                        {
+                            db.Delete(u);
+                        }
+                    }
+
+
+
+                }
+            }
+            return b;
+        }
         public static bool UpdateAsset(CryptoModel c)
         {
             bool b = false;

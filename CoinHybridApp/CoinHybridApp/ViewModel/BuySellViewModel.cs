@@ -83,17 +83,22 @@ namespace CoinHybridApp.ViewModel
                 {
                     _isSelected = value;
                     OnPropertyChanged("SelectedMe");
-                    HandleIsSelected();
+                    CallView();
                 }
             }
         }
-        private void HandleIsSelected()
+        public void CallView()
         {
-            MessagingCenter.Subscribe<BuySell, string>(this, "Hi", async (sender, arg) =>
+         
+            Device.BeginInvokeOnMainThread(() =>
             {
-                await Application.Current.MainPage.DisplayAlert("AA", "BB", "Ok");
+                MessagingCenter.Send(this, "CallViewFromViewModel");
             });
-
+        }
+        public void DoSomething()
+        {
+            var index = BuyAssets.IndexOf(SelectedMe);
+            BuyAssets.Remove(BuyAssets[index]);
         }
         CryptocurencyModel selectedCrypto;
 		public CryptocurencyModel SelectedCrypto
@@ -124,15 +129,19 @@ namespace CoinHybridApp.ViewModel
         }
         public void newBuy()
         {
-            var test = float.Parse(PriceUsd);
-            var test2 = float.Parse(SelectedCrypto.PriceUsd.Replace("$",""), CultureInfo.InvariantCulture.NumberFormat);
-            float yourbuy = test / test2;
-            DateTime localDate = DateTime.Now;
-            Date = localDate.ToString();
-          
-            BuySellModel BuyAsset = new BuySellModel(selectedCrypto.Name, PriceUsd , yourbuy.ToString(),SelectedCrypto.ImageUrl,Date);
+            if(PriceUsd != null)
+            {
+                var test = float.Parse(PriceUsd);
+                var test2 = float.Parse(SelectedCrypto.PriceUsd.Replace("$", ""), CultureInfo.InvariantCulture.NumberFormat);
+                float yourbuy = test / test2;
+                DateTime localDate = DateTime.Now;
+                Date = localDate.ToString();
 
-            CryptoModelDAL.InsertIfNotExistS(BuyAsset);
+                BuySellModel BuyAsset = new BuySellModel(selectedCrypto.Name, PriceUsd, yourbuy.ToString(), SelectedCrypto.ImageUrl, Date);
+
+                CryptoModelDAL.InsertIfNotExistS(BuyAsset);
+            }
+          
          
         }
         public void RefreshData()

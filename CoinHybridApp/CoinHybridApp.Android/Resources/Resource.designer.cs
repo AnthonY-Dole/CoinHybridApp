@@ -26,6 +26,2599 @@ namespace CoinHybridApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Acr.UserDialogs.Resource.Animation.abc_fade_in = global::CoinHybridApp.Droid.Resource.Animation.abc_fade_in;
+			global::Acr.UserDialogs.Resource.Animation.abc_fade_out = global::CoinHybridApp.Droid.Resource.Animation.abc_fade_out;
+			global::Acr.UserDialogs.Resource.Animation.abc_grow_fade_in_from_bottom = global::CoinHybridApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_popup_enter = global::CoinHybridApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Acr.UserDialogs.Resource.Animation.abc_popup_exit = global::CoinHybridApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Acr.UserDialogs.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CoinHybridApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_in_bottom = global::CoinHybridApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_in_top = global::CoinHybridApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_bottom = global::CoinHybridApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_top = global::CoinHybridApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_enter = global::CoinHybridApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_exit = global::CoinHybridApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_in = global::CoinHybridApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_out = global::CoinHybridApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Acr.UserDialogs.Resource.Animation.design_snackbar_in = global::CoinHybridApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Acr.UserDialogs.Resource.Animation.design_snackbar_out = global::CoinHybridApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Acr.UserDialogs.Resource.Animator.design_appbar_state_list_animator = global::CoinHybridApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Acr.UserDialogs.Resource.Animator.design_fab_hide_motion_spec = global::CoinHybridApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.design_fab_show_motion_spec = global::CoinHybridApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_btn_state_list_anim = global::CoinHybridApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CoinHybridApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_chip_state_list_anim = global::CoinHybridApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_hide_motion_spec = global::CoinHybridApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_show_motion_spec = global::CoinHybridApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CoinHybridApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CoinHybridApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarDivider = global::CoinHybridApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarItemBackground = global::CoinHybridApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarPopupTheme = global::CoinHybridApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarSize = global::CoinHybridApp.Droid.Resource.Attribute.actionBarSize;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarSplitStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabTextStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTheme = global::CoinHybridApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarWidgetTheme = global::CoinHybridApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionDropDownStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionLayout = global::CoinHybridApp.Droid.Resource.Attribute.actionLayout;
+			global::Acr.UserDialogs.Resource.Attribute.actionMenuTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.actionMenuTextColor = global::CoinHybridApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeBackground = global::CoinHybridApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCloseButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCloseDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCopyDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCutDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeFindDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModePasteDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModePopupWindowStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeSelectAllDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeShareDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeSplitBackground = global::CoinHybridApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeWebSearchDrawable = global::CoinHybridApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionOverflowButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionOverflowMenuStyle = global::CoinHybridApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionProviderClass = global::CoinHybridApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Acr.UserDialogs.Resource.Attribute.actionViewClass = global::CoinHybridApp.Droid.Resource.Attribute.actionViewClass;
+			global::Acr.UserDialogs.Resource.Attribute.activityChooserViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarColor = global::CoinHybridApp.Droid.Resource.Attribute.ahBarColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarLength = global::CoinHybridApp.Droid.Resource.Attribute.ahBarLength;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarWidth = global::CoinHybridApp.Droid.Resource.Attribute.ahBarWidth;
+			global::Acr.UserDialogs.Resource.Attribute.ahCircleColor = global::CoinHybridApp.Droid.Resource.Attribute.ahCircleColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahDelayMillis = global::CoinHybridApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::Acr.UserDialogs.Resource.Attribute.ahRadius = global::CoinHybridApp.Droid.Resource.Attribute.ahRadius;
+			global::Acr.UserDialogs.Resource.Attribute.ahRimColor = global::CoinHybridApp.Droid.Resource.Attribute.ahRimColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahRimWidth = global::CoinHybridApp.Droid.Resource.Attribute.ahRimWidth;
+			global::Acr.UserDialogs.Resource.Attribute.ahSpinSpeed = global::CoinHybridApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::Acr.UserDialogs.Resource.Attribute.ahText = global::CoinHybridApp.Droid.Resource.Attribute.ahText;
+			global::Acr.UserDialogs.Resource.Attribute.ahTextColor = global::CoinHybridApp.Droid.Resource.Attribute.ahTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahTextSize = global::CoinHybridApp.Droid.Resource.Attribute.ahTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogButtonGroupStyle = global::CoinHybridApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogCenterButtons = global::CoinHybridApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogStyle = global::CoinHybridApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogTheme = global::CoinHybridApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.allowStacking = global::CoinHybridApp.Droid.Resource.Attribute.allowStacking;
+			global::Acr.UserDialogs.Resource.Attribute.alpha = global::CoinHybridApp.Droid.Resource.Attribute.alpha;
+			global::Acr.UserDialogs.Resource.Attribute.alphabeticModifiers = global::CoinHybridApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Acr.UserDialogs.Resource.Attribute.arrowHeadLength = global::CoinHybridApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Acr.UserDialogs.Resource.Attribute.arrowShaftLength = global::CoinHybridApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Acr.UserDialogs.Resource.Attribute.autoCompleteTextViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeMaxTextSize = global::CoinHybridApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeMinTextSize = global::CoinHybridApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizePresetSizes = global::CoinHybridApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeStepGranularity = global::CoinHybridApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeTextType = global::CoinHybridApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Attribute.background = global::CoinHybridApp.Droid.Resource.Attribute.background;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundSplit = global::CoinHybridApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundStacked = global::CoinHybridApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundTint = global::CoinHybridApp.Droid.Resource.Attribute.backgroundTint;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundTintMode = global::CoinHybridApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.barLength = global::CoinHybridApp.Droid.Resource.Attribute.barLength;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_autoHide = global::CoinHybridApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_fitToContents = global::CoinHybridApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_hideable = global::CoinHybridApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_overlapTop = global::CoinHybridApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_peekHeight = global::CoinHybridApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_skipCollapsed = global::CoinHybridApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Acr.UserDialogs.Resource.Attribute.borderlessButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.borderWidth = global::CoinHybridApp.Droid.Resource.Attribute.borderWidth;
+			global::Acr.UserDialogs.Resource.Attribute.bottomAppBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.bottomNavigationStyle = global::CoinHybridApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Acr.UserDialogs.Resource.Attribute.bottomSheetDialogTheme = global::CoinHybridApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.bottomSheetStyle = global::CoinHybridApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Attribute.boxBackgroundColor = global::CoinHybridApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.boxBackgroundMode = global::CoinHybridApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Acr.UserDialogs.Resource.Attribute.boxCollapsedPaddingTop = global::CoinHybridApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusBottomEnd = global::CoinHybridApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusBottomStart = global::CoinHybridApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusTopEnd = global::CoinHybridApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusTopStart = global::CoinHybridApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Acr.UserDialogs.Resource.Attribute.boxStrokeColor = global::CoinHybridApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.boxStrokeWidth = global::CoinHybridApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarNegativeButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarNeutralButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarPositiveButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonGravity = global::CoinHybridApp.Droid.Resource.Attribute.buttonGravity;
+			global::Acr.UserDialogs.Resource.Attribute.buttonIconDimen = global::CoinHybridApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Acr.UserDialogs.Resource.Attribute.buttonPanelSideLayout = global::CoinHybridApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Acr.UserDialogs.Resource.Attribute.buttonStyle = global::CoinHybridApp.Droid.Resource.Attribute.buttonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonStyleSmall = global::CoinHybridApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.buttonTint = global::CoinHybridApp.Droid.Resource.Attribute.buttonTint;
+			global::Acr.UserDialogs.Resource.Attribute.buttonTintMode = global::CoinHybridApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.cardBackgroundColor = global::CoinHybridApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.cardCornerRadius = global::CoinHybridApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.cardElevation = global::CoinHybridApp.Droid.Resource.Attribute.cardElevation;
+			global::Acr.UserDialogs.Resource.Attribute.cardMaxElevation = global::CoinHybridApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Acr.UserDialogs.Resource.Attribute.cardPreventCornerOverlap = global::CoinHybridApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Acr.UserDialogs.Resource.Attribute.cardUseCompatPadding = global::CoinHybridApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Acr.UserDialogs.Resource.Attribute.cardViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.checkboxStyle = global::CoinHybridApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Acr.UserDialogs.Resource.Attribute.checkedChip = global::CoinHybridApp.Droid.Resource.Attribute.checkedChip;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIcon = global::CoinHybridApp.Droid.Resource.Attribute.checkedIcon;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIconEnabled = global::CoinHybridApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIconVisible = global::CoinHybridApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.checkedTextViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipBackgroundColor = global::CoinHybridApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.chipCornerRadius = global::CoinHybridApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.chipEndPadding = global::CoinHybridApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.chipGroupStyle = global::CoinHybridApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipIcon = global::CoinHybridApp.Droid.Resource.Attribute.chipIcon;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconEnabled = global::CoinHybridApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconSize = global::CoinHybridApp.Droid.Resource.Attribute.chipIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconTint = global::CoinHybridApp.Droid.Resource.Attribute.chipIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconVisible = global::CoinHybridApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.chipMinHeight = global::CoinHybridApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacing = global::CoinHybridApp.Droid.Resource.Attribute.chipSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacingHorizontal = global::CoinHybridApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacingVertical = global::CoinHybridApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Acr.UserDialogs.Resource.Attribute.chipStandaloneStyle = global::CoinHybridApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipStartPadding = global::CoinHybridApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.chipStrokeColor = global::CoinHybridApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.chipStrokeWidth = global::CoinHybridApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.chipStyle = global::CoinHybridApp.Droid.Resource.Attribute.chipStyle;
+			global::Acr.UserDialogs.Resource.Attribute.closeIcon = global::CoinHybridApp.Droid.Resource.Attribute.closeIcon;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconEnabled = global::CoinHybridApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconEndPadding = global::CoinHybridApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconSize = global::CoinHybridApp.Droid.Resource.Attribute.closeIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconStartPadding = global::CoinHybridApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconTint = global::CoinHybridApp.Droid.Resource.Attribute.closeIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconVisible = global::CoinHybridApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.closeItemLayout = global::CoinHybridApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.collapseContentDescription = global::CoinHybridApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.collapsedTitleGravity = global::CoinHybridApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Acr.UserDialogs.Resource.Attribute.collapsedTitleTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.collapseIcon = global::CoinHybridApp.Droid.Resource.Attribute.collapseIcon;
+			global::Acr.UserDialogs.Resource.Attribute.color = global::CoinHybridApp.Droid.Resource.Attribute.color;
+			global::Acr.UserDialogs.Resource.Attribute.colorAccent = global::CoinHybridApp.Droid.Resource.Attribute.colorAccent;
+			global::Acr.UserDialogs.Resource.Attribute.colorBackgroundFloating = global::CoinHybridApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Attribute.colorButtonNormal = global::CoinHybridApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlActivated = global::CoinHybridApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlHighlight = global::CoinHybridApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlNormal = global::CoinHybridApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Acr.UserDialogs.Resource.Attribute.colorError = global::CoinHybridApp.Droid.Resource.Attribute.colorError;
+			global::Acr.UserDialogs.Resource.Attribute.colorPrimary = global::CoinHybridApp.Droid.Resource.Attribute.colorPrimary;
+			global::Acr.UserDialogs.Resource.Attribute.colorPrimaryDark = global::CoinHybridApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Attribute.colorSecondary = global::CoinHybridApp.Droid.Resource.Attribute.colorSecondary;
+			global::Acr.UserDialogs.Resource.Attribute.colorSwitchThumbNormal = global::CoinHybridApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Acr.UserDialogs.Resource.Attribute.commitIcon = global::CoinHybridApp.Droid.Resource.Attribute.commitIcon;
+			global::Acr.UserDialogs.Resource.Attribute.contentDescription = global::CoinHybridApp.Droid.Resource.Attribute.contentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetEnd = global::CoinHybridApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetEndWithActions = global::CoinHybridApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetLeft = global::CoinHybridApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetRight = global::CoinHybridApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetStart = global::CoinHybridApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetStartWithNavigation = global::CoinHybridApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Attribute.contentPadding = global::CoinHybridApp.Droid.Resource.Attribute.contentPadding;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingBottom = global::CoinHybridApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingLeft = global::CoinHybridApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingRight = global::CoinHybridApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingTop = global::CoinHybridApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.contentScrim = global::CoinHybridApp.Droid.Resource.Attribute.contentScrim;
+			global::Acr.UserDialogs.Resource.Attribute.controlBackground = global::CoinHybridApp.Droid.Resource.Attribute.controlBackground;
+			global::Acr.UserDialogs.Resource.Attribute.coordinatorLayoutStyle = global::CoinHybridApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Acr.UserDialogs.Resource.Attribute.cornerRadius = global::CoinHybridApp.Droid.Resource.Attribute.cornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.counterEnabled = global::CoinHybridApp.Droid.Resource.Attribute.counterEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.counterMaxLength = global::CoinHybridApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Acr.UserDialogs.Resource.Attribute.counterOverflowTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.counterTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.customNavigationLayout = global::CoinHybridApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Acr.UserDialogs.Resource.Attribute.defaultQueryHint = global::CoinHybridApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Acr.UserDialogs.Resource.Attribute.dialogCornerRadius = global::CoinHybridApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.dialogPreferredPadding = global::CoinHybridApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Acr.UserDialogs.Resource.Attribute.dialogTheme = global::CoinHybridApp.Droid.Resource.Attribute.dialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.displayOptions = global::CoinHybridApp.Droid.Resource.Attribute.displayOptions;
+			global::Acr.UserDialogs.Resource.Attribute.divider = global::CoinHybridApp.Droid.Resource.Attribute.divider;
+			global::Acr.UserDialogs.Resource.Attribute.dividerHorizontal = global::CoinHybridApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Acr.UserDialogs.Resource.Attribute.dividerPadding = global::CoinHybridApp.Droid.Resource.Attribute.dividerPadding;
+			global::Acr.UserDialogs.Resource.Attribute.dividerVertical = global::CoinHybridApp.Droid.Resource.Attribute.dividerVertical;
+			global::Acr.UserDialogs.Resource.Attribute.drawableSize = global::CoinHybridApp.Droid.Resource.Attribute.drawableSize;
+			global::Acr.UserDialogs.Resource.Attribute.drawerArrowStyle = global::CoinHybridApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.dropdownListPreferredItemHeight = global::CoinHybridApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Attribute.dropDownListViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.editTextBackground = global::CoinHybridApp.Droid.Resource.Attribute.editTextBackground;
+			global::Acr.UserDialogs.Resource.Attribute.editTextColor = global::CoinHybridApp.Droid.Resource.Attribute.editTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.editTextStyle = global::CoinHybridApp.Droid.Resource.Attribute.editTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.elevation = global::CoinHybridApp.Droid.Resource.Attribute.elevation;
+			global::Acr.UserDialogs.Resource.Attribute.enforceMaterialTheme = global::CoinHybridApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Acr.UserDialogs.Resource.Attribute.enforceTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.errorEnabled = global::CoinHybridApp.Droid.Resource.Attribute.errorEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.errorTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CoinHybridApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.expanded = global::CoinHybridApp.Droid.Resource.Attribute.expanded;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleGravity = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMargin = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginBottom = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginEnd = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginStart = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginTop = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.fabAlignmentMode = global::CoinHybridApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleMargin = global::CoinHybridApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleRoundedCornerRadius = global::CoinHybridApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleVerticalOffset = global::CoinHybridApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Acr.UserDialogs.Resource.Attribute.fabCustomSize = global::CoinHybridApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Acr.UserDialogs.Resource.Attribute.fabSize = global::CoinHybridApp.Droid.Resource.Attribute.fabSize;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollEnabled = global::CoinHybridApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CoinHybridApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CoinHybridApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CoinHybridApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CoinHybridApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.firstBaselineToTopHeight = global::CoinHybridApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Acr.UserDialogs.Resource.Attribute.floatingActionButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.font = global::CoinHybridApp.Droid.Resource.Attribute.font;
+			global::Acr.UserDialogs.Resource.Attribute.fontFamily = global::CoinHybridApp.Droid.Resource.Attribute.fontFamily;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderAuthority = global::CoinHybridApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderCerts = global::CoinHybridApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderFetchStrategy = global::CoinHybridApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderFetchTimeout = global::CoinHybridApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderPackage = global::CoinHybridApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderQuery = global::CoinHybridApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Acr.UserDialogs.Resource.Attribute.fontStyle = global::CoinHybridApp.Droid.Resource.Attribute.fontStyle;
+			global::Acr.UserDialogs.Resource.Attribute.fontVariationSettings = global::CoinHybridApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Attribute.fontWeight = global::CoinHybridApp.Droid.Resource.Attribute.fontWeight;
+			global::Acr.UserDialogs.Resource.Attribute.foregroundInsidePadding = global::CoinHybridApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Acr.UserDialogs.Resource.Attribute.gapBetweenBars = global::CoinHybridApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Acr.UserDialogs.Resource.Attribute.goIcon = global::CoinHybridApp.Droid.Resource.Attribute.goIcon;
+			global::Acr.UserDialogs.Resource.Attribute.headerLayout = global::CoinHybridApp.Droid.Resource.Attribute.headerLayout;
+			global::Acr.UserDialogs.Resource.Attribute.height = global::CoinHybridApp.Droid.Resource.Attribute.height;
+			global::Acr.UserDialogs.Resource.Attribute.helperText = global::CoinHybridApp.Droid.Resource.Attribute.helperText;
+			global::Acr.UserDialogs.Resource.Attribute.helperTextEnabled = global::CoinHybridApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.helperTextTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.hideMotionSpec = global::CoinHybridApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Attribute.hideOnContentScroll = global::CoinHybridApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Acr.UserDialogs.Resource.Attribute.hideOnScroll = global::CoinHybridApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Acr.UserDialogs.Resource.Attribute.hintAnimationEnabled = global::CoinHybridApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.hintEnabled = global::CoinHybridApp.Droid.Resource.Attribute.hintEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.hintTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.homeAsUpIndicator = global::CoinHybridApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.homeLayout = global::CoinHybridApp.Droid.Resource.Attribute.homeLayout;
+			global::Acr.UserDialogs.Resource.Attribute.hoveredFocusedTranslationZ = global::CoinHybridApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Acr.UserDialogs.Resource.Attribute.icon = global::CoinHybridApp.Droid.Resource.Attribute.icon;
+			global::Acr.UserDialogs.Resource.Attribute.iconEndPadding = global::CoinHybridApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconGravity = global::CoinHybridApp.Droid.Resource.Attribute.iconGravity;
+			global::Acr.UserDialogs.Resource.Attribute.iconifiedByDefault = global::CoinHybridApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Acr.UserDialogs.Resource.Attribute.iconPadding = global::CoinHybridApp.Droid.Resource.Attribute.iconPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconSize = global::CoinHybridApp.Droid.Resource.Attribute.iconSize;
+			global::Acr.UserDialogs.Resource.Attribute.iconStartPadding = global::CoinHybridApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconTint = global::CoinHybridApp.Droid.Resource.Attribute.iconTint;
+			global::Acr.UserDialogs.Resource.Attribute.iconTintMode = global::CoinHybridApp.Droid.Resource.Attribute.iconTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.imageButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.indeterminateProgressStyle = global::CoinHybridApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Acr.UserDialogs.Resource.Attribute.initialActivityCount = global::CoinHybridApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Acr.UserDialogs.Resource.Attribute.insetForeground = global::CoinHybridApp.Droid.Resource.Attribute.insetForeground;
+			global::Acr.UserDialogs.Resource.Attribute.isLightTheme = global::CoinHybridApp.Droid.Resource.Attribute.isLightTheme;
+			global::Acr.UserDialogs.Resource.Attribute.itemBackground = global::CoinHybridApp.Droid.Resource.Attribute.itemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.itemHorizontalPadding = global::CoinHybridApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemHorizontalTranslationEnabled = global::CoinHybridApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconPadding = global::CoinHybridApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconSize = global::CoinHybridApp.Droid.Resource.Attribute.itemIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconTint = global::CoinHybridApp.Droid.Resource.Attribute.itemIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.itemPadding = global::CoinHybridApp.Droid.Resource.Attribute.itemPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemSpacing = global::CoinHybridApp.Droid.Resource.Attribute.itemSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearanceActive = global::CoinHybridApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearanceInactive = global::CoinHybridApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextColor = global::CoinHybridApp.Droid.Resource.Attribute.itemTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.keylines = global::CoinHybridApp.Droid.Resource.Attribute.keylines;
+			global::Acr.UserDialogs.Resource.Attribute.labelVisibilityMode = global::CoinHybridApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Acr.UserDialogs.Resource.Attribute.lastBaselineToBottomHeight = global::CoinHybridApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Acr.UserDialogs.Resource.Attribute.layout = global::CoinHybridApp.Droid.Resource.Attribute.layout;
+			global::Acr.UserDialogs.Resource.Attribute.layoutManager = global::CoinHybridApp.Droid.Resource.Attribute.layoutManager;
+			global::Acr.UserDialogs.Resource.Attribute.layout_anchor = global::CoinHybridApp.Droid.Resource.Attribute.layout_anchor;
+			global::Acr.UserDialogs.Resource.Attribute.layout_anchorGravity = global::CoinHybridApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Acr.UserDialogs.Resource.Attribute.layout_behavior = global::CoinHybridApp.Droid.Resource.Attribute.layout_behavior;
+			global::Acr.UserDialogs.Resource.Attribute.layout_collapseMode = global::CoinHybridApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Acr.UserDialogs.Resource.Attribute.layout_collapseParallaxMultiplier = global::CoinHybridApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Acr.UserDialogs.Resource.Attribute.layout_dodgeInsetEdges = global::CoinHybridApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Acr.UserDialogs.Resource.Attribute.layout_insetEdge = global::CoinHybridApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Acr.UserDialogs.Resource.Attribute.layout_keyline = global::CoinHybridApp.Droid.Resource.Attribute.layout_keyline;
+			global::Acr.UserDialogs.Resource.Attribute.layout_scrollFlags = global::CoinHybridApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Acr.UserDialogs.Resource.Attribute.layout_scrollInterpolator = global::CoinHybridApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Acr.UserDialogs.Resource.Attribute.liftOnScroll = global::CoinHybridApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Acr.UserDialogs.Resource.Attribute.lineHeight = global::CoinHybridApp.Droid.Resource.Attribute.lineHeight;
+			global::Acr.UserDialogs.Resource.Attribute.lineSpacing = global::CoinHybridApp.Droid.Resource.Attribute.lineSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceBackgroundIndicator = global::CoinHybridApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.listDividerAlertDialog = global::CoinHybridApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Acr.UserDialogs.Resource.Attribute.listItemLayout = global::CoinHybridApp.Droid.Resource.Attribute.listItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.listLayout = global::CoinHybridApp.Droid.Resource.Attribute.listLayout;
+			global::Acr.UserDialogs.Resource.Attribute.listMenuViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.listPopupWindowStyle = global::CoinHybridApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeight = global::CoinHybridApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightLarge = global::CoinHybridApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightSmall = global::CoinHybridApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingLeft = global::CoinHybridApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingRight = global::CoinHybridApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.logo = global::CoinHybridApp.Droid.Resource.Attribute.logo;
+			global::Acr.UserDialogs.Resource.Attribute.logoDescription = global::CoinHybridApp.Droid.Resource.Attribute.logoDescription;
+			global::Acr.UserDialogs.Resource.Attribute.materialButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.materialCardViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.maxActionInlineWidth = global::CoinHybridApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Acr.UserDialogs.Resource.Attribute.maxButtonHeight = global::CoinHybridApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Attribute.maxImageSize = global::CoinHybridApp.Droid.Resource.Attribute.maxImageSize;
+			global::Acr.UserDialogs.Resource.Attribute.measureWithLargestChild = global::CoinHybridApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Acr.UserDialogs.Resource.Attribute.menu = global::CoinHybridApp.Droid.Resource.Attribute.menu;
+			global::Acr.UserDialogs.Resource.Attribute.multiChoiceItemLayout = global::CoinHybridApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.navigationContentDescription = global::CoinHybridApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.navigationIcon = global::CoinHybridApp.Droid.Resource.Attribute.navigationIcon;
+			global::Acr.UserDialogs.Resource.Attribute.navigationMode = global::CoinHybridApp.Droid.Resource.Attribute.navigationMode;
+			global::Acr.UserDialogs.Resource.Attribute.navigationViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.numericModifiers = global::CoinHybridApp.Droid.Resource.Attribute.numericModifiers;
+			global::Acr.UserDialogs.Resource.Attribute.overlapAnchor = global::CoinHybridApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Acr.UserDialogs.Resource.Attribute.paddingBottomNoButtons = global::CoinHybridApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Acr.UserDialogs.Resource.Attribute.paddingEnd = global::CoinHybridApp.Droid.Resource.Attribute.paddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.paddingStart = global::CoinHybridApp.Droid.Resource.Attribute.paddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.paddingTopNoTitle = global::CoinHybridApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Acr.UserDialogs.Resource.Attribute.panelBackground = global::CoinHybridApp.Droid.Resource.Attribute.panelBackground;
+			global::Acr.UserDialogs.Resource.Attribute.panelMenuListTheme = global::CoinHybridApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Acr.UserDialogs.Resource.Attribute.panelMenuListWidth = global::CoinHybridApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleContentDescription = global::CoinHybridApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleDrawable = global::CoinHybridApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleEnabled = global::CoinHybridApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleTint = global::CoinHybridApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleTintMode = global::CoinHybridApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.popupMenuStyle = global::CoinHybridApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Acr.UserDialogs.Resource.Attribute.popupTheme = global::CoinHybridApp.Droid.Resource.Attribute.popupTheme;
+			global::Acr.UserDialogs.Resource.Attribute.popupWindowStyle = global::CoinHybridApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.preserveIconSpacing = global::CoinHybridApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.pressedTranslationZ = global::CoinHybridApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Acr.UserDialogs.Resource.Attribute.progressBarPadding = global::CoinHybridApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Acr.UserDialogs.Resource.Attribute.progressBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.queryBackground = global::CoinHybridApp.Droid.Resource.Attribute.queryBackground;
+			global::Acr.UserDialogs.Resource.Attribute.queryHint = global::CoinHybridApp.Droid.Resource.Attribute.queryHint;
+			global::Acr.UserDialogs.Resource.Attribute.radioButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleIndicator = global::CoinHybridApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleSmall = global::CoinHybridApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.reverseLayout = global::CoinHybridApp.Droid.Resource.Attribute.reverseLayout;
+			global::Acr.UserDialogs.Resource.Attribute.rippleColor = global::CoinHybridApp.Droid.Resource.Attribute.rippleColor;
+			global::Acr.UserDialogs.Resource.Attribute.scrimAnimationDuration = global::CoinHybridApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Acr.UserDialogs.Resource.Attribute.scrimBackground = global::CoinHybridApp.Droid.Resource.Attribute.scrimBackground;
+			global::Acr.UserDialogs.Resource.Attribute.scrimVisibleHeightTrigger = global::CoinHybridApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Acr.UserDialogs.Resource.Attribute.searchHintIcon = global::CoinHybridApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Acr.UserDialogs.Resource.Attribute.searchIcon = global::CoinHybridApp.Droid.Resource.Attribute.searchIcon;
+			global::Acr.UserDialogs.Resource.Attribute.searchViewStyle = global::CoinHybridApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.seekBarStyle = global::CoinHybridApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.selectableItemBackground = global::CoinHybridApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.selectableItemBackgroundBorderless = global::CoinHybridApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Acr.UserDialogs.Resource.Attribute.showAsAction = global::CoinHybridApp.Droid.Resource.Attribute.showAsAction;
+			global::Acr.UserDialogs.Resource.Attribute.showDividers = global::CoinHybridApp.Droid.Resource.Attribute.showDividers;
+			global::Acr.UserDialogs.Resource.Attribute.showMotionSpec = global::CoinHybridApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Acr.UserDialogs.Resource.Attribute.showText = global::CoinHybridApp.Droid.Resource.Attribute.showText;
+			global::Acr.UserDialogs.Resource.Attribute.showTitle = global::CoinHybridApp.Droid.Resource.Attribute.showTitle;
+			global::Acr.UserDialogs.Resource.Attribute.singleChoiceItemLayout = global::CoinHybridApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.singleLine = global::CoinHybridApp.Droid.Resource.Attribute.singleLine;
+			global::Acr.UserDialogs.Resource.Attribute.singleSelection = global::CoinHybridApp.Droid.Resource.Attribute.singleSelection;
+			global::Acr.UserDialogs.Resource.Attribute.snackbarButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.snackbarStyle = global::CoinHybridApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.spanCount = global::CoinHybridApp.Droid.Resource.Attribute.spanCount;
+			global::Acr.UserDialogs.Resource.Attribute.spinBars = global::CoinHybridApp.Droid.Resource.Attribute.spinBars;
+			global::Acr.UserDialogs.Resource.Attribute.spinnerDropDownItemStyle = global::CoinHybridApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Acr.UserDialogs.Resource.Attribute.spinnerStyle = global::CoinHybridApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Acr.UserDialogs.Resource.Attribute.splitTrack = global::CoinHybridApp.Droid.Resource.Attribute.splitTrack;
+			global::Acr.UserDialogs.Resource.Attribute.srcCompat = global::CoinHybridApp.Droid.Resource.Attribute.srcCompat;
+			global::Acr.UserDialogs.Resource.Attribute.stackFromEnd = global::CoinHybridApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Acr.UserDialogs.Resource.Attribute.state_above_anchor = global::CoinHybridApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Acr.UserDialogs.Resource.Attribute.state_collapsed = global::CoinHybridApp.Droid.Resource.Attribute.state_collapsed;
+			global::Acr.UserDialogs.Resource.Attribute.state_collapsible = global::CoinHybridApp.Droid.Resource.Attribute.state_collapsible;
+			global::Acr.UserDialogs.Resource.Attribute.state_liftable = global::CoinHybridApp.Droid.Resource.Attribute.state_liftable;
+			global::Acr.UserDialogs.Resource.Attribute.state_lifted = global::CoinHybridApp.Droid.Resource.Attribute.state_lifted;
+			global::Acr.UserDialogs.Resource.Attribute.statusBarBackground = global::CoinHybridApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Acr.UserDialogs.Resource.Attribute.statusBarScrim = global::CoinHybridApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Acr.UserDialogs.Resource.Attribute.strokeColor = global::CoinHybridApp.Droid.Resource.Attribute.strokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.strokeWidth = global::CoinHybridApp.Droid.Resource.Attribute.strokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.subMenuArrow = global::CoinHybridApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Acr.UserDialogs.Resource.Attribute.submitBackground = global::CoinHybridApp.Droid.Resource.Attribute.submitBackground;
+			global::Acr.UserDialogs.Resource.Attribute.subtitle = global::CoinHybridApp.Droid.Resource.Attribute.subtitle;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextColor = global::CoinHybridApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextStyle = global::CoinHybridApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.suggestionRowLayout = global::CoinHybridApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Acr.UserDialogs.Resource.Attribute.switchMinWidth = global::CoinHybridApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Acr.UserDialogs.Resource.Attribute.switchPadding = global::CoinHybridApp.Droid.Resource.Attribute.switchPadding;
+			global::Acr.UserDialogs.Resource.Attribute.switchStyle = global::CoinHybridApp.Droid.Resource.Attribute.switchStyle;
+			global::Acr.UserDialogs.Resource.Attribute.switchTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.tabBackground = global::CoinHybridApp.Droid.Resource.Attribute.tabBackground;
+			global::Acr.UserDialogs.Resource.Attribute.tabContentStart = global::CoinHybridApp.Droid.Resource.Attribute.tabContentStart;
+			global::Acr.UserDialogs.Resource.Attribute.tabGravity = global::CoinHybridApp.Droid.Resource.Attribute.tabGravity;
+			global::Acr.UserDialogs.Resource.Attribute.tabIconTint = global::CoinHybridApp.Droid.Resource.Attribute.tabIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.tabIconTintMode = global::CoinHybridApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicator = global::CoinHybridApp.Droid.Resource.Attribute.tabIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorAnimationDuration = global::CoinHybridApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorColor = global::CoinHybridApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorFullWidth = global::CoinHybridApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorGravity = global::CoinHybridApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorHeight = global::CoinHybridApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Acr.UserDialogs.Resource.Attribute.tabInlineLabel = global::CoinHybridApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Acr.UserDialogs.Resource.Attribute.tabMaxWidth = global::CoinHybridApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabMinWidth = global::CoinHybridApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabMode = global::CoinHybridApp.Droid.Resource.Attribute.tabMode;
+			global::Acr.UserDialogs.Resource.Attribute.tabPadding = global::CoinHybridApp.Droid.Resource.Attribute.tabPadding;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingBottom = global::CoinHybridApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingEnd = global::CoinHybridApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingStart = global::CoinHybridApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingTop = global::CoinHybridApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.tabRippleColor = global::CoinHybridApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabSelectedTextColor = global::CoinHybridApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabStyle = global::CoinHybridApp.Droid.Resource.Attribute.tabStyle;
+			global::Acr.UserDialogs.Resource.Attribute.tabTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.tabTextColor = global::CoinHybridApp.Droid.Resource.Attribute.tabTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabUnboundedRipple = global::CoinHybridApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Acr.UserDialogs.Resource.Attribute.textAllCaps = global::CoinHybridApp.Droid.Resource.Attribute.textAllCaps;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceBody1 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceBody2 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceButton = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceCaption = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline1 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline2 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline3 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline4 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline5 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline6 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceLargePopupMenu = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItem = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItemSecondary = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItemSmall = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceOverline = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearancePopupMenuHeader = global::CoinHybridApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSearchResultTitle = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSmallPopupMenu = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSubtitle1 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSubtitle2 = global::CoinHybridApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Acr.UserDialogs.Resource.Attribute.textColorAlertDialogListItem = global::CoinHybridApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Acr.UserDialogs.Resource.Attribute.textColorSearchUrl = global::CoinHybridApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Acr.UserDialogs.Resource.Attribute.textEndPadding = global::CoinHybridApp.Droid.Resource.Attribute.textEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.textInputStyle = global::CoinHybridApp.Droid.Resource.Attribute.textInputStyle;
+			global::Acr.UserDialogs.Resource.Attribute.textStartPadding = global::CoinHybridApp.Droid.Resource.Attribute.textStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.theme = global::CoinHybridApp.Droid.Resource.Attribute.theme;
+			global::Acr.UserDialogs.Resource.Attribute.thickness = global::CoinHybridApp.Droid.Resource.Attribute.thickness;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTextPadding = global::CoinHybridApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTint = global::CoinHybridApp.Droid.Resource.Attribute.thumbTint;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTintMode = global::CoinHybridApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tickMark = global::CoinHybridApp.Droid.Resource.Attribute.tickMark;
+			global::Acr.UserDialogs.Resource.Attribute.tickMarkTint = global::CoinHybridApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Acr.UserDialogs.Resource.Attribute.tickMarkTintMode = global::CoinHybridApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tint = global::CoinHybridApp.Droid.Resource.Attribute.tint;
+			global::Acr.UserDialogs.Resource.Attribute.tintMode = global::CoinHybridApp.Droid.Resource.Attribute.tintMode;
+			global::Acr.UserDialogs.Resource.Attribute.title = global::CoinHybridApp.Droid.Resource.Attribute.title;
+			global::Acr.UserDialogs.Resource.Attribute.titleEnabled = global::CoinHybridApp.Droid.Resource.Attribute.titleEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.titleMargin = global::CoinHybridApp.Droid.Resource.Attribute.titleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginBottom = global::CoinHybridApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginEnd = global::CoinHybridApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Acr.UserDialogs.Resource.Attribute.titleMargins = global::CoinHybridApp.Droid.Resource.Attribute.titleMargins;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginStart = global::CoinHybridApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginTop = global::CoinHybridApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextAppearance = global::CoinHybridApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextColor = global::CoinHybridApp.Droid.Resource.Attribute.titleTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextStyle = global::CoinHybridApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarId = global::CoinHybridApp.Droid.Resource.Attribute.toolbarId;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarNavigationButtonStyle = global::CoinHybridApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarStyle = global::CoinHybridApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipForegroundColor = global::CoinHybridApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipFrameBackground = global::CoinHybridApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipText = global::CoinHybridApp.Droid.Resource.Attribute.tooltipText;
+			global::Acr.UserDialogs.Resource.Attribute.track = global::CoinHybridApp.Droid.Resource.Attribute.track;
+			global::Acr.UserDialogs.Resource.Attribute.trackTint = global::CoinHybridApp.Droid.Resource.Attribute.trackTint;
+			global::Acr.UserDialogs.Resource.Attribute.trackTintMode = global::CoinHybridApp.Droid.Resource.Attribute.trackTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.ttcIndex = global::CoinHybridApp.Droid.Resource.Attribute.ttcIndex;
+			global::Acr.UserDialogs.Resource.Attribute.useCompatPadding = global::CoinHybridApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Acr.UserDialogs.Resource.Attribute.viewInflaterClass = global::CoinHybridApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Acr.UserDialogs.Resource.Attribute.voiceIcon = global::CoinHybridApp.Droid.Resource.Attribute.voiceIcon;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionBar = global::CoinHybridApp.Droid.Resource.Attribute.windowActionBar;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionBarOverlay = global::CoinHybridApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionModeOverlay = global::CoinHybridApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedHeightMajor = global::CoinHybridApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedHeightMinor = global::CoinHybridApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedWidthMajor = global::CoinHybridApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedWidthMinor = global::CoinHybridApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowMinWidthMajor = global::CoinHybridApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowMinWidthMinor = global::CoinHybridApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowNoTitle = global::CoinHybridApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Acr.UserDialogs.Resource.Boolean.abc_action_bar_embed_tabs = global::CoinHybridApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Acr.UserDialogs.Resource.Boolean.abc_allow_stacked_button_bar = global::CoinHybridApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Acr.UserDialogs.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CoinHybridApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Acr.UserDialogs.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CoinHybridApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Acr.UserDialogs.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CoinHybridApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_background_cache_hint_selector_material_light = global::CoinHybridApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_btn_colored_borderless_text_material = global::CoinHybridApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Acr.UserDialogs.Resource.Color.abc_btn_colored_text_material = global::CoinHybridApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Acr.UserDialogs.Resource.Color.abc_color_highlight_material = global::CoinHybridApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Acr.UserDialogs.Resource.Color.abc_hint_foreground_material_dark = global::CoinHybridApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_hint_foreground_material_light = global::CoinHybridApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_input_method_navigation_guard = global::CoinHybridApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_disable_only_material_dark = global::CoinHybridApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_disable_only_material_light = global::CoinHybridApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_material_dark = global::CoinHybridApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_material_light = global::CoinHybridApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text = global::CoinHybridApp.Droid.Resource.Color.abc_search_url_text;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_normal = global::CoinHybridApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_pressed = global::CoinHybridApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_selected = global::CoinHybridApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Acr.UserDialogs.Resource.Color.abc_secondary_text_material_dark = global::CoinHybridApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_secondary_text_material_light = global::CoinHybridApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_btn_checkable = global::CoinHybridApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_default = global::CoinHybridApp.Droid.Resource.Color.abc_tint_default;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_edittext = global::CoinHybridApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_seek_thumb = global::CoinHybridApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_spinner = global::CoinHybridApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_switch_track = global::CoinHybridApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Acr.UserDialogs.Resource.Color.accent_material_dark = global::CoinHybridApp.Droid.Resource.Color.accent_material_dark;
+			global::Acr.UserDialogs.Resource.Color.accent_material_light = global::CoinHybridApp.Droid.Resource.Color.accent_material_light;
+			global::Acr.UserDialogs.Resource.Color.background_floating_material_dark = global::CoinHybridApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Acr.UserDialogs.Resource.Color.background_floating_material_light = global::CoinHybridApp.Droid.Resource.Color.background_floating_material_light;
+			global::Acr.UserDialogs.Resource.Color.background_material_dark = global::CoinHybridApp.Droid.Resource.Color.background_material_dark;
+			global::Acr.UserDialogs.Resource.Color.background_material_light = global::CoinHybridApp.Droid.Resource.Color.background_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_disabled_material_dark = global::CoinHybridApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_disabled_material_light = global::CoinHybridApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_inverse_material_dark = global::CoinHybridApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_inverse_material_light = global::CoinHybridApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_material_dark = global::CoinHybridApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_material_light = global::CoinHybridApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.button_material_dark = global::CoinHybridApp.Droid.Resource.Color.button_material_dark;
+			global::Acr.UserDialogs.Resource.Color.button_material_light = global::CoinHybridApp.Droid.Resource.Color.button_material_light;
+			global::Acr.UserDialogs.Resource.Color.cardview_dark_background = global::CoinHybridApp.Droid.Resource.Color.cardview_dark_background;
+			global::Acr.UserDialogs.Resource.Color.cardview_light_background = global::CoinHybridApp.Droid.Resource.Color.cardview_light_background;
+			global::Acr.UserDialogs.Resource.Color.cardview_shadow_end_color = global::CoinHybridApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Acr.UserDialogs.Resource.Color.cardview_shadow_start_color = global::CoinHybridApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Acr.UserDialogs.Resource.Color.design_bottom_navigation_shadow_color = global::CoinHybridApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Acr.UserDialogs.Resource.Color.design_default_color_primary = global::CoinHybridApp.Droid.Resource.Color.design_default_color_primary;
+			global::Acr.UserDialogs.Resource.Color.design_default_color_primary_dark = global::CoinHybridApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Acr.UserDialogs.Resource.Color.design_error = global::CoinHybridApp.Droid.Resource.Color.design_error;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_end_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_mid_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_start_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_end_inner_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_end_outer_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_top_inner_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_top_outer_color = global::CoinHybridApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Acr.UserDialogs.Resource.Color.design_snackbar_background_color = global::CoinHybridApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Acr.UserDialogs.Resource.Color.design_tint_password_toggle = global::CoinHybridApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_disabled_material_dark = global::CoinHybridApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_disabled_material_light = global::CoinHybridApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_material_dark = global::CoinHybridApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_material_light = global::CoinHybridApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.error_color_material_dark = global::CoinHybridApp.Droid.Resource.Color.error_color_material_dark;
+			global::Acr.UserDialogs.Resource.Color.error_color_material_light = global::CoinHybridApp.Droid.Resource.Color.error_color_material_light;
+			global::Acr.UserDialogs.Resource.Color.foreground_material_dark = global::CoinHybridApp.Droid.Resource.Color.foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.foreground_material_light = global::CoinHybridApp.Droid.Resource.Color.foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.highlighted_text_material_dark = global::CoinHybridApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.highlighted_text_material_light = global::CoinHybridApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_800 = global::CoinHybridApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_900 = global::CoinHybridApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_950 = global::CoinHybridApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Acr.UserDialogs.Resource.Color.material_deep_teal_200 = global::CoinHybridApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Acr.UserDialogs.Resource.Color.material_deep_teal_500 = global::CoinHybridApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Acr.UserDialogs.Resource.Color.material_grey_100 = global::CoinHybridApp.Droid.Resource.Color.material_grey_100;
+			global::Acr.UserDialogs.Resource.Color.material_grey_300 = global::CoinHybridApp.Droid.Resource.Color.material_grey_300;
+			global::Acr.UserDialogs.Resource.Color.material_grey_50 = global::CoinHybridApp.Droid.Resource.Color.material_grey_50;
+			global::Acr.UserDialogs.Resource.Color.material_grey_600 = global::CoinHybridApp.Droid.Resource.Color.material_grey_600;
+			global::Acr.UserDialogs.Resource.Color.material_grey_800 = global::CoinHybridApp.Droid.Resource.Color.material_grey_800;
+			global::Acr.UserDialogs.Resource.Color.material_grey_850 = global::CoinHybridApp.Droid.Resource.Color.material_grey_850;
+			global::Acr.UserDialogs.Resource.Color.material_grey_900 = global::CoinHybridApp.Droid.Resource.Color.material_grey_900;
+			global::Acr.UserDialogs.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::CoinHybridApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_bottom_nav_item_tint = global::CoinHybridApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_bg_color_disabled = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_bg_color_selector = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_ripple_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_stroke_color_selector = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_color_disabled = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_color_selector = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_transparent_bg_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_background_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_close_icon_tint = global::CoinHybridApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_ripple_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_text_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_fab_ripple_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_scrim_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_colored_ripple_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_icon_color_selector = global::CoinHybridApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CoinHybridApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CoinHybridApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_ripple_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_disabled_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CoinHybridApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_text_btn_text_color_selector = global::CoinHybridApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.notification_action_color_filter = global::CoinHybridApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Acr.UserDialogs.Resource.Color.notification_icon_bg_color = global::CoinHybridApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Acr.UserDialogs.Resource.Color.primary_dark_material_dark = global::CoinHybridApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_dark_material_light = global::CoinHybridApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_material_dark = global::CoinHybridApp.Droid.Resource.Color.primary_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_material_light = global::CoinHybridApp.Droid.Resource.Color.primary_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_text_default_material_dark = global::CoinHybridApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_text_default_material_light = global::CoinHybridApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_text_disabled_material_dark = global::CoinHybridApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_text_disabled_material_light = global::CoinHybridApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.ripple_material_dark = global::CoinHybridApp.Droid.Resource.Color.ripple_material_dark;
+			global::Acr.UserDialogs.Resource.Color.ripple_material_light = global::CoinHybridApp.Droid.Resource.Color.ripple_material_light;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_default_material_dark = global::CoinHybridApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_default_material_light = global::CoinHybridApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_disabled_material_dark = global::CoinHybridApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_disabled_material_light = global::CoinHybridApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_disabled_material_dark = global::CoinHybridApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_disabled_material_light = global::CoinHybridApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_material_dark = global::CoinHybridApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_material_light = global::CoinHybridApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_normal_material_dark = global::CoinHybridApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_normal_material_light = global::CoinHybridApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Acr.UserDialogs.Resource.Color.tooltip_background_dark = global::CoinHybridApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Acr.UserDialogs.Resource.Color.tooltip_background_light = global::CoinHybridApp.Droid.Resource.Color.tooltip_background_light;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_content_inset_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_height_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_elevation_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_stacked_max_height = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_height_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_width_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CoinHybridApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_alert_dialog_button_dimen = global::CoinHybridApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_inset_horizontal_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_inset_vertical_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_padding_horizontal_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_padding_vertical_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CoinHybridApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_config_prefDialogWidth = global::CoinHybridApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_corner_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_inset_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_padding_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_corner_radius_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_height_major = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_height_minor = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_width_major = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_width_minor = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_min_width_major = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_min_width_minor = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_padding_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_padding_top_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_title_divider_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_disabled_alpha_material_dark = global::CoinHybridApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.abc_disabled_alpha_material_light = global::CoinHybridApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_icon_width = global::CoinHybridApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CoinHybridApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CoinHybridApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_top_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_floating_window_z = global::CoinHybridApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_panel_menu_list_width = global::CoinHybridApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_progress_bar_height_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_search_view_preferred_height = global::CoinHybridApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_search_view_preferred_width = global::CoinHybridApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_seekbar_track_background_height_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_select_dialog_padding_start_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_switch_padding = global::CoinHybridApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_body_1_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_body_2_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_button_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_caption_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_1_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_2_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_3_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_4_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_headline_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_large_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_medium_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_menu_header_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_menu_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_small_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_subhead_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_title_material = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_title_material_toolbar = global::CoinHybridApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_compat_inset_shadow = global::CoinHybridApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_default_elevation = global::CoinHybridApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_default_radius = global::CoinHybridApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_inset_horizontal_material = global::CoinHybridApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_inset_vertical_material = global::CoinHybridApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_padding_horizontal_material = global::CoinHybridApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_padding_vertical_material = global::CoinHybridApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_control_corner_material = global::CoinHybridApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_notification_large_icon_max_height = global::CoinHybridApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Acr.UserDialogs.Resource.Dimension.compat_notification_large_icon_max_width = global::CoinHybridApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_appbar_elevation = global::CoinHybridApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_text_size = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_elevation = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_height = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_icon_size = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_item_max_width = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_item_min_width = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_margin = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_shadow_height = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_text_size = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_sheet_peek_height_min = global::CoinHybridApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_border_width = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_elevation = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_image_size = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_size_mini = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_size_normal = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_translation_z_pressed = global::CoinHybridApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_elevation = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_icon_padding = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_icon_size = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_item_horizontal_padding = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_item_icon_padding = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_max_width = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_padding_bottom = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_separator_vertical_padding = global::CoinHybridApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_action_inline_max_width = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_background_corner_radius = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_elevation = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_max_width = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_min_width = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_horizontal = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_vertical = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_text_size = global::CoinHybridApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_max_width = global::CoinHybridApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_scrollable_min_width = global::CoinHybridApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_text_size = global::CoinHybridApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_text_size_2line = global::CoinHybridApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Acr.UserDialogs.Resource.Dimension.design_textinput_caption_translate_y = global::CoinHybridApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Acr.UserDialogs.Resource.Dimension.disabled_alpha_material_dark = global::CoinHybridApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.disabled_alpha_material_light = global::CoinHybridApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_default_thickness = global::CoinHybridApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_margin = global::CoinHybridApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_minimum_range = global::CoinHybridApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_colored = global::CoinHybridApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_dark = global::CoinHybridApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_light = global::CoinHybridApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.hint_alpha_material_dark = global::CoinHybridApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.hint_alpha_material_light = global::CoinHybridApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.hint_pressed_alpha_material_dark = global::CoinHybridApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.hint_pressed_alpha_material_light = global::CoinHybridApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CoinHybridApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CoinHybridApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CoinHybridApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_height = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_corner_radius = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_disabled_elevation = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_disabled_z = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_elevation = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_focused_z = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_hovered_z = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_icon_padding = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_inset = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_letter_spacing = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_bottom = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_left = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_right = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_top = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_pressed_z = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_stroke_size = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_size = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_z = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_card_elevation = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_card_spacing = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_chip_text_size = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_elevation = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_elevation = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_snackbar_margin = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_padding_end = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_toolbar_default_height = global::CoinHybridApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Acr.UserDialogs.Resource.Dimension.notification_action_icon_size = global::CoinHybridApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_action_text_size = global::CoinHybridApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_big_circle_margin = global::CoinHybridApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Acr.UserDialogs.Resource.Dimension.notification_content_margin_start = global::CoinHybridApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Acr.UserDialogs.Resource.Dimension.notification_large_icon_height = global::CoinHybridApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Acr.UserDialogs.Resource.Dimension.notification_large_icon_width = global::CoinHybridApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Acr.UserDialogs.Resource.Dimension.notification_main_column_padding_top = global::CoinHybridApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.notification_media_narrow_margin = global::CoinHybridApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Acr.UserDialogs.Resource.Dimension.notification_right_icon_size = global::CoinHybridApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_right_side_padding_top = global::CoinHybridApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.notification_small_icon_background_padding = global::CoinHybridApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Acr.UserDialogs.Resource.Dimension.notification_small_icon_size_as_large = global::CoinHybridApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Acr.UserDialogs.Resource.Dimension.notification_subtext_size = global::CoinHybridApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_top_pad = global::CoinHybridApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Acr.UserDialogs.Resource.Dimension.notification_top_pad_large_text = global::CoinHybridApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_corner_radius = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_horizontal_padding = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_margin = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_precise_anchor_threshold = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_vertical_padding = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_y_offset_non_touch = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_y_offset_touch = global::CoinHybridApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_action_bar_item_background_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_borderless_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_colored_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_default_mtrl_shape = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CoinHybridApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_internal_bg = global::CoinHybridApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_top_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_control_background_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_dialog_material_background = global::CoinHybridApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Acr.UserDialogs.Resource.Drawable.abc_edit_text_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_ab_back_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_clear_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_go_search_api_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_overflow_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_search_api_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_black_16dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_black_36dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_black_48dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_half_black_16dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_half_black_36dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_star_half_black_48dp = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_voice_search_api_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_item_background_holo_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_item_background_holo_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_divider_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_focused_holo = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_longpressed_holo = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_pressed_holo_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_pressed_holo_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_holo_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_holo_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CoinHybridApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Acr.UserDialogs.Resource.Drawable.abc_popup_background_mtrl_mult = global::CoinHybridApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_indicator_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_small_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CoinHybridApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CoinHybridApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_thumb_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_tick_mark_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_track_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_spinner_textfield_background_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_switch_thumb_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_tab_indicator_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CoinHybridApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_cursor_material = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CoinHybridApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_vector_test = global::CoinHybridApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Acr.UserDialogs.Resource.Drawable.avd_hide_password = global::CoinHybridApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Acr.UserDialogs.Resource.Drawable.avd_show_password = global::CoinHybridApp.Droid.Resource.Drawable.avd_show_password;
+			global::Acr.UserDialogs.Resource.Drawable.design_bottom_navigation_item_background = global::CoinHybridApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Acr.UserDialogs.Resource.Drawable.design_fab_background = global::CoinHybridApp.Droid.Resource.Drawable.design_fab_background;
+			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility = global::CoinHybridApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility_off = global::CoinHybridApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Acr.UserDialogs.Resource.Drawable.design_password_eye = global::CoinHybridApp.Droid.Resource.Drawable.design_password_eye;
+			global::Acr.UserDialogs.Resource.Drawable.design_snackbar_background = global::CoinHybridApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Acr.UserDialogs.Resource.Drawable.ic_errorstatus = global::CoinHybridApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_checked_black = global::CoinHybridApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CoinHybridApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_close_circle = global::CoinHybridApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Acr.UserDialogs.Resource.Drawable.ic_successstatus = global::CoinHybridApp.Droid.Resource.Drawable.ic_successstatus;
+			global::Acr.UserDialogs.Resource.Drawable.mtrl_snackbar_background = global::CoinHybridApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Acr.UserDialogs.Resource.Drawable.mtrl_tabs_default_indicator = global::CoinHybridApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Acr.UserDialogs.Resource.Drawable.navigation_empty_icon = global::CoinHybridApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Acr.UserDialogs.Resource.Drawable.notification_action_background = global::CoinHybridApp.Droid.Resource.Drawable.notification_action_background;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg = global::CoinHybridApp.Droid.Resource.Drawable.notification_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low = global::CoinHybridApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low_normal = global::CoinHybridApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low_pressed = global::CoinHybridApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_normal = global::CoinHybridApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_normal_pressed = global::CoinHybridApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Acr.UserDialogs.Resource.Drawable.notification_icon_background = global::CoinHybridApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Acr.UserDialogs.Resource.Drawable.notification_template_icon_bg = global::CoinHybridApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_template_icon_low_bg = global::CoinHybridApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_tile_bg = global::CoinHybridApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notify_panel_notification_icon_bg = global::CoinHybridApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Acr.UserDialogs.Resource.Drawable.roundedbg = global::CoinHybridApp.Droid.Resource.Drawable.roundedbg;
+			global::Acr.UserDialogs.Resource.Drawable.roundedbgdark = global::CoinHybridApp.Droid.Resource.Drawable.roundedbgdark;
+			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_dark = global::CoinHybridApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_light = global::CoinHybridApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Acr.UserDialogs.Resource.Id.actions = global::CoinHybridApp.Droid.Resource.Id.actions;
+			global::Acr.UserDialogs.Resource.Id.action_bar = global::CoinHybridApp.Droid.Resource.Id.action_bar;
+			global::Acr.UserDialogs.Resource.Id.action_bar_activity_content = global::CoinHybridApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Acr.UserDialogs.Resource.Id.action_bar_container = global::CoinHybridApp.Droid.Resource.Id.action_bar_container;
+			global::Acr.UserDialogs.Resource.Id.action_bar_root = global::CoinHybridApp.Droid.Resource.Id.action_bar_root;
+			global::Acr.UserDialogs.Resource.Id.action_bar_spinner = global::CoinHybridApp.Droid.Resource.Id.action_bar_spinner;
+			global::Acr.UserDialogs.Resource.Id.action_bar_subtitle = global::CoinHybridApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Acr.UserDialogs.Resource.Id.action_bar_title = global::CoinHybridApp.Droid.Resource.Id.action_bar_title;
+			global::Acr.UserDialogs.Resource.Id.action_container = global::CoinHybridApp.Droid.Resource.Id.action_container;
+			global::Acr.UserDialogs.Resource.Id.action_context_bar = global::CoinHybridApp.Droid.Resource.Id.action_context_bar;
+			global::Acr.UserDialogs.Resource.Id.action_divider = global::CoinHybridApp.Droid.Resource.Id.action_divider;
+			global::Acr.UserDialogs.Resource.Id.action_image = global::CoinHybridApp.Droid.Resource.Id.action_image;
+			global::Acr.UserDialogs.Resource.Id.action_menu_divider = global::CoinHybridApp.Droid.Resource.Id.action_menu_divider;
+			global::Acr.UserDialogs.Resource.Id.action_menu_presenter = global::CoinHybridApp.Droid.Resource.Id.action_menu_presenter;
+			global::Acr.UserDialogs.Resource.Id.action_mode_bar = global::CoinHybridApp.Droid.Resource.Id.action_mode_bar;
+			global::Acr.UserDialogs.Resource.Id.action_mode_bar_stub = global::CoinHybridApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Acr.UserDialogs.Resource.Id.action_mode_close_button = global::CoinHybridApp.Droid.Resource.Id.action_mode_close_button;
+			global::Acr.UserDialogs.Resource.Id.action_text = global::CoinHybridApp.Droid.Resource.Id.action_text;
+			global::Acr.UserDialogs.Resource.Id.activity_chooser_view_content = global::CoinHybridApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Acr.UserDialogs.Resource.Id.add = global::CoinHybridApp.Droid.Resource.Id.add;
+			global::Acr.UserDialogs.Resource.Id.alertTitle = global::CoinHybridApp.Droid.Resource.Id.alertTitle;
+			global::Acr.UserDialogs.Resource.Id.all = global::CoinHybridApp.Droid.Resource.Id.all;
+			global::Acr.UserDialogs.Resource.Id.ALT = global::CoinHybridApp.Droid.Resource.Id.ALT;
+			global::Acr.UserDialogs.Resource.Id.always = global::CoinHybridApp.Droid.Resource.Id.always;
+			global::Acr.UserDialogs.Resource.Id.async = global::CoinHybridApp.Droid.Resource.Id.async;
+			global::Acr.UserDialogs.Resource.Id.auto = global::CoinHybridApp.Droid.Resource.Id.auto;
+			global::Acr.UserDialogs.Resource.Id.beginning = global::CoinHybridApp.Droid.Resource.Id.beginning;
+			global::Acr.UserDialogs.Resource.Id.blocking = global::CoinHybridApp.Droid.Resource.Id.blocking;
+			global::Acr.UserDialogs.Resource.Id.bottom = global::CoinHybridApp.Droid.Resource.Id.bottom;
+			global::Acr.UserDialogs.Resource.Id.buttonPanel = global::CoinHybridApp.Droid.Resource.Id.buttonPanel;
+			global::Acr.UserDialogs.Resource.Id.center = global::CoinHybridApp.Droid.Resource.Id.center;
+			global::Acr.UserDialogs.Resource.Id.center_horizontal = global::CoinHybridApp.Droid.Resource.Id.center_horizontal;
+			global::Acr.UserDialogs.Resource.Id.center_vertical = global::CoinHybridApp.Droid.Resource.Id.center_vertical;
+			global::Acr.UserDialogs.Resource.Id.checkbox = global::CoinHybridApp.Droid.Resource.Id.checkbox;
+			global::Acr.UserDialogs.Resource.Id.chronometer = global::CoinHybridApp.Droid.Resource.Id.chronometer;
+			global::Acr.UserDialogs.Resource.Id.clip_horizontal = global::CoinHybridApp.Droid.Resource.Id.clip_horizontal;
+			global::Acr.UserDialogs.Resource.Id.clip_vertical = global::CoinHybridApp.Droid.Resource.Id.clip_vertical;
+			global::Acr.UserDialogs.Resource.Id.collapseActionView = global::CoinHybridApp.Droid.Resource.Id.collapseActionView;
+			global::Acr.UserDialogs.Resource.Id.container = global::CoinHybridApp.Droid.Resource.Id.container;
+			global::Acr.UserDialogs.Resource.Id.content = global::CoinHybridApp.Droid.Resource.Id.content;
+			global::Acr.UserDialogs.Resource.Id.contentPanel = global::CoinHybridApp.Droid.Resource.Id.contentPanel;
+			global::Acr.UserDialogs.Resource.Id.coordinator = global::CoinHybridApp.Droid.Resource.Id.coordinator;
+			global::Acr.UserDialogs.Resource.Id.CTRL = global::CoinHybridApp.Droid.Resource.Id.CTRL;
+			global::Acr.UserDialogs.Resource.Id.custom = global::CoinHybridApp.Droid.Resource.Id.custom;
+			global::Acr.UserDialogs.Resource.Id.customPanel = global::CoinHybridApp.Droid.Resource.Id.customPanel;
+			global::Acr.UserDialogs.Resource.Id.decor_content_parent = global::CoinHybridApp.Droid.Resource.Id.decor_content_parent;
+			global::Acr.UserDialogs.Resource.Id.default_activity_button = global::CoinHybridApp.Droid.Resource.Id.default_activity_button;
+			global::Acr.UserDialogs.Resource.Id.design_bottom_sheet = global::CoinHybridApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area = global::CoinHybridApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area_stub = global::CoinHybridApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_text = global::CoinHybridApp.Droid.Resource.Id.design_menu_item_text;
+			global::Acr.UserDialogs.Resource.Id.design_navigation_view = global::CoinHybridApp.Droid.Resource.Id.design_navigation_view;
+			global::Acr.UserDialogs.Resource.Id.disableHome = global::CoinHybridApp.Droid.Resource.Id.disableHome;
+			global::Acr.UserDialogs.Resource.Id.edit_query = global::CoinHybridApp.Droid.Resource.Id.edit_query;
+			global::Acr.UserDialogs.Resource.Id.end = global::CoinHybridApp.Droid.Resource.Id.end;
+			global::Acr.UserDialogs.Resource.Id.enterAlways = global::CoinHybridApp.Droid.Resource.Id.enterAlways;
+			global::Acr.UserDialogs.Resource.Id.enterAlwaysCollapsed = global::CoinHybridApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Acr.UserDialogs.Resource.Id.exitUntilCollapsed = global::CoinHybridApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Acr.UserDialogs.Resource.Id.expanded_menu = global::CoinHybridApp.Droid.Resource.Id.expanded_menu;
+			global::Acr.UserDialogs.Resource.Id.expand_activities_button = global::CoinHybridApp.Droid.Resource.Id.expand_activities_button;
+			global::Acr.UserDialogs.Resource.Id.fill = global::CoinHybridApp.Droid.Resource.Id.fill;
+			global::Acr.UserDialogs.Resource.Id.filled = global::CoinHybridApp.Droid.Resource.Id.filled;
+			global::Acr.UserDialogs.Resource.Id.fill_horizontal = global::CoinHybridApp.Droid.Resource.Id.fill_horizontal;
+			global::Acr.UserDialogs.Resource.Id.fill_vertical = global::CoinHybridApp.Droid.Resource.Id.fill_vertical;
+			global::Acr.UserDialogs.Resource.Id.@fixed = global::CoinHybridApp.Droid.Resource.Id.@fixed;
+			global::Acr.UserDialogs.Resource.Id.forever = global::CoinHybridApp.Droid.Resource.Id.forever;
+			global::Acr.UserDialogs.Resource.Id.FUNCTION = global::CoinHybridApp.Droid.Resource.Id.FUNCTION;
+			global::Acr.UserDialogs.Resource.Id.ghost_view = global::CoinHybridApp.Droid.Resource.Id.ghost_view;
+			global::Acr.UserDialogs.Resource.Id.group_divider = global::CoinHybridApp.Droid.Resource.Id.group_divider;
+			global::Acr.UserDialogs.Resource.Id.home = global::CoinHybridApp.Droid.Resource.Id.home;
+			global::Acr.UserDialogs.Resource.Id.homeAsUp = global::CoinHybridApp.Droid.Resource.Id.homeAsUp;
+			global::Acr.UserDialogs.Resource.Id.icon = global::CoinHybridApp.Droid.Resource.Id.icon;
+			global::Acr.UserDialogs.Resource.Id.icon_group = global::CoinHybridApp.Droid.Resource.Id.icon_group;
+			global::Acr.UserDialogs.Resource.Id.ifRoom = global::CoinHybridApp.Droid.Resource.Id.ifRoom;
+			global::Acr.UserDialogs.Resource.Id.image = global::CoinHybridApp.Droid.Resource.Id.image;
+			global::Acr.UserDialogs.Resource.Id.info = global::CoinHybridApp.Droid.Resource.Id.info;
+			global::Acr.UserDialogs.Resource.Id.italic = global::CoinHybridApp.Droid.Resource.Id.italic;
+			global::Acr.UserDialogs.Resource.Id.item_touch_helper_previous_elevation = global::CoinHybridApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Acr.UserDialogs.Resource.Id.labeled = global::CoinHybridApp.Droid.Resource.Id.labeled;
+			global::Acr.UserDialogs.Resource.Id.largeLabel = global::CoinHybridApp.Droid.Resource.Id.largeLabel;
+			global::Acr.UserDialogs.Resource.Id.left = global::CoinHybridApp.Droid.Resource.Id.left;
+			global::Acr.UserDialogs.Resource.Id.line1 = global::CoinHybridApp.Droid.Resource.Id.line1;
+			global::Acr.UserDialogs.Resource.Id.line3 = global::CoinHybridApp.Droid.Resource.Id.line3;
+			global::Acr.UserDialogs.Resource.Id.listMode = global::CoinHybridApp.Droid.Resource.Id.listMode;
+			global::Acr.UserDialogs.Resource.Id.list_item = global::CoinHybridApp.Droid.Resource.Id.list_item;
+			global::Acr.UserDialogs.Resource.Id.loadingImage = global::CoinHybridApp.Droid.Resource.Id.loadingImage;
+			global::Acr.UserDialogs.Resource.Id.loadingProgressBar = global::CoinHybridApp.Droid.Resource.Id.loadingProgressBar;
+			global::Acr.UserDialogs.Resource.Id.loadingProgressWheel = global::CoinHybridApp.Droid.Resource.Id.loadingProgressWheel;
+			global::Acr.UserDialogs.Resource.Id.masked = global::CoinHybridApp.Droid.Resource.Id.masked;
+			global::Acr.UserDialogs.Resource.Id.message = global::CoinHybridApp.Droid.Resource.Id.message;
+			global::Acr.UserDialogs.Resource.Id.META = global::CoinHybridApp.Droid.Resource.Id.META;
+			global::Acr.UserDialogs.Resource.Id.middle = global::CoinHybridApp.Droid.Resource.Id.middle;
+			global::Acr.UserDialogs.Resource.Id.mini = global::CoinHybridApp.Droid.Resource.Id.mini;
+			global::Acr.UserDialogs.Resource.Id.mtrl_child_content_container = global::CoinHybridApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Acr.UserDialogs.Resource.Id.mtrl_internal_children_alpha_tag = global::CoinHybridApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Acr.UserDialogs.Resource.Id.multiply = global::CoinHybridApp.Droid.Resource.Id.multiply;
+			global::Acr.UserDialogs.Resource.Id.navigation_header_container = global::CoinHybridApp.Droid.Resource.Id.navigation_header_container;
+			global::Acr.UserDialogs.Resource.Id.never = global::CoinHybridApp.Droid.Resource.Id.never;
+			global::Acr.UserDialogs.Resource.Id.none = global::CoinHybridApp.Droid.Resource.Id.none;
+			global::Acr.UserDialogs.Resource.Id.normal = global::CoinHybridApp.Droid.Resource.Id.normal;
+			global::Acr.UserDialogs.Resource.Id.notification_background = global::CoinHybridApp.Droid.Resource.Id.notification_background;
+			global::Acr.UserDialogs.Resource.Id.notification_main_column = global::CoinHybridApp.Droid.Resource.Id.notification_main_column;
+			global::Acr.UserDialogs.Resource.Id.notification_main_column_container = global::CoinHybridApp.Droid.Resource.Id.notification_main_column_container;
+			global::Acr.UserDialogs.Resource.Id.outline = global::CoinHybridApp.Droid.Resource.Id.outline;
+			global::Acr.UserDialogs.Resource.Id.parallax = global::CoinHybridApp.Droid.Resource.Id.parallax;
+			global::Acr.UserDialogs.Resource.Id.parentPanel = global::CoinHybridApp.Droid.Resource.Id.parentPanel;
+			global::Acr.UserDialogs.Resource.Id.parent_matrix = global::CoinHybridApp.Droid.Resource.Id.parent_matrix;
+			global::Acr.UserDialogs.Resource.Id.pin = global::CoinHybridApp.Droid.Resource.Id.pin;
+			global::Acr.UserDialogs.Resource.Id.progress_circular = global::CoinHybridApp.Droid.Resource.Id.progress_circular;
+			global::Acr.UserDialogs.Resource.Id.progress_horizontal = global::CoinHybridApp.Droid.Resource.Id.progress_horizontal;
+			global::Acr.UserDialogs.Resource.Id.radio = global::CoinHybridApp.Droid.Resource.Id.radio;
+			global::Acr.UserDialogs.Resource.Id.right = global::CoinHybridApp.Droid.Resource.Id.right;
+			global::Acr.UserDialogs.Resource.Id.right_icon = global::CoinHybridApp.Droid.Resource.Id.right_icon;
+			global::Acr.UserDialogs.Resource.Id.right_side = global::CoinHybridApp.Droid.Resource.Id.right_side;
+			global::Acr.UserDialogs.Resource.Id.save_image_matrix = global::CoinHybridApp.Droid.Resource.Id.save_image_matrix;
+			global::Acr.UserDialogs.Resource.Id.save_non_transition_alpha = global::CoinHybridApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Acr.UserDialogs.Resource.Id.save_scale_type = global::CoinHybridApp.Droid.Resource.Id.save_scale_type;
+			global::Acr.UserDialogs.Resource.Id.screen = global::CoinHybridApp.Droid.Resource.Id.screen;
+			global::Acr.UserDialogs.Resource.Id.scroll = global::CoinHybridApp.Droid.Resource.Id.scroll;
+			global::Acr.UserDialogs.Resource.Id.scrollable = global::CoinHybridApp.Droid.Resource.Id.scrollable;
+			global::Acr.UserDialogs.Resource.Id.scrollIndicatorDown = global::CoinHybridApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Acr.UserDialogs.Resource.Id.scrollIndicatorUp = global::CoinHybridApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Acr.UserDialogs.Resource.Id.scrollView = global::CoinHybridApp.Droid.Resource.Id.scrollView;
+			global::Acr.UserDialogs.Resource.Id.search_badge = global::CoinHybridApp.Droid.Resource.Id.search_badge;
+			global::Acr.UserDialogs.Resource.Id.search_bar = global::CoinHybridApp.Droid.Resource.Id.search_bar;
+			global::Acr.UserDialogs.Resource.Id.search_button = global::CoinHybridApp.Droid.Resource.Id.search_button;
+			global::Acr.UserDialogs.Resource.Id.search_close_btn = global::CoinHybridApp.Droid.Resource.Id.search_close_btn;
+			global::Acr.UserDialogs.Resource.Id.search_edit_frame = global::CoinHybridApp.Droid.Resource.Id.search_edit_frame;
+			global::Acr.UserDialogs.Resource.Id.search_go_btn = global::CoinHybridApp.Droid.Resource.Id.search_go_btn;
+			global::Acr.UserDialogs.Resource.Id.search_mag_icon = global::CoinHybridApp.Droid.Resource.Id.search_mag_icon;
+			global::Acr.UserDialogs.Resource.Id.search_plate = global::CoinHybridApp.Droid.Resource.Id.search_plate;
+			global::Acr.UserDialogs.Resource.Id.search_src_text = global::CoinHybridApp.Droid.Resource.Id.search_src_text;
+			global::Acr.UserDialogs.Resource.Id.search_voice_btn = global::CoinHybridApp.Droid.Resource.Id.search_voice_btn;
+			global::Acr.UserDialogs.Resource.Id.selected = global::CoinHybridApp.Droid.Resource.Id.selected;
+			global::Acr.UserDialogs.Resource.Id.select_dialog_listview = global::CoinHybridApp.Droid.Resource.Id.select_dialog_listview;
+			global::Acr.UserDialogs.Resource.Id.SHIFT = global::CoinHybridApp.Droid.Resource.Id.SHIFT;
+			global::Acr.UserDialogs.Resource.Id.shortcut = global::CoinHybridApp.Droid.Resource.Id.shortcut;
+			global::Acr.UserDialogs.Resource.Id.showCustom = global::CoinHybridApp.Droid.Resource.Id.showCustom;
+			global::Acr.UserDialogs.Resource.Id.showHome = global::CoinHybridApp.Droid.Resource.Id.showHome;
+			global::Acr.UserDialogs.Resource.Id.showTitle = global::CoinHybridApp.Droid.Resource.Id.showTitle;
+			global::Acr.UserDialogs.Resource.Id.smallLabel = global::CoinHybridApp.Droid.Resource.Id.smallLabel;
+			global::Acr.UserDialogs.Resource.Id.snackbar_action = global::CoinHybridApp.Droid.Resource.Id.snackbar_action;
+			global::Acr.UserDialogs.Resource.Id.snackbar_text = global::CoinHybridApp.Droid.Resource.Id.snackbar_text;
+			global::Acr.UserDialogs.Resource.Id.snap = global::CoinHybridApp.Droid.Resource.Id.snap;
+			global::Acr.UserDialogs.Resource.Id.snapMargins = global::CoinHybridApp.Droid.Resource.Id.snapMargins;
+			global::Acr.UserDialogs.Resource.Id.spacer = global::CoinHybridApp.Droid.Resource.Id.spacer;
+			global::Acr.UserDialogs.Resource.Id.split_action_bar = global::CoinHybridApp.Droid.Resource.Id.split_action_bar;
+			global::Acr.UserDialogs.Resource.Id.src_atop = global::CoinHybridApp.Droid.Resource.Id.src_atop;
+			global::Acr.UserDialogs.Resource.Id.src_in = global::CoinHybridApp.Droid.Resource.Id.src_in;
+			global::Acr.UserDialogs.Resource.Id.src_over = global::CoinHybridApp.Droid.Resource.Id.src_over;
+			global::Acr.UserDialogs.Resource.Id.start = global::CoinHybridApp.Droid.Resource.Id.start;
+			global::Acr.UserDialogs.Resource.Id.stretch = global::CoinHybridApp.Droid.Resource.Id.stretch;
+			global::Acr.UserDialogs.Resource.Id.submenuarrow = global::CoinHybridApp.Droid.Resource.Id.submenuarrow;
+			global::Acr.UserDialogs.Resource.Id.submit_area = global::CoinHybridApp.Droid.Resource.Id.submit_area;
+			global::Acr.UserDialogs.Resource.Id.SYM = global::CoinHybridApp.Droid.Resource.Id.SYM;
+			global::Acr.UserDialogs.Resource.Id.tabMode = global::CoinHybridApp.Droid.Resource.Id.tabMode;
+			global::Acr.UserDialogs.Resource.Id.tag_transition_group = global::CoinHybridApp.Droid.Resource.Id.tag_transition_group;
+			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_event_manager = global::CoinHybridApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_listeners = global::CoinHybridApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Acr.UserDialogs.Resource.Id.text = global::CoinHybridApp.Droid.Resource.Id.text;
+			global::Acr.UserDialogs.Resource.Id.text2 = global::CoinHybridApp.Droid.Resource.Id.text2;
+			global::Acr.UserDialogs.Resource.Id.textinput_counter = global::CoinHybridApp.Droid.Resource.Id.textinput_counter;
+			global::Acr.UserDialogs.Resource.Id.textinput_error = global::CoinHybridApp.Droid.Resource.Id.textinput_error;
+			global::Acr.UserDialogs.Resource.Id.textinput_helper_text = global::CoinHybridApp.Droid.Resource.Id.textinput_helper_text;
+			global::Acr.UserDialogs.Resource.Id.textSpacerNoButtons = global::CoinHybridApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Acr.UserDialogs.Resource.Id.textSpacerNoTitle = global::CoinHybridApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Acr.UserDialogs.Resource.Id.textStart = global::CoinHybridApp.Droid.Resource.Id.textStart;
+			global::Acr.UserDialogs.Resource.Id.textViewStatus = global::CoinHybridApp.Droid.Resource.Id.textViewStatus;
+			global::Acr.UserDialogs.Resource.Id.text_input_password_toggle = global::CoinHybridApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Acr.UserDialogs.Resource.Id.time = global::CoinHybridApp.Droid.Resource.Id.time;
+			global::Acr.UserDialogs.Resource.Id.title = global::CoinHybridApp.Droid.Resource.Id.title;
+			global::Acr.UserDialogs.Resource.Id.titleDividerNoCustom = global::CoinHybridApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Acr.UserDialogs.Resource.Id.title_template = global::CoinHybridApp.Droid.Resource.Id.title_template;
+			global::Acr.UserDialogs.Resource.Id.top = global::CoinHybridApp.Droid.Resource.Id.top;
+			global::Acr.UserDialogs.Resource.Id.topPanel = global::CoinHybridApp.Droid.Resource.Id.topPanel;
+			global::Acr.UserDialogs.Resource.Id.touch_outside = global::CoinHybridApp.Droid.Resource.Id.touch_outside;
+			global::Acr.UserDialogs.Resource.Id.transition_current_scene = global::CoinHybridApp.Droid.Resource.Id.transition_current_scene;
+			global::Acr.UserDialogs.Resource.Id.transition_layout_save = global::CoinHybridApp.Droid.Resource.Id.transition_layout_save;
+			global::Acr.UserDialogs.Resource.Id.transition_position = global::CoinHybridApp.Droid.Resource.Id.transition_position;
+			global::Acr.UserDialogs.Resource.Id.transition_scene_layoutid_cache = global::CoinHybridApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Acr.UserDialogs.Resource.Id.transition_transform = global::CoinHybridApp.Droid.Resource.Id.transition_transform;
+			global::Acr.UserDialogs.Resource.Id.uniform = global::CoinHybridApp.Droid.Resource.Id.uniform;
+			global::Acr.UserDialogs.Resource.Id.unlabeled = global::CoinHybridApp.Droid.Resource.Id.unlabeled;
+			global::Acr.UserDialogs.Resource.Id.up = global::CoinHybridApp.Droid.Resource.Id.up;
+			global::Acr.UserDialogs.Resource.Id.useLogo = global::CoinHybridApp.Droid.Resource.Id.useLogo;
+			global::Acr.UserDialogs.Resource.Id.view_offset_helper = global::CoinHybridApp.Droid.Resource.Id.view_offset_helper;
+			global::Acr.UserDialogs.Resource.Id.visible = global::CoinHybridApp.Droid.Resource.Id.visible;
+			global::Acr.UserDialogs.Resource.Id.withText = global::CoinHybridApp.Droid.Resource.Id.withText;
+			global::Acr.UserDialogs.Resource.Id.wrap_content = global::CoinHybridApp.Droid.Resource.Id.wrap_content;
+			global::Acr.UserDialogs.Resource.Integer.abc_config_activityDefaultDur = global::CoinHybridApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Acr.UserDialogs.Resource.Integer.abc_config_activityShortDur = global::CoinHybridApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Acr.UserDialogs.Resource.Integer.app_bar_elevation_anim_duration = global::CoinHybridApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Acr.UserDialogs.Resource.Integer.bottom_sheet_slide_duration = global::CoinHybridApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Acr.UserDialogs.Resource.Integer.cancel_button_image_alpha = global::CoinHybridApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Acr.UserDialogs.Resource.Integer.config_tooltipAnimTime = global::CoinHybridApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Acr.UserDialogs.Resource.Integer.design_snackbar_text_max_lines = global::CoinHybridApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Acr.UserDialogs.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CoinHybridApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.hide_password_duration = global::CoinHybridApp.Droid.Resource.Integer.hide_password_duration;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_btn_anim_delay_ms = global::CoinHybridApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_btn_anim_duration_ms = global::CoinHybridApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_chip_anim_duration = global::CoinHybridApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CoinHybridApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.show_password_duration = global::CoinHybridApp.Droid.Resource.Integer.show_password_duration;
+			global::Acr.UserDialogs.Resource.Integer.status_bar_notification_info_maxnum = global::CoinHybridApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_linear_in = global::CoinHybridApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_slow_in = global::CoinHybridApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear = global::CoinHybridApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear_out_slow_in = global::CoinHybridApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_bar_title_item = global::CoinHybridApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_bar_up_container = global::CoinHybridApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_menu_item_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_menu_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_mode_bar = global::CoinHybridApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_mode_close_item_material = global::CoinHybridApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_activity_chooser_view = global::CoinHybridApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Acr.UserDialogs.Resource.Layout.abc_activity_chooser_view_list_item = global::CoinHybridApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_button_bar_material = global::CoinHybridApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_material = global::CoinHybridApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_title_material = global::CoinHybridApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_cascading_menu_item_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_dialog_title_material = global::CoinHybridApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_expanded_menu_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_checkbox = global::CoinHybridApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_icon = global::CoinHybridApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_radio = global::CoinHybridApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Acr.UserDialogs.Resource.Layout.abc_popup_menu_header_item_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_popup_menu_item_layout = global::CoinHybridApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_content_include = global::CoinHybridApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_simple = global::CoinHybridApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CoinHybridApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_toolbar = global::CoinHybridApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Acr.UserDialogs.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CoinHybridApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Acr.UserDialogs.Resource.Layout.abc_search_view = global::CoinHybridApp.Droid.Resource.Layout.abc_search_view;
+			global::Acr.UserDialogs.Resource.Layout.abc_select_dialog_material = global::CoinHybridApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_tooltip = global::CoinHybridApp.Droid.Resource.Layout.abc_tooltip;
+			global::Acr.UserDialogs.Resource.Layout.design_bottom_navigation_item = global::CoinHybridApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Acr.UserDialogs.Resource.Layout.design_bottom_sheet_dialog = global::CoinHybridApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar = global::CoinHybridApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar_include = global::CoinHybridApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_tab_icon = global::CoinHybridApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_tab_text = global::CoinHybridApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Acr.UserDialogs.Resource.Layout.design_menu_item_action_area = global::CoinHybridApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item = global::CoinHybridApp.Droid.Resource.Layout.design_navigation_item;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_header = global::CoinHybridApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_separator = global::CoinHybridApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_subheader = global::CoinHybridApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_menu = global::CoinHybridApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_menu_item = global::CoinHybridApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Acr.UserDialogs.Resource.Layout.design_text_input_password_icon = global::CoinHybridApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Acr.UserDialogs.Resource.Layout.loading = global::CoinHybridApp.Droid.Resource.Layout.loading;
+			global::Acr.UserDialogs.Resource.Layout.loadingimage = global::CoinHybridApp.Droid.Resource.Layout.loadingimage;
+			global::Acr.UserDialogs.Resource.Layout.loadingprogress = global::CoinHybridApp.Droid.Resource.Layout.loadingprogress;
+			global::Acr.UserDialogs.Resource.Layout.mtrl_layout_snackbar = global::CoinHybridApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Acr.UserDialogs.Resource.Layout.mtrl_layout_snackbar_include = global::CoinHybridApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Acr.UserDialogs.Resource.Layout.notification_action = global::CoinHybridApp.Droid.Resource.Layout.notification_action;
+			global::Acr.UserDialogs.Resource.Layout.notification_action_tombstone = global::CoinHybridApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_custom_big = global::CoinHybridApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_icon_group = global::CoinHybridApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_part_chronometer = global::CoinHybridApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_part_time = global::CoinHybridApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_item_material = global::CoinHybridApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_multichoice_material = global::CoinHybridApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_singlechoice_material = global::CoinHybridApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Acr.UserDialogs.Resource.Layout.support_simple_spinner_dropdown_item = global::CoinHybridApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Acr.UserDialogs.Resource.String.abc_action_bar_home_description = global::CoinHybridApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_bar_up_description = global::CoinHybridApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_menu_overflow_description = global::CoinHybridApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_mode_done = global::CoinHybridApp.Droid.Resource.String.abc_action_mode_done;
+			global::Acr.UserDialogs.Resource.String.abc_activitychooserview_choose_application = global::CoinHybridApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Acr.UserDialogs.Resource.String.abc_activity_chooser_view_see_all = global::CoinHybridApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Acr.UserDialogs.Resource.String.abc_capital_off = global::CoinHybridApp.Droid.Resource.String.abc_capital_off;
+			global::Acr.UserDialogs.Resource.String.abc_capital_on = global::CoinHybridApp.Droid.Resource.String.abc_capital_on;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_body_1_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_body_2_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_button_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_caption_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_1_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_2_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_3_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_display_4_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_headline_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_menu_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_subhead_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Acr.UserDialogs.Resource.String.abc_font_family_title_material = global::CoinHybridApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Acr.UserDialogs.Resource.String.abc_menu_alt_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_ctrl_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_delete_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_enter_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_function_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_meta_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_shift_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_space_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_sym_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_prepend_shortcut_label = global::CoinHybridApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_clear = global::CoinHybridApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_query = global::CoinHybridApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_search = global::CoinHybridApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_submit = global::CoinHybridApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_voice = global::CoinHybridApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Acr.UserDialogs.Resource.String.abc_search_hint = global::CoinHybridApp.Droid.Resource.String.abc_search_hint;
+			global::Acr.UserDialogs.Resource.String.abc_shareactionprovider_share_with = global::CoinHybridApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Acr.UserDialogs.Resource.String.abc_shareactionprovider_share_with_application = global::CoinHybridApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Acr.UserDialogs.Resource.String.abc_toolbar_collapse_description = global::CoinHybridApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Acr.UserDialogs.Resource.String.appbar_scrolling_view_behavior = global::CoinHybridApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Acr.UserDialogs.Resource.String.bottom_sheet_behavior = global::CoinHybridApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Acr.UserDialogs.Resource.String.character_counter_content_description = global::CoinHybridApp.Droid.Resource.String.character_counter_content_description;
+			global::Acr.UserDialogs.Resource.String.character_counter_pattern = global::CoinHybridApp.Droid.Resource.String.character_counter_pattern;
+			global::Acr.UserDialogs.Resource.String.fab_transformation_scrim_behavior = global::CoinHybridApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Acr.UserDialogs.Resource.String.fab_transformation_sheet_behavior = global::CoinHybridApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Acr.UserDialogs.Resource.String.hide_bottom_view_on_scroll_behavior = global::CoinHybridApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Acr.UserDialogs.Resource.String.library_name = global::CoinHybridApp.Droid.Resource.String.library_name;
+			global::Acr.UserDialogs.Resource.String.mtrl_chip_close_icon_content_description = global::CoinHybridApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Acr.UserDialogs.Resource.String.password_toggle_content_description = global::CoinHybridApp.Droid.Resource.String.password_toggle_content_description;
+			global::Acr.UserDialogs.Resource.String.path_password_eye = global::CoinHybridApp.Droid.Resource.String.path_password_eye;
+			global::Acr.UserDialogs.Resource.String.path_password_eye_mask_strike_through = global::CoinHybridApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Acr.UserDialogs.Resource.String.path_password_eye_mask_visible = global::CoinHybridApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Acr.UserDialogs.Resource.String.path_password_strike_through = global::CoinHybridApp.Droid.Resource.String.path_password_strike_through;
+			global::Acr.UserDialogs.Resource.String.search_menu_title = global::CoinHybridApp.Droid.Resource.String.search_menu_title;
+			global::Acr.UserDialogs.Resource.String.status_bar_notification_info_overflow = global::CoinHybridApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Acr.UserDialogs.Resource.Style.AlertDialog_AppCompat = global::CoinHybridApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.AlertDialog_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_DropDownUp = global::CoinHybridApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_Tooltip = global::CoinHybridApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Animation_Design_BottomSheetDialog = global::CoinHybridApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_AlertDialog_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CoinHybridApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CoinHybridApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Base_CardView = global::CoinHybridApp.Droid.Resource.Style.Base_CardView;
+			global::Acr.UserDialogs.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CoinHybridApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V22_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V23_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CoinHybridApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_V28_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CoinHybridApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_EditText = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SearchView = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_Design_TabLayout = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CoinHybridApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Acr.UserDialogs.Resource.Style.CardView = global::CoinHybridApp.Droid.Resource.Style.CardView;
+			global::Acr.UserDialogs.Resource.Style.CardView_Dark = global::CoinHybridApp.Droid.Resource.Style.CardView_Dark;
+			global::Acr.UserDialogs.Resource.Style.CardView_Light = global::CoinHybridApp.Droid.Resource.Style.CardView_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents = global::CoinHybridApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Light = global::CoinHybridApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CoinHybridApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_V21_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_V21_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_V25_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_V25_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CoinHybridApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CoinHybridApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Acr.UserDialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CoinHybridApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CoinHybridApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Body1 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Body2 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Button = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Caption = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display1 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display2 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display3 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display4 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Headline = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Large = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Medium = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Menu = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Small = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Subhead = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Info = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Time = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Counter = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Error = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_HelperText = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Hint = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Tab = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Button = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Tab = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CoinHybridApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CoinHybridApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_CompactMenu = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design = global::CoinHybridApp.Droid.Resource.Style.Theme_Design;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_BottomSheetDialog = global::CoinHybridApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light = global::CoinHybridApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CoinHybridApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Bridge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CoinHybridApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionMode = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ButtonBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Borderless = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Colored = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Small = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_EditText = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ImageButton = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_SearchView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListMenuView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView_Menu = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupMenu = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupWindow = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ProgressBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SearchView = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SeekBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CoinHybridApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Acr.UserDialogs.Resource.Style.Widget_Compat_NotificationActionContainer = global::CoinHybridApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Acr.UserDialogs.Resource.Style.Widget_Compat_NotificationActionText = global::CoinHybridApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_AppBarLayout = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_BottomNavigationView = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_BottomSheet_Modal = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_CollapsingToolbar = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_FloatingActionButton = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_NavigationView = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_Snackbar = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_TabLayout = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_TextInputLayout = global::CoinHybridApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_CardView = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_NavigationView = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Snackbar = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TabLayout = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Toolbar = global::CoinHybridApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Support_CoordinatorLayout = global::CoinHybridApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBarLayout = global::CoinHybridApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CoinHybridApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_background = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_backgroundSplit = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_backgroundStacked = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetEnd = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetLeft = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetRight = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetStart = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_customNavigationLayout = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_displayOptions = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_divider = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_elevation = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_height = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_hideOnContentScroll = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_homeLayout = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_icon = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_itemPadding = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_logo = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_navigationMode = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_popupTheme = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_progressBarPadding = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_progressBarStyle = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_subtitle = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_subtitleTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_title = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_titleTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuItemView = global::CoinHybridApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CoinHybridApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuView = global::CoinHybridApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_background = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_backgroundSplit = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_closeItemLayout = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_height = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_subtitleTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_titleTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView = global::CoinHybridApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CoinHybridApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CoinHybridApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_android_layout = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_buttonIconDimen = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_listItemLayout = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_listLayout = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_showTitle = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CoinHybridApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CoinHybridApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_background = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_elevation = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_expanded = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_liftOnScroll = global::CoinHybridApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_android_src = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_srcCompat = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_tint = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_tintMode = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMark = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_fontFamily = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lineHeight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_textAllCaps = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarSize = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorAccent = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorError = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorPrimary = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_controlBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dividerVertical = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextColor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_switchStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionBar = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CoinHybridApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_backgroundTint = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_hideOnScroll = global::CoinHybridApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_elevation = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemBackground = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemIconSize = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemIconTint = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemTextColor = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_menu = global::CoinHybridApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout = global::CoinHybridApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CoinHybridApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CoinHybridApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CoinHybridApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CoinHybridApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Acr.UserDialogs.Resource.Styleable.ButtonBarLayout = global::CoinHybridApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ButtonBarLayout_allowStacking = global::CoinHybridApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Acr.UserDialogs.Resource.Styleable.CardView = global::CoinHybridApp.Droid.Resource.Styleable.CardView;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_android_minHeight = global::CoinHybridApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_android_minWidth = global::CoinHybridApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardBackgroundColor = global::CoinHybridApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardCornerRadius = global::CoinHybridApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardElevation = global::CoinHybridApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardMaxElevation = global::CoinHybridApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CoinHybridApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardUseCompatPadding = global::CoinHybridApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPadding = global::CoinHybridApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingBottom = global::CoinHybridApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingLeft = global::CoinHybridApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingRight = global::CoinHybridApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingTop = global::CoinHybridApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.Chip = global::CoinHybridApp.Droid.Resource.Styleable.Chip;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_checkedChip = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacing = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_singleLine = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_singleSelection = global::CoinHybridApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_checkable = global::CoinHybridApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_ellipsize = global::CoinHybridApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_maxWidth = global::CoinHybridApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_text = global::CoinHybridApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_textAppearance = global::CoinHybridApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIcon = global::CoinHybridApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIconEnabled = global::CoinHybridApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIconVisible = global::CoinHybridApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipBackgroundColor = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipCornerRadius = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipEndPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIcon = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconEnabled = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconSize = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconTint = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconVisible = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipMinHeight = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStartPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStrokeColor = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStrokeWidth = global::CoinHybridApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIcon = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconEnabled = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconEndPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconSize = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconStartPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconTint = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconVisible = global::CoinHybridApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_hideMotionSpec = global::CoinHybridApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_iconEndPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_iconStartPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_rippleColor = global::CoinHybridApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_showMotionSpec = global::CoinHybridApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_textEndPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_textStartPadding = global::CoinHybridApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_title = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CoinHybridApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem = global::CoinHybridApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_alpha = global::CoinHybridApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_alpha = global::CoinHybridApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_color = global::CoinHybridApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton = global::CoinHybridApp.Droid.Resource.Styleable.CompoundButton;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_android_button = global::CoinHybridApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTint = global::CoinHybridApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTintMode = global::CoinHybridApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_keylines = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CoinHybridApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Acr.UserDialogs.Resource.Styleable.DesignTheme = global::CoinHybridApp.Droid.Resource.Styleable.DesignTheme;
+			global::Acr.UserDialogs.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::CoinHybridApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.DesignTheme_bottomSheetStyle = global::CoinHybridApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_barLength = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_color = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_spinBars = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_thickness = global::CoinHybridApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_backgroundTint = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_borderWidth = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_elevation = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_fabSize = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_maxImageSize = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_rippleColor = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CoinHybridApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout = global::CoinHybridApp.Droid.Resource.Styleable.FlowLayout;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout_itemSpacing = global::CoinHybridApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout_lineSpacing = global::CoinHybridApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_font = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_font = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontStyle = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontWeight = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_ttcIndex = global::CoinHybridApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderAuthority = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderCerts = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderPackage = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderQuery = global::CoinHybridApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout = global::CoinHybridApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CoinHybridApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CoinHybridApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CoinHybridApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem = global::CoinHybridApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem_android_color = global::CoinHybridApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem_android_offset = global::CoinHybridApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerColor = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerX = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerY = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endColor = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endX = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endY = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_gradientRadius = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startColor = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startX = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startY = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_tileMode = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_type = global::CoinHybridApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_divider = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_showDividers = global::CoinHybridApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow = global::CoinHybridApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CoinHybridApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CoinHybridApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetBottom = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetLeft = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetRight = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetTop = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_backgroundTint = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_backgroundTintMode = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_cornerRadius = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_icon = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconGravity = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconPadding = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconSize = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconTint = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconTintMode = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_rippleColor = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_strokeColor = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_strokeWidth = global::CoinHybridApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView = global::CoinHybridApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView_strokeColor = global::CoinHybridApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView_strokeWidth = global::CoinHybridApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::CoinHybridApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_enabled = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_id = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_menuCategory = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_orderInCategory = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_visible = global::CoinHybridApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionLayout = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionProviderClass = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionViewClass = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_alphabeticModifiers = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_checkable = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_checked = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_enabled = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_icon = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_id = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_menuCategory = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_numericShortcut = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_onClick = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_orderInCategory = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_title = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_titleCondensed = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_visible = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_contentDescription = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_iconTint = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_iconTintMode = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_numericModifiers = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_showAsAction = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_tooltipText = global::CoinHybridApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView = global::CoinHybridApp.Droid.Resource.Styleable.MenuView;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_headerBackground = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_horizontalDivider = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemBackground = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_verticalDivider = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_preserveIconSpacing = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_subMenuArrow = global::CoinHybridApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_background = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_maxWidth = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_elevation = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_headerLayout = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemBackground = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemIconPadding = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemIconTint = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemTextColor = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_menu = global::CoinHybridApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow = global::CoinHybridApp.Droid.Resource.Styleable.PopupWindow;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindowBackgroundState = global::CoinHybridApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CoinHybridApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CoinHybridApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_android_popupBackground = global::CoinHybridApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_overlapAnchor = global::CoinHybridApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarLength = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarWidth = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahCircleColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahDelayMillis = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRadius = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRimColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRimWidth = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahText = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahTextColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahTextSize = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView = global::CoinHybridApp.Droid.Resource.Styleable.RecycleListView;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CoinHybridApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CoinHybridApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_orientation = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollEnabled = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_layoutManager = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_reverseLayout = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_spanCount = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_stackFromEnd = global::CoinHybridApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Acr.UserDialogs.Resource.Styleable.ScrimInsetsFrameLayout = global::CoinHybridApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CoinHybridApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Acr.UserDialogs.Resource.Styleable.ScrollingViewBehavior_Layout = global::CoinHybridApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::CoinHybridApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView = global::CoinHybridApp.Droid.Resource.Styleable.SearchView;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_focusable = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_imeOptions = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_inputType = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_maxWidth = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_closeIcon = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_commitIcon = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_defaultQueryHint = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_goIcon = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_iconifiedByDefault = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_layout = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_queryBackground = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_queryHint = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_searchHintIcon = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_searchIcon = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_submitBackground = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_suggestionRowLayout = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_voiceIcon = global::CoinHybridApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar = global::CoinHybridApp.Droid.Resource.Styleable.Snackbar;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout = global::CoinHybridApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CoinHybridApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_elevation = global::CoinHybridApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CoinHybridApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CoinHybridApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar_snackbarStyle = global::CoinHybridApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner = global::CoinHybridApp.Droid.Resource.Styleable.Spinner;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_dropDownWidth = global::CoinHybridApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_entries = global::CoinHybridApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_popupBackground = global::CoinHybridApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_prompt = global::CoinHybridApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_popupTheme = global::CoinHybridApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawableItem = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawableItem_android_drawable = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_constantSize = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_dither = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_variablePadding = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_visible = global::CoinHybridApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_textOff = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_textOn = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_thumb = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_showText = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_splitTrack = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchMinWidth = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchPadding = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTint = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTintMode = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_track = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_trackTint = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_trackTintMode = global::CoinHybridApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem = global::CoinHybridApp.Droid.Resource.Styleable.TabItem;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_icon = global::CoinHybridApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_layout = global::CoinHybridApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_text = global::CoinHybridApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabBackground = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabContentStart = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabGravity = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIconTint = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIconTintMode = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicator = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorColor = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabInlineLabel = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMaxWidth = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMinWidth = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMode = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPadding = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingBottom = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingEnd = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingStart = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingTop = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabRippleColor = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabTextColor = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CoinHybridApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_fontFamily = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowColor = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowDx = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowDy = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowRadius = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColor = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorHint = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorLink = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textSize = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textStyle = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_typeface = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_fontFamily = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_textAllCaps = global::CoinHybridApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_hint = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_textColorHint = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterEnabled = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterMaxLength = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_errorEnabled = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperText = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintEnabled = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CoinHybridApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement = global::CoinHybridApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CoinHybridApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CoinHybridApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_android_gravity = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_android_minHeight = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_buttonGravity = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_collapseContentDescription = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_collapseIcon = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetEnd = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetLeft = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetRight = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetStart = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logo = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logoDescription = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_maxButtonHeight = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationContentDescription = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationIcon = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_popupTheme = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitle = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitleTextColor = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_title = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMargin = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginBottom = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginEnd = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMargins = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginStart = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginTop = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleTextAppearance = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleTextColor = global::CoinHybridApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.View = global::CoinHybridApp.Droid.Resource.Styleable.View;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper = global::CoinHybridApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_android_background = global::CoinHybridApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CoinHybridApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CoinHybridApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat = global::CoinHybridApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_id = global::CoinHybridApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CoinHybridApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_layout = global::CoinHybridApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.View_android_focusable = global::CoinHybridApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Acr.UserDialogs.Resource.Styleable.View_android_theme = global::CoinHybridApp.Droid.Resource.Styleable.View_android_theme;
+			global::Acr.UserDialogs.Resource.Styleable.View_paddingEnd = global::CoinHybridApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.View_paddingStart = global::CoinHybridApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.View_theme = global::CoinHybridApp.Droid.Resource.Styleable.View_theme;
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::CoinHybridApp.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::CoinHybridApp.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::CoinHybridApp.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::CoinHybridApp.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::CoinHybridApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::CoinHybridApp.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::CoinHybridApp.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::CoinHybridApp.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::CoinHybridApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::CoinHybridApp.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::CoinHybridApp.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::CoinHybridApp.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::CoinHybridApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::CoinHybridApp.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::CoinHybridApp.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::CoinHybridApp.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::CoinHybridApp.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::CoinHybridApp.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::CoinHybridApp.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::CoinHybridApp.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::CoinHybridApp.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::CoinHybridApp.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::CoinHybridApp.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::CoinHybridApp.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::CoinHybridApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Microcharts.Droid.Resource.String.library_name = global::CoinHybridApp.Droid.Resource.String.library_name;
 			global::Rg.Plugins.Popup.Resource.Animation.abc_fade_in = global::CoinHybridApp.Droid.Resource.Animation.abc_fade_in;
 			global::Rg.Plugins.Popup.Resource.Animation.abc_fade_out = global::CoinHybridApp.Droid.Resource.Animation.abc_fade_out;
@@ -8151,1333 +10744,1369 @@ namespace CoinHybridApp.Droid
 			public const int activityChooserViewStyle = 2130968609;
 			
 			// aapt resource value: 0x7F040022
-			public const int alertDialogButtonGroupStyle = 2130968610;
+			public const int ahBarColor = 2130968610;
 			
 			// aapt resource value: 0x7F040023
-			public const int alertDialogCenterButtons = 2130968611;
+			public const int ahBarLength = 2130968611;
 			
 			// aapt resource value: 0x7F040024
-			public const int alertDialogStyle = 2130968612;
+			public const int ahBarWidth = 2130968612;
 			
 			// aapt resource value: 0x7F040025
-			public const int alertDialogTheme = 2130968613;
+			public const int ahCircleColor = 2130968613;
 			
 			// aapt resource value: 0x7F040026
-			public const int allowStacking = 2130968614;
+			public const int ahDelayMillis = 2130968614;
 			
 			// aapt resource value: 0x7F040027
-			public const int alpha = 2130968615;
+			public const int ahRadius = 2130968615;
 			
 			// aapt resource value: 0x7F040028
-			public const int alphabeticModifiers = 2130968616;
+			public const int ahRimColor = 2130968616;
 			
 			// aapt resource value: 0x7F040029
-			public const int arrowHeadLength = 2130968617;
+			public const int ahRimWidth = 2130968617;
 			
 			// aapt resource value: 0x7F04002A
-			public const int arrowShaftLength = 2130968618;
+			public const int ahSpinSpeed = 2130968618;
 			
 			// aapt resource value: 0x7F04002B
-			public const int autoCompleteTextViewStyle = 2130968619;
+			public const int ahText = 2130968619;
 			
 			// aapt resource value: 0x7F04002C
-			public const int autoSizeMaxTextSize = 2130968620;
+			public const int ahTextColor = 2130968620;
 			
 			// aapt resource value: 0x7F04002D
-			public const int autoSizeMinTextSize = 2130968621;
+			public const int ahTextSize = 2130968621;
 			
 			// aapt resource value: 0x7F04002E
-			public const int autoSizePresetSizes = 2130968622;
+			public const int alertDialogButtonGroupStyle = 2130968622;
 			
 			// aapt resource value: 0x7F04002F
-			public const int autoSizeStepGranularity = 2130968623;
+			public const int alertDialogCenterButtons = 2130968623;
 			
 			// aapt resource value: 0x7F040030
-			public const int autoSizeTextType = 2130968624;
+			public const int alertDialogStyle = 2130968624;
 			
 			// aapt resource value: 0x7F040031
-			public const int background = 2130968625;
+			public const int alertDialogTheme = 2130968625;
 			
 			// aapt resource value: 0x7F040032
-			public const int backgroundSplit = 2130968626;
+			public const int allowStacking = 2130968626;
 			
 			// aapt resource value: 0x7F040033
-			public const int backgroundStacked = 2130968627;
+			public const int alpha = 2130968627;
 			
 			// aapt resource value: 0x7F040034
-			public const int backgroundTint = 2130968628;
+			public const int alphabeticModifiers = 2130968628;
 			
 			// aapt resource value: 0x7F040035
-			public const int backgroundTintMode = 2130968629;
+			public const int arrowHeadLength = 2130968629;
 			
 			// aapt resource value: 0x7F040036
-			public const int barLength = 2130968630;
+			public const int arrowShaftLength = 2130968630;
 			
 			// aapt resource value: 0x7F040037
-			public const int behavior_autoHide = 2130968631;
+			public const int autoCompleteTextViewStyle = 2130968631;
 			
 			// aapt resource value: 0x7F040038
-			public const int behavior_fitToContents = 2130968632;
+			public const int autoSizeMaxTextSize = 2130968632;
 			
 			// aapt resource value: 0x7F040039
-			public const int behavior_hideable = 2130968633;
+			public const int autoSizeMinTextSize = 2130968633;
 			
 			// aapt resource value: 0x7F04003A
-			public const int behavior_overlapTop = 2130968634;
+			public const int autoSizePresetSizes = 2130968634;
 			
 			// aapt resource value: 0x7F04003B
-			public const int behavior_peekHeight = 2130968635;
+			public const int autoSizeStepGranularity = 2130968635;
 			
 			// aapt resource value: 0x7F04003C
-			public const int behavior_skipCollapsed = 2130968636;
-			
-			// aapt resource value: 0x7F04003E
-			public const int borderlessButtonStyle = 2130968638;
+			public const int autoSizeTextType = 2130968636;
 			
 			// aapt resource value: 0x7F04003D
-			public const int borderWidth = 2130968637;
+			public const int background = 2130968637;
+			
+			// aapt resource value: 0x7F04003E
+			public const int backgroundSplit = 2130968638;
 			
 			// aapt resource value: 0x7F04003F
-			public const int bottomAppBarStyle = 2130968639;
+			public const int backgroundStacked = 2130968639;
 			
 			// aapt resource value: 0x7F040040
-			public const int bottomNavigationStyle = 2130968640;
+			public const int backgroundTint = 2130968640;
 			
 			// aapt resource value: 0x7F040041
-			public const int bottomSheetDialogTheme = 2130968641;
+			public const int backgroundTintMode = 2130968641;
 			
 			// aapt resource value: 0x7F040042
-			public const int bottomSheetStyle = 2130968642;
+			public const int barLength = 2130968642;
 			
 			// aapt resource value: 0x7F040043
-			public const int boxBackgroundColor = 2130968643;
+			public const int behavior_autoHide = 2130968643;
 			
 			// aapt resource value: 0x7F040044
-			public const int boxBackgroundMode = 2130968644;
+			public const int behavior_fitToContents = 2130968644;
 			
 			// aapt resource value: 0x7F040045
-			public const int boxCollapsedPaddingTop = 2130968645;
+			public const int behavior_hideable = 2130968645;
 			
 			// aapt resource value: 0x7F040046
-			public const int boxCornerRadiusBottomEnd = 2130968646;
+			public const int behavior_overlapTop = 2130968646;
 			
 			// aapt resource value: 0x7F040047
-			public const int boxCornerRadiusBottomStart = 2130968647;
+			public const int behavior_peekHeight = 2130968647;
 			
 			// aapt resource value: 0x7F040048
-			public const int boxCornerRadiusTopEnd = 2130968648;
-			
-			// aapt resource value: 0x7F040049
-			public const int boxCornerRadiusTopStart = 2130968649;
+			public const int behavior_skipCollapsed = 2130968648;
 			
 			// aapt resource value: 0x7F04004A
-			public const int boxStrokeColor = 2130968650;
+			public const int borderlessButtonStyle = 2130968650;
+			
+			// aapt resource value: 0x7F040049
+			public const int borderWidth = 2130968649;
 			
 			// aapt resource value: 0x7F04004B
-			public const int boxStrokeWidth = 2130968651;
+			public const int bottomAppBarStyle = 2130968651;
 			
 			// aapt resource value: 0x7F04004C
-			public const int buttonBarButtonStyle = 2130968652;
+			public const int bottomNavigationStyle = 2130968652;
 			
 			// aapt resource value: 0x7F04004D
-			public const int buttonBarNegativeButtonStyle = 2130968653;
+			public const int bottomSheetDialogTheme = 2130968653;
 			
 			// aapt resource value: 0x7F04004E
-			public const int buttonBarNeutralButtonStyle = 2130968654;
+			public const int bottomSheetStyle = 2130968654;
 			
 			// aapt resource value: 0x7F04004F
-			public const int buttonBarPositiveButtonStyle = 2130968655;
+			public const int boxBackgroundColor = 2130968655;
 			
 			// aapt resource value: 0x7F040050
-			public const int buttonBarStyle = 2130968656;
+			public const int boxBackgroundMode = 2130968656;
 			
 			// aapt resource value: 0x7F040051
-			public const int buttonGravity = 2130968657;
+			public const int boxCollapsedPaddingTop = 2130968657;
 			
 			// aapt resource value: 0x7F040052
-			public const int buttonIconDimen = 2130968658;
+			public const int boxCornerRadiusBottomEnd = 2130968658;
 			
 			// aapt resource value: 0x7F040053
-			public const int buttonPanelSideLayout = 2130968659;
+			public const int boxCornerRadiusBottomStart = 2130968659;
 			
 			// aapt resource value: 0x7F040054
-			public const int buttonStyle = 2130968660;
+			public const int boxCornerRadiusTopEnd = 2130968660;
 			
 			// aapt resource value: 0x7F040055
-			public const int buttonStyleSmall = 2130968661;
+			public const int boxCornerRadiusTopStart = 2130968661;
 			
 			// aapt resource value: 0x7F040056
-			public const int buttonTint = 2130968662;
+			public const int boxStrokeColor = 2130968662;
 			
 			// aapt resource value: 0x7F040057
-			public const int buttonTintMode = 2130968663;
+			public const int boxStrokeWidth = 2130968663;
 			
 			// aapt resource value: 0x7F040058
-			public const int cardBackgroundColor = 2130968664;
+			public const int buttonBarButtonStyle = 2130968664;
 			
 			// aapt resource value: 0x7F040059
-			public const int cardCornerRadius = 2130968665;
+			public const int buttonBarNegativeButtonStyle = 2130968665;
 			
 			// aapt resource value: 0x7F04005A
-			public const int cardElevation = 2130968666;
+			public const int buttonBarNeutralButtonStyle = 2130968666;
 			
 			// aapt resource value: 0x7F04005B
-			public const int cardMaxElevation = 2130968667;
+			public const int buttonBarPositiveButtonStyle = 2130968667;
 			
 			// aapt resource value: 0x7F04005C
-			public const int cardPreventCornerOverlap = 2130968668;
+			public const int buttonBarStyle = 2130968668;
 			
 			// aapt resource value: 0x7F04005D
-			public const int cardUseCompatPadding = 2130968669;
+			public const int buttonGravity = 2130968669;
 			
 			// aapt resource value: 0x7F04005E
-			public const int cardViewStyle = 2130968670;
+			public const int buttonIconDimen = 2130968670;
 			
 			// aapt resource value: 0x7F04005F
-			public const int checkboxStyle = 2130968671;
+			public const int buttonPanelSideLayout = 2130968671;
 			
 			// aapt resource value: 0x7F040060
-			public const int checkedChip = 2130968672;
+			public const int buttonStyle = 2130968672;
 			
 			// aapt resource value: 0x7F040061
-			public const int checkedIcon = 2130968673;
+			public const int buttonStyleSmall = 2130968673;
 			
 			// aapt resource value: 0x7F040062
-			public const int checkedIconEnabled = 2130968674;
+			public const int buttonTint = 2130968674;
 			
 			// aapt resource value: 0x7F040063
-			public const int checkedIconVisible = 2130968675;
+			public const int buttonTintMode = 2130968675;
 			
 			// aapt resource value: 0x7F040064
-			public const int checkedTextViewStyle = 2130968676;
+			public const int cardBackgroundColor = 2130968676;
 			
 			// aapt resource value: 0x7F040065
-			public const int chipBackgroundColor = 2130968677;
+			public const int cardCornerRadius = 2130968677;
 			
 			// aapt resource value: 0x7F040066
-			public const int chipCornerRadius = 2130968678;
+			public const int cardElevation = 2130968678;
 			
 			// aapt resource value: 0x7F040067
-			public const int chipEndPadding = 2130968679;
+			public const int cardMaxElevation = 2130968679;
 			
 			// aapt resource value: 0x7F040068
-			public const int chipGroupStyle = 2130968680;
+			public const int cardPreventCornerOverlap = 2130968680;
 			
 			// aapt resource value: 0x7F040069
-			public const int chipIcon = 2130968681;
+			public const int cardUseCompatPadding = 2130968681;
 			
 			// aapt resource value: 0x7F04006A
-			public const int chipIconEnabled = 2130968682;
+			public const int cardViewStyle = 2130968682;
 			
 			// aapt resource value: 0x7F04006B
-			public const int chipIconSize = 2130968683;
+			public const int checkboxStyle = 2130968683;
 			
 			// aapt resource value: 0x7F04006C
-			public const int chipIconTint = 2130968684;
+			public const int checkedChip = 2130968684;
 			
 			// aapt resource value: 0x7F04006D
-			public const int chipIconVisible = 2130968685;
+			public const int checkedIcon = 2130968685;
 			
 			// aapt resource value: 0x7F04006E
-			public const int chipMinHeight = 2130968686;
+			public const int checkedIconEnabled = 2130968686;
 			
 			// aapt resource value: 0x7F04006F
-			public const int chipSpacing = 2130968687;
+			public const int checkedIconVisible = 2130968687;
 			
 			// aapt resource value: 0x7F040070
-			public const int chipSpacingHorizontal = 2130968688;
+			public const int checkedTextViewStyle = 2130968688;
 			
 			// aapt resource value: 0x7F040071
-			public const int chipSpacingVertical = 2130968689;
+			public const int chipBackgroundColor = 2130968689;
 			
 			// aapt resource value: 0x7F040072
-			public const int chipStandaloneStyle = 2130968690;
+			public const int chipCornerRadius = 2130968690;
 			
 			// aapt resource value: 0x7F040073
-			public const int chipStartPadding = 2130968691;
+			public const int chipEndPadding = 2130968691;
 			
 			// aapt resource value: 0x7F040074
-			public const int chipStrokeColor = 2130968692;
+			public const int chipGroupStyle = 2130968692;
 			
 			// aapt resource value: 0x7F040075
-			public const int chipStrokeWidth = 2130968693;
+			public const int chipIcon = 2130968693;
 			
 			// aapt resource value: 0x7F040076
-			public const int chipStyle = 2130968694;
+			public const int chipIconEnabled = 2130968694;
 			
 			// aapt resource value: 0x7F040077
-			public const int closeIcon = 2130968695;
+			public const int chipIconSize = 2130968695;
 			
 			// aapt resource value: 0x7F040078
-			public const int closeIconEnabled = 2130968696;
+			public const int chipIconTint = 2130968696;
 			
 			// aapt resource value: 0x7F040079
-			public const int closeIconEndPadding = 2130968697;
+			public const int chipIconVisible = 2130968697;
 			
 			// aapt resource value: 0x7F04007A
-			public const int closeIconSize = 2130968698;
+			public const int chipMinHeight = 2130968698;
 			
 			// aapt resource value: 0x7F04007B
-			public const int closeIconStartPadding = 2130968699;
+			public const int chipSpacing = 2130968699;
 			
 			// aapt resource value: 0x7F04007C
-			public const int closeIconTint = 2130968700;
+			public const int chipSpacingHorizontal = 2130968700;
 			
 			// aapt resource value: 0x7F04007D
-			public const int closeIconVisible = 2130968701;
+			public const int chipSpacingVertical = 2130968701;
 			
 			// aapt resource value: 0x7F04007E
-			public const int closeItemLayout = 2130968702;
+			public const int chipStandaloneStyle = 2130968702;
 			
 			// aapt resource value: 0x7F04007F
-			public const int collapseContentDescription = 2130968703;
-			
-			// aapt resource value: 0x7F040081
-			public const int collapsedTitleGravity = 2130968705;
-			
-			// aapt resource value: 0x7F040082
-			public const int collapsedTitleTextAppearance = 2130968706;
+			public const int chipStartPadding = 2130968703;
 			
 			// aapt resource value: 0x7F040080
-			public const int collapseIcon = 2130968704;
+			public const int chipStrokeColor = 2130968704;
+			
+			// aapt resource value: 0x7F040081
+			public const int chipStrokeWidth = 2130968705;
+			
+			// aapt resource value: 0x7F040082
+			public const int chipStyle = 2130968706;
 			
 			// aapt resource value: 0x7F040083
-			public const int color = 2130968707;
+			public const int closeIcon = 2130968707;
 			
 			// aapt resource value: 0x7F040084
-			public const int colorAccent = 2130968708;
+			public const int closeIconEnabled = 2130968708;
 			
 			// aapt resource value: 0x7F040085
-			public const int colorBackgroundFloating = 2130968709;
+			public const int closeIconEndPadding = 2130968709;
 			
 			// aapt resource value: 0x7F040086
-			public const int colorButtonNormal = 2130968710;
+			public const int closeIconSize = 2130968710;
 			
 			// aapt resource value: 0x7F040087
-			public const int colorControlActivated = 2130968711;
+			public const int closeIconStartPadding = 2130968711;
 			
 			// aapt resource value: 0x7F040088
-			public const int colorControlHighlight = 2130968712;
+			public const int closeIconTint = 2130968712;
 			
 			// aapt resource value: 0x7F040089
-			public const int colorControlNormal = 2130968713;
+			public const int closeIconVisible = 2130968713;
 			
 			// aapt resource value: 0x7F04008A
-			public const int colorError = 2130968714;
+			public const int closeItemLayout = 2130968714;
 			
 			// aapt resource value: 0x7F04008B
-			public const int colorPrimary = 2130968715;
-			
-			// aapt resource value: 0x7F04008C
-			public const int colorPrimaryDark = 2130968716;
+			public const int collapseContentDescription = 2130968715;
 			
 			// aapt resource value: 0x7F04008D
-			public const int colorSecondary = 2130968717;
+			public const int collapsedTitleGravity = 2130968717;
 			
 			// aapt resource value: 0x7F04008E
-			public const int colorSwitchThumbNormal = 2130968718;
+			public const int collapsedTitleTextAppearance = 2130968718;
+			
+			// aapt resource value: 0x7F04008C
+			public const int collapseIcon = 2130968716;
 			
 			// aapt resource value: 0x7F04008F
-			public const int commitIcon = 2130968719;
+			public const int color = 2130968719;
 			
 			// aapt resource value: 0x7F040090
-			public const int contentDescription = 2130968720;
+			public const int colorAccent = 2130968720;
 			
 			// aapt resource value: 0x7F040091
-			public const int contentInsetEnd = 2130968721;
+			public const int colorBackgroundFloating = 2130968721;
 			
 			// aapt resource value: 0x7F040092
-			public const int contentInsetEndWithActions = 2130968722;
+			public const int colorButtonNormal = 2130968722;
 			
 			// aapt resource value: 0x7F040093
-			public const int contentInsetLeft = 2130968723;
+			public const int colorControlActivated = 2130968723;
 			
 			// aapt resource value: 0x7F040094
-			public const int contentInsetRight = 2130968724;
+			public const int colorControlHighlight = 2130968724;
 			
 			// aapt resource value: 0x7F040095
-			public const int contentInsetStart = 2130968725;
+			public const int colorControlNormal = 2130968725;
 			
 			// aapt resource value: 0x7F040096
-			public const int contentInsetStartWithNavigation = 2130968726;
+			public const int colorError = 2130968726;
 			
 			// aapt resource value: 0x7F040097
-			public const int contentPadding = 2130968727;
+			public const int colorPrimary = 2130968727;
 			
 			// aapt resource value: 0x7F040098
-			public const int contentPaddingBottom = 2130968728;
+			public const int colorPrimaryDark = 2130968728;
 			
 			// aapt resource value: 0x7F040099
-			public const int contentPaddingLeft = 2130968729;
+			public const int colorSecondary = 2130968729;
 			
 			// aapt resource value: 0x7F04009A
-			public const int contentPaddingRight = 2130968730;
+			public const int colorSwitchThumbNormal = 2130968730;
 			
 			// aapt resource value: 0x7F04009B
-			public const int contentPaddingTop = 2130968731;
+			public const int commitIcon = 2130968731;
 			
 			// aapt resource value: 0x7F04009C
-			public const int contentScrim = 2130968732;
+			public const int contentDescription = 2130968732;
 			
 			// aapt resource value: 0x7F04009D
-			public const int controlBackground = 2130968733;
+			public const int contentInsetEnd = 2130968733;
 			
 			// aapt resource value: 0x7F04009E
-			public const int coordinatorLayoutStyle = 2130968734;
+			public const int contentInsetEndWithActions = 2130968734;
 			
 			// aapt resource value: 0x7F04009F
-			public const int cornerRadius = 2130968735;
+			public const int contentInsetLeft = 2130968735;
 			
 			// aapt resource value: 0x7F0400A0
-			public const int counterEnabled = 2130968736;
+			public const int contentInsetRight = 2130968736;
 			
 			// aapt resource value: 0x7F0400A1
-			public const int counterMaxLength = 2130968737;
+			public const int contentInsetStart = 2130968737;
 			
 			// aapt resource value: 0x7F0400A2
-			public const int counterOverflowTextAppearance = 2130968738;
+			public const int contentInsetStartWithNavigation = 2130968738;
 			
 			// aapt resource value: 0x7F0400A3
-			public const int counterTextAppearance = 2130968739;
+			public const int contentPadding = 2130968739;
 			
 			// aapt resource value: 0x7F0400A4
-			public const int customNavigationLayout = 2130968740;
+			public const int contentPaddingBottom = 2130968740;
 			
 			// aapt resource value: 0x7F0400A5
-			public const int defaultQueryHint = 2130968741;
+			public const int contentPaddingLeft = 2130968741;
 			
 			// aapt resource value: 0x7F0400A6
-			public const int dialogCornerRadius = 2130968742;
+			public const int contentPaddingRight = 2130968742;
 			
 			// aapt resource value: 0x7F0400A7
-			public const int dialogPreferredPadding = 2130968743;
+			public const int contentPaddingTop = 2130968743;
 			
 			// aapt resource value: 0x7F0400A8
-			public const int dialogTheme = 2130968744;
+			public const int contentScrim = 2130968744;
 			
 			// aapt resource value: 0x7F0400A9
-			public const int displayOptions = 2130968745;
+			public const int controlBackground = 2130968745;
 			
 			// aapt resource value: 0x7F0400AA
-			public const int divider = 2130968746;
+			public const int coordinatorLayoutStyle = 2130968746;
 			
 			// aapt resource value: 0x7F0400AB
-			public const int dividerHorizontal = 2130968747;
+			public const int cornerRadius = 2130968747;
 			
 			// aapt resource value: 0x7F0400AC
-			public const int dividerPadding = 2130968748;
+			public const int counterEnabled = 2130968748;
 			
 			// aapt resource value: 0x7F0400AD
-			public const int dividerVertical = 2130968749;
+			public const int counterMaxLength = 2130968749;
 			
 			// aapt resource value: 0x7F0400AE
-			public const int drawableSize = 2130968750;
+			public const int counterOverflowTextAppearance = 2130968750;
 			
 			// aapt resource value: 0x7F0400AF
-			public const int drawerArrowStyle = 2130968751;
-			
-			// aapt resource value: 0x7F0400B1
-			public const int dropdownListPreferredItemHeight = 2130968753;
+			public const int counterTextAppearance = 2130968751;
 			
 			// aapt resource value: 0x7F0400B0
-			public const int dropDownListViewStyle = 2130968752;
+			public const int customNavigationLayout = 2130968752;
+			
+			// aapt resource value: 0x7F0400B1
+			public const int defaultQueryHint = 2130968753;
 			
 			// aapt resource value: 0x7F0400B2
-			public const int editTextBackground = 2130968754;
+			public const int dialogCornerRadius = 2130968754;
 			
 			// aapt resource value: 0x7F0400B3
-			public const int editTextColor = 2130968755;
+			public const int dialogPreferredPadding = 2130968755;
 			
 			// aapt resource value: 0x7F0400B4
-			public const int editTextStyle = 2130968756;
+			public const int dialogTheme = 2130968756;
 			
 			// aapt resource value: 0x7F0400B5
-			public const int elevation = 2130968757;
+			public const int displayOptions = 2130968757;
 			
 			// aapt resource value: 0x7F0400B6
-			public const int enforceMaterialTheme = 2130968758;
+			public const int divider = 2130968758;
 			
 			// aapt resource value: 0x7F0400B7
-			public const int enforceTextAppearance = 2130968759;
+			public const int dividerHorizontal = 2130968759;
 			
 			// aapt resource value: 0x7F0400B8
-			public const int errorEnabled = 2130968760;
+			public const int dividerPadding = 2130968760;
 			
 			// aapt resource value: 0x7F0400B9
-			public const int errorTextAppearance = 2130968761;
+			public const int dividerVertical = 2130968761;
 			
 			// aapt resource value: 0x7F0400BA
-			public const int expandActivityOverflowButtonDrawable = 2130968762;
+			public const int drawableSize = 2130968762;
 			
 			// aapt resource value: 0x7F0400BB
-			public const int expanded = 2130968763;
-			
-			// aapt resource value: 0x7F0400BC
-			public const int expandedTitleGravity = 2130968764;
+			public const int drawerArrowStyle = 2130968763;
 			
 			// aapt resource value: 0x7F0400BD
-			public const int expandedTitleMargin = 2130968765;
+			public const int dropdownListPreferredItemHeight = 2130968765;
+			
+			// aapt resource value: 0x7F0400BC
+			public const int dropDownListViewStyle = 2130968764;
 			
 			// aapt resource value: 0x7F0400BE
-			public const int expandedTitleMarginBottom = 2130968766;
+			public const int editTextBackground = 2130968766;
 			
 			// aapt resource value: 0x7F0400BF
-			public const int expandedTitleMarginEnd = 2130968767;
+			public const int editTextColor = 2130968767;
 			
 			// aapt resource value: 0x7F0400C0
-			public const int expandedTitleMarginStart = 2130968768;
+			public const int editTextStyle = 2130968768;
 			
 			// aapt resource value: 0x7F0400C1
-			public const int expandedTitleMarginTop = 2130968769;
+			public const int elevation = 2130968769;
 			
 			// aapt resource value: 0x7F0400C2
-			public const int expandedTitleTextAppearance = 2130968770;
+			public const int enforceMaterialTheme = 2130968770;
 			
 			// aapt resource value: 0x7F0400C3
-			public const int fabAlignmentMode = 2130968771;
+			public const int enforceTextAppearance = 2130968771;
 			
 			// aapt resource value: 0x7F0400C4
-			public const int fabCradleMargin = 2130968772;
+			public const int errorEnabled = 2130968772;
 			
 			// aapt resource value: 0x7F0400C5
-			public const int fabCradleRoundedCornerRadius = 2130968773;
+			public const int errorTextAppearance = 2130968773;
 			
 			// aapt resource value: 0x7F0400C6
-			public const int fabCradleVerticalOffset = 2130968774;
+			public const int expandActivityOverflowButtonDrawable = 2130968774;
 			
 			// aapt resource value: 0x7F0400C7
-			public const int fabCustomSize = 2130968775;
+			public const int expanded = 2130968775;
 			
 			// aapt resource value: 0x7F0400C8
-			public const int fabSize = 2130968776;
+			public const int expandedTitleGravity = 2130968776;
 			
 			// aapt resource value: 0x7F0400C9
-			public const int fastScrollEnabled = 2130968777;
+			public const int expandedTitleMargin = 2130968777;
 			
 			// aapt resource value: 0x7F0400CA
-			public const int fastScrollHorizontalThumbDrawable = 2130968778;
+			public const int expandedTitleMarginBottom = 2130968778;
 			
 			// aapt resource value: 0x7F0400CB
-			public const int fastScrollHorizontalTrackDrawable = 2130968779;
+			public const int expandedTitleMarginEnd = 2130968779;
 			
 			// aapt resource value: 0x7F0400CC
-			public const int fastScrollVerticalThumbDrawable = 2130968780;
+			public const int expandedTitleMarginStart = 2130968780;
 			
 			// aapt resource value: 0x7F0400CD
-			public const int fastScrollVerticalTrackDrawable = 2130968781;
+			public const int expandedTitleMarginTop = 2130968781;
 			
 			// aapt resource value: 0x7F0400CE
-			public const int firstBaselineToTopHeight = 2130968782;
+			public const int expandedTitleTextAppearance = 2130968782;
 			
 			// aapt resource value: 0x7F0400CF
-			public const int floatingActionButtonStyle = 2130968783;
+			public const int fabAlignmentMode = 2130968783;
 			
 			// aapt resource value: 0x7F0400D0
-			public const int font = 2130968784;
+			public const int fabCradleMargin = 2130968784;
 			
 			// aapt resource value: 0x7F0400D1
-			public const int fontFamily = 2130968785;
+			public const int fabCradleRoundedCornerRadius = 2130968785;
 			
 			// aapt resource value: 0x7F0400D2
-			public const int fontProviderAuthority = 2130968786;
+			public const int fabCradleVerticalOffset = 2130968786;
 			
 			// aapt resource value: 0x7F0400D3
-			public const int fontProviderCerts = 2130968787;
+			public const int fabCustomSize = 2130968787;
 			
 			// aapt resource value: 0x7F0400D4
-			public const int fontProviderFetchStrategy = 2130968788;
+			public const int fabSize = 2130968788;
 			
 			// aapt resource value: 0x7F0400D5
-			public const int fontProviderFetchTimeout = 2130968789;
+			public const int fastScrollEnabled = 2130968789;
 			
 			// aapt resource value: 0x7F0400D6
-			public const int fontProviderPackage = 2130968790;
+			public const int fastScrollHorizontalThumbDrawable = 2130968790;
 			
 			// aapt resource value: 0x7F0400D7
-			public const int fontProviderQuery = 2130968791;
+			public const int fastScrollHorizontalTrackDrawable = 2130968791;
 			
 			// aapt resource value: 0x7F0400D8
-			public const int fontStyle = 2130968792;
+			public const int fastScrollVerticalThumbDrawable = 2130968792;
 			
 			// aapt resource value: 0x7F0400D9
-			public const int fontVariationSettings = 2130968793;
+			public const int fastScrollVerticalTrackDrawable = 2130968793;
 			
 			// aapt resource value: 0x7F0400DA
-			public const int fontWeight = 2130968794;
+			public const int firstBaselineToTopHeight = 2130968794;
 			
 			// aapt resource value: 0x7F0400DB
-			public const int foregroundInsidePadding = 2130968795;
+			public const int floatingActionButtonStyle = 2130968795;
 			
 			// aapt resource value: 0x7F0400DC
-			public const int gapBetweenBars = 2130968796;
+			public const int font = 2130968796;
 			
 			// aapt resource value: 0x7F0400DD
-			public const int goIcon = 2130968797;
+			public const int fontFamily = 2130968797;
 			
 			// aapt resource value: 0x7F0400DE
-			public const int headerLayout = 2130968798;
+			public const int fontProviderAuthority = 2130968798;
 			
 			// aapt resource value: 0x7F0400DF
-			public const int height = 2130968799;
+			public const int fontProviderCerts = 2130968799;
 			
 			// aapt resource value: 0x7F0400E0
-			public const int helperText = 2130968800;
+			public const int fontProviderFetchStrategy = 2130968800;
 			
 			// aapt resource value: 0x7F0400E1
-			public const int helperTextEnabled = 2130968801;
+			public const int fontProviderFetchTimeout = 2130968801;
 			
 			// aapt resource value: 0x7F0400E2
-			public const int helperTextTextAppearance = 2130968802;
+			public const int fontProviderPackage = 2130968802;
 			
 			// aapt resource value: 0x7F0400E3
-			public const int hideMotionSpec = 2130968803;
+			public const int fontProviderQuery = 2130968803;
 			
 			// aapt resource value: 0x7F0400E4
-			public const int hideOnContentScroll = 2130968804;
+			public const int fontStyle = 2130968804;
 			
 			// aapt resource value: 0x7F0400E5
-			public const int hideOnScroll = 2130968805;
+			public const int fontVariationSettings = 2130968805;
 			
 			// aapt resource value: 0x7F0400E6
-			public const int hintAnimationEnabled = 2130968806;
+			public const int fontWeight = 2130968806;
 			
 			// aapt resource value: 0x7F0400E7
-			public const int hintEnabled = 2130968807;
+			public const int foregroundInsidePadding = 2130968807;
 			
 			// aapt resource value: 0x7F0400E8
-			public const int hintTextAppearance = 2130968808;
+			public const int gapBetweenBars = 2130968808;
 			
 			// aapt resource value: 0x7F0400E9
-			public const int homeAsUpIndicator = 2130968809;
+			public const int goIcon = 2130968809;
 			
 			// aapt resource value: 0x7F0400EA
-			public const int homeLayout = 2130968810;
+			public const int headerLayout = 2130968810;
 			
 			// aapt resource value: 0x7F0400EB
-			public const int hoveredFocusedTranslationZ = 2130968811;
+			public const int height = 2130968811;
 			
 			// aapt resource value: 0x7F0400EC
-			public const int icon = 2130968812;
+			public const int helperText = 2130968812;
 			
 			// aapt resource value: 0x7F0400ED
-			public const int iconEndPadding = 2130968813;
+			public const int helperTextEnabled = 2130968813;
 			
 			// aapt resource value: 0x7F0400EE
-			public const int iconGravity = 2130968814;
-			
-			// aapt resource value: 0x7F0400F4
-			public const int iconifiedByDefault = 2130968820;
+			public const int helperTextTextAppearance = 2130968814;
 			
 			// aapt resource value: 0x7F0400EF
-			public const int iconPadding = 2130968815;
+			public const int hideMotionSpec = 2130968815;
 			
 			// aapt resource value: 0x7F0400F0
-			public const int iconSize = 2130968816;
+			public const int hideOnContentScroll = 2130968816;
 			
 			// aapt resource value: 0x7F0400F1
-			public const int iconStartPadding = 2130968817;
+			public const int hideOnScroll = 2130968817;
 			
 			// aapt resource value: 0x7F0400F2
-			public const int iconTint = 2130968818;
+			public const int hintAnimationEnabled = 2130968818;
 			
 			// aapt resource value: 0x7F0400F3
-			public const int iconTintMode = 2130968819;
+			public const int hintEnabled = 2130968819;
+			
+			// aapt resource value: 0x7F0400F4
+			public const int hintTextAppearance = 2130968820;
 			
 			// aapt resource value: 0x7F0400F5
-			public const int imageButtonStyle = 2130968821;
+			public const int homeAsUpIndicator = 2130968821;
 			
 			// aapt resource value: 0x7F0400F6
-			public const int indeterminateProgressStyle = 2130968822;
+			public const int homeLayout = 2130968822;
 			
 			// aapt resource value: 0x7F0400F7
-			public const int initialActivityCount = 2130968823;
+			public const int hoveredFocusedTranslationZ = 2130968823;
 			
 			// aapt resource value: 0x7F0400F8
-			public const int insetForeground = 2130968824;
+			public const int icon = 2130968824;
 			
 			// aapt resource value: 0x7F0400F9
-			public const int isLightTheme = 2130968825;
+			public const int iconEndPadding = 2130968825;
 			
 			// aapt resource value: 0x7F0400FA
-			public const int itemBackground = 2130968826;
-			
-			// aapt resource value: 0x7F0400FB
-			public const int itemHorizontalPadding = 2130968827;
-			
-			// aapt resource value: 0x7F0400FC
-			public const int itemHorizontalTranslationEnabled = 2130968828;
-			
-			// aapt resource value: 0x7F0400FD
-			public const int itemIconPadding = 2130968829;
-			
-			// aapt resource value: 0x7F0400FE
-			public const int itemIconSize = 2130968830;
-			
-			// aapt resource value: 0x7F0400FF
-			public const int itemIconTint = 2130968831;
+			public const int iconGravity = 2130968826;
 			
 			// aapt resource value: 0x7F040100
-			public const int itemPadding = 2130968832;
+			public const int iconifiedByDefault = 2130968832;
+			
+			// aapt resource value: 0x7F0400FB
+			public const int iconPadding = 2130968827;
+			
+			// aapt resource value: 0x7F0400FC
+			public const int iconSize = 2130968828;
+			
+			// aapt resource value: 0x7F0400FD
+			public const int iconStartPadding = 2130968829;
+			
+			// aapt resource value: 0x7F0400FE
+			public const int iconTint = 2130968830;
+			
+			// aapt resource value: 0x7F0400FF
+			public const int iconTintMode = 2130968831;
 			
 			// aapt resource value: 0x7F040101
-			public const int itemSpacing = 2130968833;
+			public const int imageButtonStyle = 2130968833;
 			
 			// aapt resource value: 0x7F040102
-			public const int itemTextAppearance = 2130968834;
+			public const int indeterminateProgressStyle = 2130968834;
 			
 			// aapt resource value: 0x7F040103
-			public const int itemTextAppearanceActive = 2130968835;
+			public const int initialActivityCount = 2130968835;
 			
 			// aapt resource value: 0x7F040104
-			public const int itemTextAppearanceInactive = 2130968836;
+			public const int insetForeground = 2130968836;
 			
 			// aapt resource value: 0x7F040105
-			public const int itemTextColor = 2130968837;
+			public const int isLightTheme = 2130968837;
 			
 			// aapt resource value: 0x7F040106
-			public const int keylines = 2130968838;
+			public const int itemBackground = 2130968838;
 			
 			// aapt resource value: 0x7F040107
-			public const int labelVisibilityMode = 2130968839;
+			public const int itemHorizontalPadding = 2130968839;
 			
 			// aapt resource value: 0x7F040108
-			public const int lastBaselineToBottomHeight = 2130968840;
+			public const int itemHorizontalTranslationEnabled = 2130968840;
 			
 			// aapt resource value: 0x7F040109
-			public const int layout = 2130968841;
+			public const int itemIconPadding = 2130968841;
 			
 			// aapt resource value: 0x7F04010A
-			public const int layoutManager = 2130968842;
+			public const int itemIconSize = 2130968842;
 			
 			// aapt resource value: 0x7F04010B
-			public const int layout_anchor = 2130968843;
+			public const int itemIconTint = 2130968843;
 			
 			// aapt resource value: 0x7F04010C
-			public const int layout_anchorGravity = 2130968844;
+			public const int itemPadding = 2130968844;
 			
 			// aapt resource value: 0x7F04010D
-			public const int layout_behavior = 2130968845;
+			public const int itemSpacing = 2130968845;
 			
 			// aapt resource value: 0x7F04010E
-			public const int layout_collapseMode = 2130968846;
+			public const int itemTextAppearance = 2130968846;
 			
 			// aapt resource value: 0x7F04010F
-			public const int layout_collapseParallaxMultiplier = 2130968847;
+			public const int itemTextAppearanceActive = 2130968847;
 			
 			// aapt resource value: 0x7F040110
-			public const int layout_dodgeInsetEdges = 2130968848;
+			public const int itemTextAppearanceInactive = 2130968848;
 			
 			// aapt resource value: 0x7F040111
-			public const int layout_insetEdge = 2130968849;
+			public const int itemTextColor = 2130968849;
 			
 			// aapt resource value: 0x7F040112
-			public const int layout_keyline = 2130968850;
+			public const int keylines = 2130968850;
 			
 			// aapt resource value: 0x7F040113
-			public const int layout_scrollFlags = 2130968851;
+			public const int labelVisibilityMode = 2130968851;
 			
 			// aapt resource value: 0x7F040114
-			public const int layout_scrollInterpolator = 2130968852;
+			public const int lastBaselineToBottomHeight = 2130968852;
 			
 			// aapt resource value: 0x7F040115
-			public const int liftOnScroll = 2130968853;
+			public const int layout = 2130968853;
 			
 			// aapt resource value: 0x7F040116
-			public const int lineHeight = 2130968854;
+			public const int layoutManager = 2130968854;
 			
 			// aapt resource value: 0x7F040117
-			public const int lineSpacing = 2130968855;
+			public const int layout_anchor = 2130968855;
 			
 			// aapt resource value: 0x7F040118
-			public const int listChoiceBackgroundIndicator = 2130968856;
+			public const int layout_anchorGravity = 2130968856;
 			
 			// aapt resource value: 0x7F040119
-			public const int listDividerAlertDialog = 2130968857;
+			public const int layout_behavior = 2130968857;
 			
 			// aapt resource value: 0x7F04011A
-			public const int listItemLayout = 2130968858;
+			public const int layout_collapseMode = 2130968858;
 			
 			// aapt resource value: 0x7F04011B
-			public const int listLayout = 2130968859;
+			public const int layout_collapseParallaxMultiplier = 2130968859;
 			
 			// aapt resource value: 0x7F04011C
-			public const int listMenuViewStyle = 2130968860;
+			public const int layout_dodgeInsetEdges = 2130968860;
 			
 			// aapt resource value: 0x7F04011D
-			public const int listPopupWindowStyle = 2130968861;
+			public const int layout_insetEdge = 2130968861;
 			
 			// aapt resource value: 0x7F04011E
-			public const int listPreferredItemHeight = 2130968862;
+			public const int layout_keyline = 2130968862;
 			
 			// aapt resource value: 0x7F04011F
-			public const int listPreferredItemHeightLarge = 2130968863;
+			public const int layout_scrollFlags = 2130968863;
 			
 			// aapt resource value: 0x7F040120
-			public const int listPreferredItemHeightSmall = 2130968864;
+			public const int layout_scrollInterpolator = 2130968864;
 			
 			// aapt resource value: 0x7F040121
-			public const int listPreferredItemPaddingLeft = 2130968865;
+			public const int liftOnScroll = 2130968865;
 			
 			// aapt resource value: 0x7F040122
-			public const int listPreferredItemPaddingRight = 2130968866;
+			public const int lineHeight = 2130968866;
 			
 			// aapt resource value: 0x7F040123
-			public const int logo = 2130968867;
+			public const int lineSpacing = 2130968867;
 			
 			// aapt resource value: 0x7F040124
-			public const int logoDescription = 2130968868;
+			public const int listChoiceBackgroundIndicator = 2130968868;
 			
 			// aapt resource value: 0x7F040125
-			public const int materialButtonStyle = 2130968869;
+			public const int listDividerAlertDialog = 2130968869;
 			
 			// aapt resource value: 0x7F040126
-			public const int materialCardViewStyle = 2130968870;
+			public const int listItemLayout = 2130968870;
 			
 			// aapt resource value: 0x7F040127
-			public const int maxActionInlineWidth = 2130968871;
+			public const int listLayout = 2130968871;
 			
 			// aapt resource value: 0x7F040128
-			public const int maxButtonHeight = 2130968872;
+			public const int listMenuViewStyle = 2130968872;
 			
 			// aapt resource value: 0x7F040129
-			public const int maxImageSize = 2130968873;
+			public const int listPopupWindowStyle = 2130968873;
 			
 			// aapt resource value: 0x7F04012A
-			public const int measureWithLargestChild = 2130968874;
+			public const int listPreferredItemHeight = 2130968874;
 			
 			// aapt resource value: 0x7F04012B
-			public const int menu = 2130968875;
+			public const int listPreferredItemHeightLarge = 2130968875;
 			
 			// aapt resource value: 0x7F04012C
-			public const int multiChoiceItemLayout = 2130968876;
+			public const int listPreferredItemHeightSmall = 2130968876;
 			
 			// aapt resource value: 0x7F04012D
-			public const int navigationContentDescription = 2130968877;
+			public const int listPreferredItemPaddingLeft = 2130968877;
 			
 			// aapt resource value: 0x7F04012E
-			public const int navigationIcon = 2130968878;
+			public const int listPreferredItemPaddingRight = 2130968878;
 			
 			// aapt resource value: 0x7F04012F
-			public const int navigationMode = 2130968879;
+			public const int logo = 2130968879;
 			
 			// aapt resource value: 0x7F040130
-			public const int navigationViewStyle = 2130968880;
+			public const int logoDescription = 2130968880;
 			
 			// aapt resource value: 0x7F040131
-			public const int numericModifiers = 2130968881;
+			public const int materialButtonStyle = 2130968881;
 			
 			// aapt resource value: 0x7F040132
-			public const int overlapAnchor = 2130968882;
+			public const int materialCardViewStyle = 2130968882;
 			
 			// aapt resource value: 0x7F040133
-			public const int paddingBottomNoButtons = 2130968883;
+			public const int maxActionInlineWidth = 2130968883;
 			
 			// aapt resource value: 0x7F040134
-			public const int paddingEnd = 2130968884;
+			public const int maxButtonHeight = 2130968884;
 			
 			// aapt resource value: 0x7F040135
-			public const int paddingStart = 2130968885;
+			public const int maxImageSize = 2130968885;
 			
 			// aapt resource value: 0x7F040136
-			public const int paddingTopNoTitle = 2130968886;
+			public const int measureWithLargestChild = 2130968886;
 			
 			// aapt resource value: 0x7F040137
-			public const int panelBackground = 2130968887;
+			public const int menu = 2130968887;
 			
 			// aapt resource value: 0x7F040138
-			public const int panelMenuListTheme = 2130968888;
+			public const int multiChoiceItemLayout = 2130968888;
 			
 			// aapt resource value: 0x7F040139
-			public const int panelMenuListWidth = 2130968889;
+			public const int navigationContentDescription = 2130968889;
 			
 			// aapt resource value: 0x7F04013A
-			public const int passwordToggleContentDescription = 2130968890;
+			public const int navigationIcon = 2130968890;
 			
 			// aapt resource value: 0x7F04013B
-			public const int passwordToggleDrawable = 2130968891;
+			public const int navigationMode = 2130968891;
 			
 			// aapt resource value: 0x7F04013C
-			public const int passwordToggleEnabled = 2130968892;
+			public const int navigationViewStyle = 2130968892;
 			
 			// aapt resource value: 0x7F04013D
-			public const int passwordToggleTint = 2130968893;
+			public const int numericModifiers = 2130968893;
 			
 			// aapt resource value: 0x7F04013E
-			public const int passwordToggleTintMode = 2130968894;
+			public const int overlapAnchor = 2130968894;
 			
 			// aapt resource value: 0x7F04013F
-			public const int popupMenuStyle = 2130968895;
+			public const int paddingBottomNoButtons = 2130968895;
 			
 			// aapt resource value: 0x7F040140
-			public const int popupTheme = 2130968896;
+			public const int paddingEnd = 2130968896;
 			
 			// aapt resource value: 0x7F040141
-			public const int popupWindowStyle = 2130968897;
+			public const int paddingStart = 2130968897;
 			
 			// aapt resource value: 0x7F040142
-			public const int preserveIconSpacing = 2130968898;
+			public const int paddingTopNoTitle = 2130968898;
 			
 			// aapt resource value: 0x7F040143
-			public const int pressedTranslationZ = 2130968899;
+			public const int panelBackground = 2130968899;
 			
 			// aapt resource value: 0x7F040144
-			public const int progressBarPadding = 2130968900;
+			public const int panelMenuListTheme = 2130968900;
 			
 			// aapt resource value: 0x7F040145
-			public const int progressBarStyle = 2130968901;
+			public const int panelMenuListWidth = 2130968901;
 			
 			// aapt resource value: 0x7F040146
-			public const int queryBackground = 2130968902;
+			public const int passwordToggleContentDescription = 2130968902;
 			
 			// aapt resource value: 0x7F040147
-			public const int queryHint = 2130968903;
+			public const int passwordToggleDrawable = 2130968903;
 			
 			// aapt resource value: 0x7F040148
-			public const int radioButtonStyle = 2130968904;
+			public const int passwordToggleEnabled = 2130968904;
 			
 			// aapt resource value: 0x7F040149
-			public const int ratingBarStyle = 2130968905;
+			public const int passwordToggleTint = 2130968905;
 			
 			// aapt resource value: 0x7F04014A
-			public const int ratingBarStyleIndicator = 2130968906;
+			public const int passwordToggleTintMode = 2130968906;
 			
 			// aapt resource value: 0x7F04014B
-			public const int ratingBarStyleSmall = 2130968907;
+			public const int popupMenuStyle = 2130968907;
 			
 			// aapt resource value: 0x7F04014C
-			public const int reverseLayout = 2130968908;
+			public const int popupTheme = 2130968908;
 			
 			// aapt resource value: 0x7F04014D
-			public const int rippleColor = 2130968909;
+			public const int popupWindowStyle = 2130968909;
 			
 			// aapt resource value: 0x7F04014E
-			public const int scrimAnimationDuration = 2130968910;
+			public const int preserveIconSpacing = 2130968910;
 			
 			// aapt resource value: 0x7F04014F
-			public const int scrimBackground = 2130968911;
+			public const int pressedTranslationZ = 2130968911;
 			
 			// aapt resource value: 0x7F040150
-			public const int scrimVisibleHeightTrigger = 2130968912;
+			public const int progressBarPadding = 2130968912;
 			
 			// aapt resource value: 0x7F040151
-			public const int searchHintIcon = 2130968913;
+			public const int progressBarStyle = 2130968913;
 			
 			// aapt resource value: 0x7F040152
-			public const int searchIcon = 2130968914;
+			public const int queryBackground = 2130968914;
 			
 			// aapt resource value: 0x7F040153
-			public const int searchViewStyle = 2130968915;
+			public const int queryHint = 2130968915;
 			
 			// aapt resource value: 0x7F040154
-			public const int seekBarStyle = 2130968916;
+			public const int radioButtonStyle = 2130968916;
 			
 			// aapt resource value: 0x7F040155
-			public const int selectableItemBackground = 2130968917;
+			public const int ratingBarStyle = 2130968917;
 			
 			// aapt resource value: 0x7F040156
-			public const int selectableItemBackgroundBorderless = 2130968918;
+			public const int ratingBarStyleIndicator = 2130968918;
 			
 			// aapt resource value: 0x7F040157
-			public const int showAsAction = 2130968919;
+			public const int ratingBarStyleSmall = 2130968919;
 			
 			// aapt resource value: 0x7F040158
-			public const int showDividers = 2130968920;
+			public const int reverseLayout = 2130968920;
 			
 			// aapt resource value: 0x7F040159
-			public const int showMotionSpec = 2130968921;
+			public const int rippleColor = 2130968921;
 			
 			// aapt resource value: 0x7F04015A
-			public const int showText = 2130968922;
+			public const int scrimAnimationDuration = 2130968922;
 			
 			// aapt resource value: 0x7F04015B
-			public const int showTitle = 2130968923;
+			public const int scrimBackground = 2130968923;
 			
 			// aapt resource value: 0x7F04015C
-			public const int singleChoiceItemLayout = 2130968924;
+			public const int scrimVisibleHeightTrigger = 2130968924;
 			
 			// aapt resource value: 0x7F04015D
-			public const int singleLine = 2130968925;
+			public const int searchHintIcon = 2130968925;
 			
 			// aapt resource value: 0x7F04015E
-			public const int singleSelection = 2130968926;
+			public const int searchIcon = 2130968926;
 			
 			// aapt resource value: 0x7F04015F
-			public const int snackbarButtonStyle = 2130968927;
+			public const int searchViewStyle = 2130968927;
 			
 			// aapt resource value: 0x7F040160
-			public const int snackbarStyle = 2130968928;
+			public const int seekBarStyle = 2130968928;
 			
 			// aapt resource value: 0x7F040161
-			public const int spanCount = 2130968929;
+			public const int selectableItemBackground = 2130968929;
 			
 			// aapt resource value: 0x7F040162
-			public const int spinBars = 2130968930;
+			public const int selectableItemBackgroundBorderless = 2130968930;
 			
 			// aapt resource value: 0x7F040163
-			public const int spinnerDropDownItemStyle = 2130968931;
+			public const int showAsAction = 2130968931;
 			
 			// aapt resource value: 0x7F040164
-			public const int spinnerStyle = 2130968932;
+			public const int showDividers = 2130968932;
 			
 			// aapt resource value: 0x7F040165
-			public const int splitTrack = 2130968933;
+			public const int showMotionSpec = 2130968933;
 			
 			// aapt resource value: 0x7F040166
-			public const int srcCompat = 2130968934;
+			public const int showText = 2130968934;
 			
 			// aapt resource value: 0x7F040167
-			public const int stackFromEnd = 2130968935;
+			public const int showTitle = 2130968935;
 			
 			// aapt resource value: 0x7F040168
-			public const int state_above_anchor = 2130968936;
+			public const int singleChoiceItemLayout = 2130968936;
 			
 			// aapt resource value: 0x7F040169
-			public const int state_collapsed = 2130968937;
+			public const int singleLine = 2130968937;
 			
 			// aapt resource value: 0x7F04016A
-			public const int state_collapsible = 2130968938;
+			public const int singleSelection = 2130968938;
 			
 			// aapt resource value: 0x7F04016B
-			public const int state_liftable = 2130968939;
+			public const int snackbarButtonStyle = 2130968939;
 			
 			// aapt resource value: 0x7F04016C
-			public const int state_lifted = 2130968940;
+			public const int snackbarStyle = 2130968940;
 			
 			// aapt resource value: 0x7F04016D
-			public const int statusBarBackground = 2130968941;
+			public const int spanCount = 2130968941;
 			
 			// aapt resource value: 0x7F04016E
-			public const int statusBarScrim = 2130968942;
+			public const int spinBars = 2130968942;
 			
 			// aapt resource value: 0x7F04016F
-			public const int strokeColor = 2130968943;
+			public const int spinnerDropDownItemStyle = 2130968943;
 			
 			// aapt resource value: 0x7F040170
-			public const int strokeWidth = 2130968944;
+			public const int spinnerStyle = 2130968944;
 			
 			// aapt resource value: 0x7F040171
-			public const int subMenuArrow = 2130968945;
+			public const int splitTrack = 2130968945;
 			
 			// aapt resource value: 0x7F040172
-			public const int submitBackground = 2130968946;
+			public const int srcCompat = 2130968946;
 			
 			// aapt resource value: 0x7F040173
-			public const int subtitle = 2130968947;
+			public const int stackFromEnd = 2130968947;
 			
 			// aapt resource value: 0x7F040174
-			public const int subtitleTextAppearance = 2130968948;
+			public const int state_above_anchor = 2130968948;
 			
 			// aapt resource value: 0x7F040175
-			public const int subtitleTextColor = 2130968949;
+			public const int state_collapsed = 2130968949;
 			
 			// aapt resource value: 0x7F040176
-			public const int subtitleTextStyle = 2130968950;
+			public const int state_collapsible = 2130968950;
 			
 			// aapt resource value: 0x7F040177
-			public const int suggestionRowLayout = 2130968951;
+			public const int state_liftable = 2130968951;
 			
 			// aapt resource value: 0x7F040178
-			public const int switchMinWidth = 2130968952;
+			public const int state_lifted = 2130968952;
 			
 			// aapt resource value: 0x7F040179
-			public const int switchPadding = 2130968953;
+			public const int statusBarBackground = 2130968953;
 			
 			// aapt resource value: 0x7F04017A
-			public const int switchStyle = 2130968954;
+			public const int statusBarScrim = 2130968954;
 			
 			// aapt resource value: 0x7F04017B
-			public const int switchTextAppearance = 2130968955;
+			public const int strokeColor = 2130968955;
 			
 			// aapt resource value: 0x7F04017C
-			public const int tabBackground = 2130968956;
+			public const int strokeWidth = 2130968956;
 			
 			// aapt resource value: 0x7F04017D
-			public const int tabContentStart = 2130968957;
+			public const int subMenuArrow = 2130968957;
 			
 			// aapt resource value: 0x7F04017E
-			public const int tabGravity = 2130968958;
+			public const int submitBackground = 2130968958;
 			
 			// aapt resource value: 0x7F04017F
-			public const int tabIconTint = 2130968959;
+			public const int subtitle = 2130968959;
 			
 			// aapt resource value: 0x7F040180
-			public const int tabIconTintMode = 2130968960;
+			public const int subtitleTextAppearance = 2130968960;
 			
 			// aapt resource value: 0x7F040181
-			public const int tabIndicator = 2130968961;
+			public const int subtitleTextColor = 2130968961;
 			
 			// aapt resource value: 0x7F040182
-			public const int tabIndicatorAnimationDuration = 2130968962;
+			public const int subtitleTextStyle = 2130968962;
 			
 			// aapt resource value: 0x7F040183
-			public const int tabIndicatorColor = 2130968963;
+			public const int suggestionRowLayout = 2130968963;
 			
 			// aapt resource value: 0x7F040184
-			public const int tabIndicatorFullWidth = 2130968964;
+			public const int switchMinWidth = 2130968964;
 			
 			// aapt resource value: 0x7F040185
-			public const int tabIndicatorGravity = 2130968965;
+			public const int switchPadding = 2130968965;
 			
 			// aapt resource value: 0x7F040186
-			public const int tabIndicatorHeight = 2130968966;
+			public const int switchStyle = 2130968966;
 			
 			// aapt resource value: 0x7F040187
-			public const int tabInlineLabel = 2130968967;
+			public const int switchTextAppearance = 2130968967;
 			
 			// aapt resource value: 0x7F040188
-			public const int tabMaxWidth = 2130968968;
+			public const int tabBackground = 2130968968;
 			
 			// aapt resource value: 0x7F040189
-			public const int tabMinWidth = 2130968969;
+			public const int tabContentStart = 2130968969;
 			
 			// aapt resource value: 0x7F04018A
-			public const int tabMode = 2130968970;
+			public const int tabGravity = 2130968970;
 			
 			// aapt resource value: 0x7F04018B
-			public const int tabPadding = 2130968971;
+			public const int tabIconTint = 2130968971;
 			
 			// aapt resource value: 0x7F04018C
-			public const int tabPaddingBottom = 2130968972;
+			public const int tabIconTintMode = 2130968972;
 			
 			// aapt resource value: 0x7F04018D
-			public const int tabPaddingEnd = 2130968973;
+			public const int tabIndicator = 2130968973;
 			
 			// aapt resource value: 0x7F04018E
-			public const int tabPaddingStart = 2130968974;
+			public const int tabIndicatorAnimationDuration = 2130968974;
 			
 			// aapt resource value: 0x7F04018F
-			public const int tabPaddingTop = 2130968975;
+			public const int tabIndicatorColor = 2130968975;
 			
 			// aapt resource value: 0x7F040190
-			public const int tabRippleColor = 2130968976;
+			public const int tabIndicatorFullWidth = 2130968976;
 			
 			// aapt resource value: 0x7F040191
-			public const int tabSelectedTextColor = 2130968977;
+			public const int tabIndicatorGravity = 2130968977;
 			
 			// aapt resource value: 0x7F040192
-			public const int tabStyle = 2130968978;
+			public const int tabIndicatorHeight = 2130968978;
 			
 			// aapt resource value: 0x7F040193
-			public const int tabTextAppearance = 2130968979;
+			public const int tabInlineLabel = 2130968979;
 			
 			// aapt resource value: 0x7F040194
-			public const int tabTextColor = 2130968980;
+			public const int tabMaxWidth = 2130968980;
 			
 			// aapt resource value: 0x7F040195
-			public const int tabUnboundedRipple = 2130968981;
+			public const int tabMinWidth = 2130968981;
 			
 			// aapt resource value: 0x7F040196
-			public const int textAllCaps = 2130968982;
+			public const int tabMode = 2130968982;
 			
 			// aapt resource value: 0x7F040197
-			public const int textAppearanceBody1 = 2130968983;
+			public const int tabPadding = 2130968983;
 			
 			// aapt resource value: 0x7F040198
-			public const int textAppearanceBody2 = 2130968984;
+			public const int tabPaddingBottom = 2130968984;
 			
 			// aapt resource value: 0x7F040199
-			public const int textAppearanceButton = 2130968985;
+			public const int tabPaddingEnd = 2130968985;
 			
 			// aapt resource value: 0x7F04019A
-			public const int textAppearanceCaption = 2130968986;
+			public const int tabPaddingStart = 2130968986;
 			
 			// aapt resource value: 0x7F04019B
-			public const int textAppearanceHeadline1 = 2130968987;
+			public const int tabPaddingTop = 2130968987;
 			
 			// aapt resource value: 0x7F04019C
-			public const int textAppearanceHeadline2 = 2130968988;
+			public const int tabRippleColor = 2130968988;
 			
 			// aapt resource value: 0x7F04019D
-			public const int textAppearanceHeadline3 = 2130968989;
+			public const int tabSelectedTextColor = 2130968989;
 			
 			// aapt resource value: 0x7F04019E
-			public const int textAppearanceHeadline4 = 2130968990;
+			public const int tabStyle = 2130968990;
 			
 			// aapt resource value: 0x7F04019F
-			public const int textAppearanceHeadline5 = 2130968991;
+			public const int tabTextAppearance = 2130968991;
 			
 			// aapt resource value: 0x7F0401A0
-			public const int textAppearanceHeadline6 = 2130968992;
+			public const int tabTextColor = 2130968992;
 			
 			// aapt resource value: 0x7F0401A1
-			public const int textAppearanceLargePopupMenu = 2130968993;
+			public const int tabUnboundedRipple = 2130968993;
 			
 			// aapt resource value: 0x7F0401A2
-			public const int textAppearanceListItem = 2130968994;
+			public const int textAllCaps = 2130968994;
 			
 			// aapt resource value: 0x7F0401A3
-			public const int textAppearanceListItemSecondary = 2130968995;
+			public const int textAppearanceBody1 = 2130968995;
 			
 			// aapt resource value: 0x7F0401A4
-			public const int textAppearanceListItemSmall = 2130968996;
+			public const int textAppearanceBody2 = 2130968996;
 			
 			// aapt resource value: 0x7F0401A5
-			public const int textAppearanceOverline = 2130968997;
+			public const int textAppearanceButton = 2130968997;
 			
 			// aapt resource value: 0x7F0401A6
-			public const int textAppearancePopupMenuHeader = 2130968998;
+			public const int textAppearanceCaption = 2130968998;
 			
 			// aapt resource value: 0x7F0401A7
-			public const int textAppearanceSearchResultSubtitle = 2130968999;
+			public const int textAppearanceHeadline1 = 2130968999;
 			
 			// aapt resource value: 0x7F0401A8
-			public const int textAppearanceSearchResultTitle = 2130969000;
+			public const int textAppearanceHeadline2 = 2130969000;
 			
 			// aapt resource value: 0x7F0401A9
-			public const int textAppearanceSmallPopupMenu = 2130969001;
+			public const int textAppearanceHeadline3 = 2130969001;
 			
 			// aapt resource value: 0x7F0401AA
-			public const int textAppearanceSubtitle1 = 2130969002;
+			public const int textAppearanceHeadline4 = 2130969002;
 			
 			// aapt resource value: 0x7F0401AB
-			public const int textAppearanceSubtitle2 = 2130969003;
+			public const int textAppearanceHeadline5 = 2130969003;
 			
 			// aapt resource value: 0x7F0401AC
-			public const int textColorAlertDialogListItem = 2130969004;
+			public const int textAppearanceHeadline6 = 2130969004;
 			
 			// aapt resource value: 0x7F0401AD
-			public const int textColorSearchUrl = 2130969005;
+			public const int textAppearanceLargePopupMenu = 2130969005;
 			
 			// aapt resource value: 0x7F0401AE
-			public const int textEndPadding = 2130969006;
+			public const int textAppearanceListItem = 2130969006;
 			
 			// aapt resource value: 0x7F0401AF
-			public const int textInputStyle = 2130969007;
+			public const int textAppearanceListItemSecondary = 2130969007;
 			
 			// aapt resource value: 0x7F0401B0
-			public const int textStartPadding = 2130969008;
+			public const int textAppearanceListItemSmall = 2130969008;
 			
 			// aapt resource value: 0x7F0401B1
-			public const int theme = 2130969009;
+			public const int textAppearanceOverline = 2130969009;
 			
 			// aapt resource value: 0x7F0401B2
-			public const int thickness = 2130969010;
+			public const int textAppearancePopupMenuHeader = 2130969010;
 			
 			// aapt resource value: 0x7F0401B3
-			public const int thumbTextPadding = 2130969011;
+			public const int textAppearanceSearchResultSubtitle = 2130969011;
 			
 			// aapt resource value: 0x7F0401B4
-			public const int thumbTint = 2130969012;
+			public const int textAppearanceSearchResultTitle = 2130969012;
 			
 			// aapt resource value: 0x7F0401B5
-			public const int thumbTintMode = 2130969013;
+			public const int textAppearanceSmallPopupMenu = 2130969013;
 			
 			// aapt resource value: 0x7F0401B6
-			public const int tickMark = 2130969014;
+			public const int textAppearanceSubtitle1 = 2130969014;
 			
 			// aapt resource value: 0x7F0401B7
-			public const int tickMarkTint = 2130969015;
+			public const int textAppearanceSubtitle2 = 2130969015;
 			
 			// aapt resource value: 0x7F0401B8
-			public const int tickMarkTintMode = 2130969016;
+			public const int textColorAlertDialogListItem = 2130969016;
 			
 			// aapt resource value: 0x7F0401B9
-			public const int tint = 2130969017;
+			public const int textColorSearchUrl = 2130969017;
 			
 			// aapt resource value: 0x7F0401BA
-			public const int tintMode = 2130969018;
+			public const int textEndPadding = 2130969018;
 			
 			// aapt resource value: 0x7F0401BB
-			public const int title = 2130969019;
+			public const int textInputStyle = 2130969019;
 			
 			// aapt resource value: 0x7F0401BC
-			public const int titleEnabled = 2130969020;
+			public const int textStartPadding = 2130969020;
 			
 			// aapt resource value: 0x7F0401BD
-			public const int titleMargin = 2130969021;
+			public const int theme = 2130969021;
 			
 			// aapt resource value: 0x7F0401BE
-			public const int titleMarginBottom = 2130969022;
+			public const int thickness = 2130969022;
 			
 			// aapt resource value: 0x7F0401BF
-			public const int titleMarginEnd = 2130969023;
-			
-			// aapt resource value: 0x7F0401C2
-			public const int titleMargins = 2130969026;
+			public const int thumbTextPadding = 2130969023;
 			
 			// aapt resource value: 0x7F0401C0
-			public const int titleMarginStart = 2130969024;
+			public const int thumbTint = 2130969024;
 			
 			// aapt resource value: 0x7F0401C1
-			public const int titleMarginTop = 2130969025;
+			public const int thumbTintMode = 2130969025;
+			
+			// aapt resource value: 0x7F0401C2
+			public const int tickMark = 2130969026;
 			
 			// aapt resource value: 0x7F0401C3
-			public const int titleTextAppearance = 2130969027;
+			public const int tickMarkTint = 2130969027;
 			
 			// aapt resource value: 0x7F0401C4
-			public const int titleTextColor = 2130969028;
+			public const int tickMarkTintMode = 2130969028;
 			
 			// aapt resource value: 0x7F0401C5
-			public const int titleTextStyle = 2130969029;
+			public const int tint = 2130969029;
 			
 			// aapt resource value: 0x7F0401C6
-			public const int toolbarId = 2130969030;
+			public const int tintMode = 2130969030;
 			
 			// aapt resource value: 0x7F0401C7
-			public const int toolbarNavigationButtonStyle = 2130969031;
+			public const int title = 2130969031;
 			
 			// aapt resource value: 0x7F0401C8
-			public const int toolbarStyle = 2130969032;
+			public const int titleEnabled = 2130969032;
 			
 			// aapt resource value: 0x7F0401C9
-			public const int tooltipForegroundColor = 2130969033;
+			public const int titleMargin = 2130969033;
 			
 			// aapt resource value: 0x7F0401CA
-			public const int tooltipFrameBackground = 2130969034;
+			public const int titleMarginBottom = 2130969034;
 			
 			// aapt resource value: 0x7F0401CB
-			public const int tooltipText = 2130969035;
-			
-			// aapt resource value: 0x7F0401CC
-			public const int track = 2130969036;
-			
-			// aapt resource value: 0x7F0401CD
-			public const int trackTint = 2130969037;
+			public const int titleMarginEnd = 2130969035;
 			
 			// aapt resource value: 0x7F0401CE
-			public const int trackTintMode = 2130969038;
+			public const int titleMargins = 2130969038;
+			
+			// aapt resource value: 0x7F0401CC
+			public const int titleMarginStart = 2130969036;
+			
+			// aapt resource value: 0x7F0401CD
+			public const int titleMarginTop = 2130969037;
 			
 			// aapt resource value: 0x7F0401CF
-			public const int ttcIndex = 2130969039;
+			public const int titleTextAppearance = 2130969039;
 			
 			// aapt resource value: 0x7F0401D0
-			public const int useCompatPadding = 2130969040;
+			public const int titleTextColor = 2130969040;
 			
 			// aapt resource value: 0x7F0401D1
-			public const int viewInflaterClass = 2130969041;
+			public const int titleTextStyle = 2130969041;
 			
 			// aapt resource value: 0x7F0401D2
-			public const int voiceIcon = 2130969042;
+			public const int toolbarId = 2130969042;
 			
 			// aapt resource value: 0x7F0401D3
-			public const int windowActionBar = 2130969043;
+			public const int toolbarNavigationButtonStyle = 2130969043;
 			
 			// aapt resource value: 0x7F0401D4
-			public const int windowActionBarOverlay = 2130969044;
+			public const int toolbarStyle = 2130969044;
 			
 			// aapt resource value: 0x7F0401D5
-			public const int windowActionModeOverlay = 2130969045;
+			public const int tooltipForegroundColor = 2130969045;
 			
 			// aapt resource value: 0x7F0401D6
-			public const int windowFixedHeightMajor = 2130969046;
+			public const int tooltipFrameBackground = 2130969046;
 			
 			// aapt resource value: 0x7F0401D7
-			public const int windowFixedHeightMinor = 2130969047;
+			public const int tooltipText = 2130969047;
 			
 			// aapt resource value: 0x7F0401D8
-			public const int windowFixedWidthMajor = 2130969048;
+			public const int track = 2130969048;
 			
 			// aapt resource value: 0x7F0401D9
-			public const int windowFixedWidthMinor = 2130969049;
+			public const int trackTint = 2130969049;
 			
 			// aapt resource value: 0x7F0401DA
-			public const int windowMinWidthMajor = 2130969050;
+			public const int trackTintMode = 2130969050;
 			
 			// aapt resource value: 0x7F0401DB
-			public const int windowMinWidthMinor = 2130969051;
+			public const int ttcIndex = 2130969051;
 			
 			// aapt resource value: 0x7F0401DC
-			public const int windowNoTitle = 2130969052;
+			public const int useCompatPadding = 2130969052;
+			
+			// aapt resource value: 0x7F0401DD
+			public const int viewInflaterClass = 2130969053;
+			
+			// aapt resource value: 0x7F0401DE
+			public const int voiceIcon = 2130969054;
+			
+			// aapt resource value: 0x7F0401DF
+			public const int windowActionBar = 2130969055;
+			
+			// aapt resource value: 0x7F0401E0
+			public const int windowActionBarOverlay = 2130969056;
+			
+			// aapt resource value: 0x7F0401E1
+			public const int windowActionModeOverlay = 2130969057;
+			
+			// aapt resource value: 0x7F0401E2
+			public const int windowFixedHeightMajor = 2130969058;
+			
+			// aapt resource value: 0x7F0401E3
+			public const int windowFixedHeightMinor = 2130969059;
+			
+			// aapt resource value: 0x7F0401E4
+			public const int windowFixedWidthMajor = 2130969060;
+			
+			// aapt resource value: 0x7F0401E5
+			public const int windowFixedWidthMinor = 2130969061;
+			
+			// aapt resource value: 0x7F0401E6
+			public const int windowMinWidthMajor = 2130969062;
+			
+			// aapt resource value: 0x7F0401E7
+			public const int windowMinWidthMinor = 2130969063;
+			
+			// aapt resource value: 0x7F0401E8
+			public const int windowNoTitle = 2130969064;
 			
 			static Attribute()
 			{
@@ -10921,79 +13550,91 @@ namespace CoinHybridApp.Droid
 			public const int ic_action_settings = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int ic_mtrl_chip_checked_black = 2131230825;
+			public const int ic_errorstatus = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int ic_mtrl_chip_checked_circle = 2131230826;
+			public const int ic_mtrl_chip_checked_black = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int ic_mtrl_chip_close_circle = 2131230827;
+			public const int ic_mtrl_chip_checked_circle = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int logo = 2131230828;
+			public const int ic_mtrl_chip_close_circle = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int logo128 = 2131230829;
+			public const int ic_successstatus = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int mtrl_snackbar_background = 2131230830;
+			public const int logo = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mtrl_tabs_default_indicator = 2131230831;
+			public const int logo128 = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int navigation_empty_icon = 2131230832;
+			public const int mtrl_snackbar_background = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int notification_action_background = 2131230833;
+			public const int mtrl_tabs_default_indicator = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int notification_bg = 2131230834;
+			public const int navigation_empty_icon = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int notification_bg_low = 2131230835;
+			public const int notification_action_background = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int notification_bg_low_normal = 2131230836;
+			public const int notification_bg = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int notification_bg_low_pressed = 2131230837;
+			public const int notification_bg_low = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int notification_bg_normal = 2131230838;
+			public const int notification_bg_low_normal = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int notification_bg_normal_pressed = 2131230839;
+			public const int notification_bg_low_pressed = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int notification_icon_background = 2131230840;
+			public const int notification_bg_normal = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int notification_template_icon_bg = 2131230841;
+			public const int notification_bg_normal_pressed = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int notification_template_icon_low_bg = 2131230842;
+			public const int notification_icon_background = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int notification_tile_bg = 2131230843;
+			public const int notification_template_icon_bg = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int notify_panel_notification_icon_bg = 2131230844;
+			public const int notification_template_icon_low_bg = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int overlay = 2131230845;
+			public const int notification_tile_bg = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int splash_logo = 2131230846;
+			public const int notify_panel_notification_icon_bg = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int splash_screen = 2131230847;
+			public const int overlay = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int tooltip_frame_dark = 2131230848;
+			public const int roundedbg = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int tooltip_frame_light = 2131230849;
+			public const int roundedbgdark = 2131230849;
+			
+			// aapt resource value: 0x7F080082
+			public const int splash_logo = 2131230850;
+			
+			// aapt resource value: 0x7F080083
+			public const int splash_screen = 2131230851;
+			
+			// aapt resource value: 0x7F080084
+			public const int tooltip_frame_dark = 2131230852;
+			
+			// aapt resource value: 0x7F080085
+			public const int tooltip_frame_light = 2131230853;
 			
 			static Drawable()
 			{
@@ -11300,334 +13941,346 @@ namespace CoinHybridApp.Droid
 			public const int list_item = 2131296355;
 			
 			// aapt resource value: 0x7F090064
-			public const int main_appbar = 2131296356;
+			public const int loadingImage = 2131296356;
 			
 			// aapt resource value: 0x7F090065
-			public const int main_tablayout = 2131296357;
+			public const int loadingProgressBar = 2131296357;
 			
 			// aapt resource value: 0x7F090066
-			public const int main_toolbar = 2131296358;
+			public const int loadingProgressWheel = 2131296358;
 			
 			// aapt resource value: 0x7F090067
-			public const int main_viewpager = 2131296359;
+			public const int main_appbar = 2131296359;
 			
 			// aapt resource value: 0x7F090068
-			public const int masked = 2131296360;
+			public const int main_tablayout = 2131296360;
 			
 			// aapt resource value: 0x7F090069
-			public const int media_actions = 2131296361;
+			public const int main_toolbar = 2131296361;
 			
 			// aapt resource value: 0x7F09006A
-			public const int message = 2131296362;
+			public const int main_viewpager = 2131296362;
+			
+			// aapt resource value: 0x7F09006B
+			public const int masked = 2131296363;
+			
+			// aapt resource value: 0x7F09006C
+			public const int media_actions = 2131296364;
+			
+			// aapt resource value: 0x7F09006D
+			public const int message = 2131296365;
 			
 			// aapt resource value: 0x7F090003
 			public const int META = 2131296259;
 			
-			// aapt resource value: 0x7F09006B
-			public const int middle = 2131296363;
-			
-			// aapt resource value: 0x7F09006C
-			public const int mini = 2131296364;
-			
-			// aapt resource value: 0x7F09006D
-			public const int mtrl_child_content_container = 2131296365;
-			
 			// aapt resource value: 0x7F09006E
-			public const int mtrl_internal_children_alpha_tag = 2131296366;
+			public const int middle = 2131296366;
 			
 			// aapt resource value: 0x7F09006F
-			public const int multiply = 2131296367;
+			public const int mini = 2131296367;
 			
 			// aapt resource value: 0x7F090070
-			public const int navigation_header_container = 2131296368;
+			public const int mtrl_child_content_container = 2131296368;
 			
 			// aapt resource value: 0x7F090071
-			public const int never = 2131296369;
+			public const int mtrl_internal_children_alpha_tag = 2131296369;
 			
 			// aapt resource value: 0x7F090072
-			public const int none = 2131296370;
+			public const int multiply = 2131296370;
 			
 			// aapt resource value: 0x7F090073
-			public const int normal = 2131296371;
+			public const int navigation_header_container = 2131296371;
 			
 			// aapt resource value: 0x7F090074
-			public const int notification_background = 2131296372;
+			public const int never = 2131296372;
 			
 			// aapt resource value: 0x7F090075
-			public const int notification_main_column = 2131296373;
+			public const int none = 2131296373;
 			
 			// aapt resource value: 0x7F090076
-			public const int notification_main_column_container = 2131296374;
+			public const int normal = 2131296374;
 			
 			// aapt resource value: 0x7F090077
-			public const int outline = 2131296375;
+			public const int notification_background = 2131296375;
 			
 			// aapt resource value: 0x7F090078
-			public const int parallax = 2131296376;
+			public const int notification_main_column = 2131296376;
 			
 			// aapt resource value: 0x7F090079
-			public const int parentPanel = 2131296377;
+			public const int notification_main_column_container = 2131296377;
 			
 			// aapt resource value: 0x7F09007A
-			public const int parent_matrix = 2131296378;
+			public const int outline = 2131296378;
 			
 			// aapt resource value: 0x7F09007B
-			public const int pin = 2131296379;
+			public const int parallax = 2131296379;
 			
 			// aapt resource value: 0x7F09007C
-			public const int progress_circular = 2131296380;
+			public const int parentPanel = 2131296380;
 			
 			// aapt resource value: 0x7F09007D
-			public const int progress_horizontal = 2131296381;
+			public const int parent_matrix = 2131296381;
 			
 			// aapt resource value: 0x7F09007E
-			public const int radio = 2131296382;
+			public const int pin = 2131296382;
 			
 			// aapt resource value: 0x7F09007F
-			public const int right = 2131296383;
+			public const int progress_circular = 2131296383;
 			
 			// aapt resource value: 0x7F090080
-			public const int right_icon = 2131296384;
+			public const int progress_horizontal = 2131296384;
 			
 			// aapt resource value: 0x7F090081
-			public const int right_side = 2131296385;
+			public const int radio = 2131296385;
 			
 			// aapt resource value: 0x7F090082
-			public const int save_image_matrix = 2131296386;
+			public const int right = 2131296386;
 			
 			// aapt resource value: 0x7F090083
-			public const int save_non_transition_alpha = 2131296387;
+			public const int right_icon = 2131296387;
 			
 			// aapt resource value: 0x7F090084
-			public const int save_scale_type = 2131296388;
+			public const int right_side = 2131296388;
 			
 			// aapt resource value: 0x7F090085
-			public const int screen = 2131296389;
+			public const int save_image_matrix = 2131296389;
 			
 			// aapt resource value: 0x7F090086
-			public const int scroll = 2131296390;
-			
-			// aapt resource value: 0x7F09008A
-			public const int scrollable = 2131296394;
+			public const int save_non_transition_alpha = 2131296390;
 			
 			// aapt resource value: 0x7F090087
-			public const int scrollIndicatorDown = 2131296391;
+			public const int save_scale_type = 2131296391;
 			
 			// aapt resource value: 0x7F090088
-			public const int scrollIndicatorUp = 2131296392;
+			public const int screen = 2131296392;
 			
 			// aapt resource value: 0x7F090089
-			public const int scrollView = 2131296393;
-			
-			// aapt resource value: 0x7F09008B
-			public const int search_badge = 2131296395;
-			
-			// aapt resource value: 0x7F09008C
-			public const int search_bar = 2131296396;
+			public const int scroll = 2131296393;
 			
 			// aapt resource value: 0x7F09008D
-			public const int search_button = 2131296397;
+			public const int scrollable = 2131296397;
+			
+			// aapt resource value: 0x7F09008A
+			public const int scrollIndicatorDown = 2131296394;
+			
+			// aapt resource value: 0x7F09008B
+			public const int scrollIndicatorUp = 2131296395;
+			
+			// aapt resource value: 0x7F09008C
+			public const int scrollView = 2131296396;
 			
 			// aapt resource value: 0x7F09008E
-			public const int search_close_btn = 2131296398;
+			public const int search_badge = 2131296398;
 			
 			// aapt resource value: 0x7F09008F
-			public const int search_edit_frame = 2131296399;
+			public const int search_bar = 2131296399;
 			
 			// aapt resource value: 0x7F090090
-			public const int search_go_btn = 2131296400;
+			public const int search_button = 2131296400;
 			
 			// aapt resource value: 0x7F090091
-			public const int search_mag_icon = 2131296401;
+			public const int search_close_btn = 2131296401;
 			
 			// aapt resource value: 0x7F090092
-			public const int search_plate = 2131296402;
+			public const int search_edit_frame = 2131296402;
 			
 			// aapt resource value: 0x7F090093
-			public const int search_src_text = 2131296403;
+			public const int search_go_btn = 2131296403;
 			
 			// aapt resource value: 0x7F090094
-			public const int search_voice_btn = 2131296404;
-			
-			// aapt resource value: 0x7F090096
-			public const int selected = 2131296406;
+			public const int search_mag_icon = 2131296404;
 			
 			// aapt resource value: 0x7F090095
-			public const int select_dialog_listview = 2131296405;
+			public const int search_plate = 2131296405;
+			
+			// aapt resource value: 0x7F090096
+			public const int search_src_text = 2131296406;
 			
 			// aapt resource value: 0x7F090097
-			public const int shellcontent_appbar = 2131296407;
+			public const int search_voice_btn = 2131296407;
+			
+			// aapt resource value: 0x7F090099
+			public const int selected = 2131296409;
 			
 			// aapt resource value: 0x7F090098
-			public const int shellcontent_toolbar = 2131296408;
+			public const int select_dialog_listview = 2131296408;
+			
+			// aapt resource value: 0x7F09009A
+			public const int shellcontent_appbar = 2131296410;
+			
+			// aapt resource value: 0x7F09009B
+			public const int shellcontent_toolbar = 2131296411;
 			
 			// aapt resource value: 0x7F090004
 			public const int SHIFT = 2131296260;
 			
-			// aapt resource value: 0x7F090099
-			public const int shortcut = 2131296409;
-			
-			// aapt resource value: 0x7F09009A
-			public const int showCustom = 2131296410;
-			
-			// aapt resource value: 0x7F09009B
-			public const int showHome = 2131296411;
-			
 			// aapt resource value: 0x7F09009C
-			public const int showTitle = 2131296412;
+			public const int shortcut = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int sliding_tabs = 2131296413;
+			public const int showCustom = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int smallLabel = 2131296414;
+			public const int showHome = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int snackbar_action = 2131296415;
+			public const int showTitle = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int snackbar_text = 2131296416;
+			public const int sliding_tabs = 2131296416;
 			
 			// aapt resource value: 0x7F0900A1
-			public const int snap = 2131296417;
+			public const int smallLabel = 2131296417;
 			
 			// aapt resource value: 0x7F0900A2
-			public const int snapMargins = 2131296418;
+			public const int snackbar_action = 2131296418;
 			
 			// aapt resource value: 0x7F0900A3
-			public const int spacer = 2131296419;
+			public const int snackbar_text = 2131296419;
 			
 			// aapt resource value: 0x7F0900A4
-			public const int split_action_bar = 2131296420;
+			public const int snap = 2131296420;
 			
 			// aapt resource value: 0x7F0900A5
-			public const int src_atop = 2131296421;
+			public const int snapMargins = 2131296421;
 			
 			// aapt resource value: 0x7F0900A6
-			public const int src_in = 2131296422;
+			public const int spacer = 2131296422;
 			
 			// aapt resource value: 0x7F0900A7
-			public const int src_over = 2131296423;
+			public const int split_action_bar = 2131296423;
 			
 			// aapt resource value: 0x7F0900A8
-			public const int start = 2131296424;
+			public const int src_atop = 2131296424;
 			
 			// aapt resource value: 0x7F0900A9
-			public const int status_bar_latest_event_content = 2131296425;
+			public const int src_in = 2131296425;
 			
 			// aapt resource value: 0x7F0900AA
-			public const int stretch = 2131296426;
+			public const int src_over = 2131296426;
 			
 			// aapt resource value: 0x7F0900AB
-			public const int submenuarrow = 2131296427;
+			public const int start = 2131296427;
 			
 			// aapt resource value: 0x7F0900AC
-			public const int submit_area = 2131296428;
+			public const int status_bar_latest_event_content = 2131296428;
+			
+			// aapt resource value: 0x7F0900AD
+			public const int stretch = 2131296429;
+			
+			// aapt resource value: 0x7F0900AE
+			public const int submenuarrow = 2131296430;
+			
+			// aapt resource value: 0x7F0900AF
+			public const int submit_area = 2131296431;
 			
 			// aapt resource value: 0x7F090005
 			public const int SYM = 2131296261;
 			
-			// aapt resource value: 0x7F0900AD
-			public const int tabMode = 2131296429;
-			
-			// aapt resource value: 0x7F0900AE
-			public const int tag_transition_group = 2131296430;
-			
-			// aapt resource value: 0x7F0900AF
-			public const int tag_unhandled_key_event_manager = 2131296431;
-			
 			// aapt resource value: 0x7F0900B0
-			public const int tag_unhandled_key_listeners = 2131296432;
+			public const int tabMode = 2131296432;
 			
 			// aapt resource value: 0x7F0900B1
-			public const int text = 2131296433;
+			public const int tag_transition_group = 2131296433;
 			
 			// aapt resource value: 0x7F0900B2
-			public const int text2 = 2131296434;
-			
-			// aapt resource value: 0x7F0900B7
-			public const int textinput_counter = 2131296439;
-			
-			// aapt resource value: 0x7F0900B8
-			public const int textinput_error = 2131296440;
-			
-			// aapt resource value: 0x7F0900B9
-			public const int textinput_helper_text = 2131296441;
+			public const int tag_unhandled_key_event_manager = 2131296434;
 			
 			// aapt resource value: 0x7F0900B3
-			public const int textSpacerNoButtons = 2131296435;
+			public const int tag_unhandled_key_listeners = 2131296435;
 			
 			// aapt resource value: 0x7F0900B4
-			public const int textSpacerNoTitle = 2131296436;
+			public const int text = 2131296436;
 			
 			// aapt resource value: 0x7F0900B5
-			public const int textStart = 2131296437;
-			
-			// aapt resource value: 0x7F0900B6
-			public const int text_input_password_toggle = 2131296438;
-			
-			// aapt resource value: 0x7F0900BA
-			public const int time = 2131296442;
+			public const int text2 = 2131296437;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int title = 2131296443;
+			public const int textinput_counter = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int titleDividerNoCustom = 2131296444;
+			public const int textinput_error = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int title_template = 2131296445;
+			public const int textinput_helper_text = 2131296445;
+			
+			// aapt resource value: 0x7F0900B6
+			public const int textSpacerNoButtons = 2131296438;
+			
+			// aapt resource value: 0x7F0900B7
+			public const int textSpacerNoTitle = 2131296439;
+			
+			// aapt resource value: 0x7F0900B8
+			public const int textStart = 2131296440;
+			
+			// aapt resource value: 0x7F0900B9
+			public const int textViewStatus = 2131296441;
+			
+			// aapt resource value: 0x7F0900BA
+			public const int text_input_password_toggle = 2131296442;
 			
 			// aapt resource value: 0x7F0900BE
-			public const int toolbar = 2131296446;
+			public const int time = 2131296446;
 			
 			// aapt resource value: 0x7F0900BF
-			public const int top = 2131296447;
+			public const int title = 2131296447;
 			
 			// aapt resource value: 0x7F0900C0
-			public const int topPanel = 2131296448;
+			public const int titleDividerNoCustom = 2131296448;
 			
 			// aapt resource value: 0x7F0900C1
-			public const int touch_outside = 2131296449;
+			public const int title_template = 2131296449;
 			
 			// aapt resource value: 0x7F0900C2
-			public const int transition_current_scene = 2131296450;
+			public const int toolbar = 2131296450;
 			
 			// aapt resource value: 0x7F0900C3
-			public const int transition_layout_save = 2131296451;
+			public const int top = 2131296451;
 			
 			// aapt resource value: 0x7F0900C4
-			public const int transition_position = 2131296452;
+			public const int topPanel = 2131296452;
 			
 			// aapt resource value: 0x7F0900C5
-			public const int transition_scene_layoutid_cache = 2131296453;
+			public const int touch_outside = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int transition_transform = 2131296454;
+			public const int transition_current_scene = 2131296454;
 			
 			// aapt resource value: 0x7F0900C7
-			public const int uniform = 2131296455;
+			public const int transition_layout_save = 2131296455;
 			
 			// aapt resource value: 0x7F0900C8
-			public const int unlabeled = 2131296456;
+			public const int transition_position = 2131296456;
 			
 			// aapt resource value: 0x7F0900C9
-			public const int up = 2131296457;
+			public const int transition_scene_layoutid_cache = 2131296457;
 			
 			// aapt resource value: 0x7F0900CA
-			public const int useLogo = 2131296458;
+			public const int transition_transform = 2131296458;
 			
 			// aapt resource value: 0x7F0900CB
-			public const int view_offset_helper = 2131296459;
+			public const int uniform = 2131296459;
 			
 			// aapt resource value: 0x7F0900CC
-			public const int visible = 2131296460;
+			public const int unlabeled = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int withText = 2131296461;
+			public const int up = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int wrap_content = 2131296462;
+			public const int useLogo = 2131296462;
+			
+			// aapt resource value: 0x7F0900CF
+			public const int view_offset_helper = 2131296463;
+			
+			// aapt resource value: 0x7F0900D0
+			public const int visible = 2131296464;
+			
+			// aapt resource value: 0x7F0900D1
+			public const int withText = 2131296465;
+			
+			// aapt resource value: 0x7F0900D2
+			public const int wrap_content = 2131296466;
 			
 			static Id()
 			{
@@ -11864,79 +14517,88 @@ namespace CoinHybridApp.Droid
 			public const int FlyoutContent = 2131492909;
 			
 			// aapt resource value: 0x7F0C002E
-			public const int mtrl_layout_snackbar = 2131492910;
+			public const int loading = 2131492910;
 			
 			// aapt resource value: 0x7F0C002F
-			public const int mtrl_layout_snackbar_include = 2131492911;
+			public const int loadingimage = 2131492911;
 			
 			// aapt resource value: 0x7F0C0030
-			public const int notification_action = 2131492912;
+			public const int loadingprogress = 2131492912;
 			
 			// aapt resource value: 0x7F0C0031
-			public const int notification_action_tombstone = 2131492913;
+			public const int mtrl_layout_snackbar = 2131492913;
 			
 			// aapt resource value: 0x7F0C0032
-			public const int notification_media_action = 2131492914;
+			public const int mtrl_layout_snackbar_include = 2131492914;
 			
 			// aapt resource value: 0x7F0C0033
-			public const int notification_media_cancel_action = 2131492915;
+			public const int notification_action = 2131492915;
 			
 			// aapt resource value: 0x7F0C0034
-			public const int notification_template_big_media = 2131492916;
+			public const int notification_action_tombstone = 2131492916;
 			
 			// aapt resource value: 0x7F0C0035
-			public const int notification_template_big_media_custom = 2131492917;
+			public const int notification_media_action = 2131492917;
 			
 			// aapt resource value: 0x7F0C0036
-			public const int notification_template_big_media_narrow = 2131492918;
+			public const int notification_media_cancel_action = 2131492918;
 			
 			// aapt resource value: 0x7F0C0037
-			public const int notification_template_big_media_narrow_custom = 2131492919;
+			public const int notification_template_big_media = 2131492919;
 			
 			// aapt resource value: 0x7F0C0038
-			public const int notification_template_custom_big = 2131492920;
+			public const int notification_template_big_media_custom = 2131492920;
 			
 			// aapt resource value: 0x7F0C0039
-			public const int notification_template_icon_group = 2131492921;
+			public const int notification_template_big_media_narrow = 2131492921;
 			
 			// aapt resource value: 0x7F0C003A
-			public const int notification_template_lines_media = 2131492922;
+			public const int notification_template_big_media_narrow_custom = 2131492922;
 			
 			// aapt resource value: 0x7F0C003B
-			public const int notification_template_media = 2131492923;
+			public const int notification_template_custom_big = 2131492923;
 			
 			// aapt resource value: 0x7F0C003C
-			public const int notification_template_media_custom = 2131492924;
+			public const int notification_template_icon_group = 2131492924;
 			
 			// aapt resource value: 0x7F0C003D
-			public const int notification_template_part_chronometer = 2131492925;
+			public const int notification_template_lines_media = 2131492925;
 			
 			// aapt resource value: 0x7F0C003E
-			public const int notification_template_part_time = 2131492926;
+			public const int notification_template_media = 2131492926;
 			
 			// aapt resource value: 0x7F0C003F
-			public const int RootLayout = 2131492927;
+			public const int notification_template_media_custom = 2131492927;
 			
 			// aapt resource value: 0x7F0C0040
-			public const int select_dialog_item_material = 2131492928;
+			public const int notification_template_part_chronometer = 2131492928;
 			
 			// aapt resource value: 0x7F0C0041
-			public const int select_dialog_multichoice_material = 2131492929;
+			public const int notification_template_part_time = 2131492929;
 			
 			// aapt resource value: 0x7F0C0042
-			public const int select_dialog_singlechoice_material = 2131492930;
+			public const int RootLayout = 2131492930;
 			
 			// aapt resource value: 0x7F0C0043
-			public const int ShellContent = 2131492931;
+			public const int select_dialog_item_material = 2131492931;
 			
 			// aapt resource value: 0x7F0C0044
-			public const int support_simple_spinner_dropdown_item = 2131492932;
+			public const int select_dialog_multichoice_material = 2131492932;
 			
 			// aapt resource value: 0x7F0C0045
-			public const int Tabbar = 2131492933;
+			public const int select_dialog_singlechoice_material = 2131492933;
 			
 			// aapt resource value: 0x7F0C0046
-			public const int Toolbar = 2131492934;
+			public const int ShellContent = 2131492934;
+			
+			// aapt resource value: 0x7F0C0047
+			public const int support_simple_spinner_dropdown_item = 2131492935;
+			
+			// aapt resource value: 0x7F0C0048
+			public const int Tabbar = 2131492936;
+			
+			// aapt resource value: 0x7F0C0049
+			public const int Toolbar = 2131492937;
 			
 			static Layout()
 			{
@@ -13685,37 +16347,37 @@ namespace CoinHybridApp.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F040031,0x7F040032,0x7F040033,0x7F040091,0x7F040092,0x7F040093,0x7F040094,0x7F040095,0x7F040096,0x7F0400A4,0x7F0400A9,0x7F0400AA,0x7F0400B5,0x7F0400DF,0x7F0400E4,0x7F0400E9,0x7F0400EA,0x7F0400EC,0x7F0400F6,0x7F040100,0x7F040123,0x7F04012F,0x7F040140,0x7F040144,0x7F040145,0x7F040173,0x7F040176,0x7F0401BB,0x7F0401C5 }
+			// aapt resource value: { 0x7F04003D,0x7F04003E,0x7F04003F,0x7F04009D,0x7F04009E,0x7F04009F,0x7F0400A0,0x7F0400A1,0x7F0400A2,0x7F0400B0,0x7F0400B5,0x7F0400B6,0x7F0400C1,0x7F0400EB,0x7F0400F0,0x7F0400F5,0x7F0400F6,0x7F0400F8,0x7F040102,0x7F04010C,0x7F04012F,0x7F04013B,0x7F04014C,0x7F040150,0x7F040151,0x7F04017F,0x7F040182,0x7F0401C7,0x7F0401D1 }
 			public static int[] ActionBar = new int[] {
-					2130968625,
-					2130968626,
-					2130968627,
-					2130968721,
-					2130968722,
-					2130968723,
-					2130968724,
-					2130968725,
-					2130968726,
-					2130968740,
-					2130968745,
-					2130968746,
+					2130968637,
+					2130968638,
+					2130968639,
+					2130968733,
+					2130968734,
+					2130968735,
+					2130968736,
+					2130968737,
+					2130968738,
+					2130968752,
 					2130968757,
-					2130968799,
-					2130968804,
-					2130968809,
-					2130968810,
-					2130968812,
+					2130968758,
+					2130968769,
+					2130968811,
+					2130968816,
+					2130968821,
 					2130968822,
-					2130968832,
-					2130968867,
+					2130968824,
+					2130968834,
+					2130968844,
 					2130968879,
-					2130968896,
-					2130968900,
-					2130968901,
-					2130968947,
-					2130968950,
-					2130969019,
-					2130969029};
+					2130968891,
+					2130968908,
+					2130968912,
+					2130968913,
+					2130968959,
+					2130968962,
+					2130969031,
+					2130969041};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -13822,14 +16484,14 @@ namespace CoinHybridApp.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F040031,0x7F040032,0x7F04007E,0x7F0400DF,0x7F040176,0x7F0401C5 }
+			// aapt resource value: { 0x7F04003D,0x7F04003E,0x7F04008A,0x7F0400EB,0x7F040182,0x7F0401D1 }
 			public static int[] ActionMode = new int[] {
-					2130968625,
-					2130968626,
-					2130968702,
-					2130968799,
-					2130968950,
-					2130969029};
+					2130968637,
+					2130968638,
+					2130968714,
+					2130968811,
+					2130968962,
+					2130969041};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -13849,10 +16511,10 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0400BA,0x7F0400F7 }
+			// aapt resource value: { 0x7F0400C6,0x7F040103 }
 			public static int[] ActivityChooserView = new int[] {
-					2130968762,
-					2130968823};
+					2130968774,
+					2130968835};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -13860,16 +16522,16 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F040052,0x7F040053,0x7F04011A,0x7F04011B,0x7F04012C,0x7F04015B,0x7F04015C }
+			// aapt resource value: { 0x10100F2,0x7F04005E,0x7F04005F,0x7F040126,0x7F040127,0x7F040138,0x7F040167,0x7F040168 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130968658,
-					2130968659,
-					2130968858,
-					2130968859,
-					2130968876,
-					2130968923,
-					2130968924};
+					2130968670,
+					2130968671,
+					2130968870,
+					2130968871,
+					2130968888,
+					2130968935,
+					2130968936};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -13952,21 +16614,21 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0400B5,0x7F0400BB,0x7F040115 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0400C1,0x7F0400C7,0x7F040121 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130968757,
-					2130968763,
-					2130968853};
+					2130968769,
+					2130968775,
+					2130968865};
 			
-			// aapt resource value: { 0x7F040169,0x7F04016A,0x7F04016B,0x7F04016C }
+			// aapt resource value: { 0x7F040175,0x7F040176,0x7F040177,0x7F040178 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130968937,
-					2130968938,
-					2130968939,
-					2130968940};
+					2130968949,
+					2130968950,
+					2130968951,
+					2130968952};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -13995,10 +16657,10 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F040113,0x7F040114 }
+			// aapt resource value: { 0x7F04011F,0x7F040120 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130968851,
-					2130968852};
+					2130968863,
+					2130968864};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -14009,12 +16671,12 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F040166,0x7F0401B9,0x7F0401BA }
+			// aapt resource value: { 0x1010119,0x7F040172,0x7F0401C5,0x7F0401C6 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130968934,
-					2130969017,
-					2130969018};
+					2130968946,
+					2130969029,
+					2130969030};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -14028,12 +16690,12 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0401B6,0x7F0401B7,0x7F0401B8 }
+			// aapt resource value: { 0x1010142,0x7F0401C2,0x7F0401C3,0x7F0401C4 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130969014,
-					2130969015,
-					2130969016};
+					2130969026,
+					2130969027,
+					2130969028};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -14078,19 +16740,19 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F04002C,0x7F04002D,0x7F04002E,0x7F04002F,0x7F040030,0x7F0400CE,0x7F0400D1,0x7F040108,0x7F040116,0x7F040196 }
+			// aapt resource value: { 0x1010034,0x7F040038,0x7F040039,0x7F04003A,0x7F04003B,0x7F04003C,0x7F0400DA,0x7F0400DD,0x7F040114,0x7F040122,0x7F0401A2 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130968620,
-					2130968621,
-					2130968622,
-					2130968623,
-					2130968624,
-					2130968782,
-					2130968785,
-					2130968840,
-					2130968854,
-					2130968982};
+					2130968632,
+					2130968633,
+					2130968634,
+					2130968635,
+					2130968636,
+					2130968794,
+					2130968797,
+					2130968852,
+					2130968866,
+					2130968994};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -14125,7 +16787,7 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F040000,0x7F040001,0x7F040002,0x7F040003,0x7F040004,0x7F040005,0x7F040006,0x7F040007,0x7F040008,0x7F040009,0x7F04000A,0x7F04000B,0x7F04000C,0x7F04000E,0x7F04000F,0x7F040010,0x7F040011,0x7F040012,0x7F040013,0x7F040014,0x7F040015,0x7F040016,0x7F040017,0x7F040018,0x7F040019,0x7F04001A,0x7F04001B,0x7F04001C,0x7F04001D,0x7F04001E,0x7F040021,0x7F040022,0x7F040023,0x7F040024,0x7F040025,0x7F04002B,0x7F04003E,0x7F04004C,0x7F04004D,0x7F04004E,0x7F04004F,0x7F040050,0x7F040054,0x7F040055,0x7F04005F,0x7F040064,0x7F040084,0x7F040085,0x7F040086,0x7F040087,0x7F040088,0x7F040089,0x7F04008A,0x7F04008B,0x7F04008C,0x7F04008E,0x7F04009D,0x7F0400A6,0x7F0400A7,0x7F0400A8,0x7F0400AB,0x7F0400AD,0x7F0400B0,0x7F0400B1,0x7F0400B2,0x7F0400B3,0x7F0400B4,0x7F0400E9,0x7F0400F5,0x7F040118,0x7F040119,0x7F04011C,0x7F04011D,0x7F04011E,0x7F04011F,0x7F040120,0x7F040121,0x7F040122,0x7F040137,0x7F040138,0x7F040139,0x7F04013F,0x7F040141,0x7F040148,0x7F040149,0x7F04014A,0x7F04014B,0x7F040153,0x7F040154,0x7F040155,0x7F040156,0x7F040163,0x7F040164,0x7F04017A,0x7F0401A1,0x7F0401A2,0x7F0401A3,0x7F0401A4,0x7F0401A6,0x7F0401A7,0x7F0401A8,0x7F0401A9,0x7F0401AC,0x7F0401AD,0x7F0401C7,0x7F0401C8,0x7F0401C9,0x7F0401CA,0x7F0401D1,0x7F0401D3,0x7F0401D4,0x7F0401D5,0x7F0401D6,0x7F0401D7,0x7F0401D8,0x7F0401D9,0x7F0401DA,0x7F0401DB,0x7F0401DC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F040000,0x7F040001,0x7F040002,0x7F040003,0x7F040004,0x7F040005,0x7F040006,0x7F040007,0x7F040008,0x7F040009,0x7F04000A,0x7F04000B,0x7F04000C,0x7F04000E,0x7F04000F,0x7F040010,0x7F040011,0x7F040012,0x7F040013,0x7F040014,0x7F040015,0x7F040016,0x7F040017,0x7F040018,0x7F040019,0x7F04001A,0x7F04001B,0x7F04001C,0x7F04001D,0x7F04001E,0x7F040021,0x7F04002E,0x7F04002F,0x7F040030,0x7F040031,0x7F040037,0x7F04004A,0x7F040058,0x7F040059,0x7F04005A,0x7F04005B,0x7F04005C,0x7F040060,0x7F040061,0x7F04006B,0x7F040070,0x7F040090,0x7F040091,0x7F040092,0x7F040093,0x7F040094,0x7F040095,0x7F040096,0x7F040097,0x7F040098,0x7F04009A,0x7F0400A9,0x7F0400B2,0x7F0400B3,0x7F0400B4,0x7F0400B7,0x7F0400B9,0x7F0400BC,0x7F0400BD,0x7F0400BE,0x7F0400BF,0x7F0400C0,0x7F0400F5,0x7F040101,0x7F040124,0x7F040125,0x7F040128,0x7F040129,0x7F04012A,0x7F04012B,0x7F04012C,0x7F04012D,0x7F04012E,0x7F040143,0x7F040144,0x7F040145,0x7F04014B,0x7F04014D,0x7F040154,0x7F040155,0x7F040156,0x7F040157,0x7F04015F,0x7F040160,0x7F040161,0x7F040162,0x7F04016F,0x7F040170,0x7F040186,0x7F0401AD,0x7F0401AE,0x7F0401AF,0x7F0401B0,0x7F0401B2,0x7F0401B3,0x7F0401B4,0x7F0401B5,0x7F0401B8,0x7F0401B9,0x7F0401D3,0x7F0401D4,0x7F0401D5,0x7F0401D6,0x7F0401DD,0x7F0401DF,0x7F0401E0,0x7F0401E1,0x7F0401E2,0x7F0401E3,0x7F0401E4,0x7F0401E5,0x7F0401E6,0x7F0401E7,0x7F0401E8 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -14160,94 +16822,94 @@ namespace CoinHybridApp.Droid
 					2130968605,
 					2130968606,
 					2130968609,
-					2130968610,
-					2130968611,
-					2130968612,
-					2130968613,
-					2130968619,
-					2130968638,
-					2130968652,
-					2130968653,
-					2130968654,
-					2130968655,
-					2130968656,
-					2130968660,
-					2130968661,
-					2130968671,
-					2130968676,
-					2130968708,
-					2130968709,
-					2130968710,
-					2130968711,
-					2130968712,
-					2130968713,
-					2130968714,
-					2130968715,
-					2130968716,
-					2130968718,
-					2130968733,
-					2130968742,
-					2130968743,
-					2130968744,
-					2130968747,
-					2130968749,
-					2130968752,
-					2130968753,
+					2130968622,
+					2130968623,
+					2130968624,
+					2130968625,
+					2130968631,
+					2130968650,
+					2130968664,
+					2130968665,
+					2130968666,
+					2130968667,
+					2130968668,
+					2130968672,
+					2130968673,
+					2130968683,
+					2130968688,
+					2130968720,
+					2130968721,
+					2130968722,
+					2130968723,
+					2130968724,
+					2130968725,
+					2130968726,
+					2130968727,
+					2130968728,
+					2130968730,
+					2130968745,
 					2130968754,
 					2130968755,
 					2130968756,
-					2130968809,
+					2130968759,
+					2130968761,
+					2130968764,
+					2130968765,
+					2130968766,
+					2130968767,
+					2130968768,
 					2130968821,
-					2130968856,
-					2130968857,
-					2130968860,
-					2130968861,
-					2130968862,
-					2130968863,
-					2130968864,
-					2130968865,
-					2130968866,
-					2130968887,
-					2130968888,
-					2130968889,
-					2130968895,
-					2130968897,
-					2130968904,
-					2130968905,
-					2130968906,
+					2130968833,
+					2130968868,
+					2130968869,
+					2130968872,
+					2130968873,
+					2130968874,
+					2130968875,
+					2130968876,
+					2130968877,
+					2130968878,
+					2130968899,
+					2130968900,
+					2130968901,
 					2130968907,
-					2130968915,
+					2130968909,
 					2130968916,
 					2130968917,
 					2130968918,
-					2130968931,
-					2130968932,
-					2130968954,
-					2130968993,
-					2130968994,
-					2130968995,
-					2130968996,
-					2130968998,
-					2130968999,
-					2130969000,
-					2130969001,
-					2130969004,
+					2130968919,
+					2130968927,
+					2130968928,
+					2130968929,
+					2130968930,
+					2130968943,
+					2130968944,
+					2130968966,
 					2130969005,
-					2130969031,
-					2130969032,
-					2130969033,
-					2130969034,
-					2130969041,
+					2130969006,
+					2130969007,
+					2130969008,
+					2130969010,
+					2130969011,
+					2130969012,
+					2130969013,
+					2130969016,
+					2130969017,
 					2130969043,
 					2130969044,
 					2130969045,
 					2130969046,
-					2130969047,
-					2130969048,
-					2130969049,
-					2130969050,
-					2130969051,
-					2130969052};
+					2130969053,
+					2130969055,
+					2130969056,
+					2130969057,
+					2130969058,
+					2130969059,
+					2130969060,
+					2130969061,
+					2130969062,
+					2130969063,
+					2130969064};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -14612,14 +17274,14 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F040034,0x7F0400C3,0x7F0400C4,0x7F0400C5,0x7F0400C6,0x7F0400E5 }
+			// aapt resource value: { 0x7F040040,0x7F0400CF,0x7F0400D0,0x7F0400D1,0x7F0400D2,0x7F0400F1 }
 			public static int[] BottomAppBar = new int[] {
-					2130968628,
-					2130968771,
-					2130968772,
-					2130968773,
-					2130968774,
-					2130968805};
+					2130968640,
+					2130968783,
+					2130968784,
+					2130968785,
+					2130968786,
+					2130968817};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -14639,18 +17301,18 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0400B5,0x7F0400FA,0x7F0400FC,0x7F0400FE,0x7F0400FF,0x7F040103,0x7F040104,0x7F040105,0x7F040107,0x7F04012B }
+			// aapt resource value: { 0x7F0400C1,0x7F040106,0x7F040108,0x7F04010A,0x7F04010B,0x7F04010F,0x7F040110,0x7F040111,0x7F040113,0x7F040137 }
 			public static int[] BottomNavigationView = new int[] {
-					2130968757,
-					2130968826,
-					2130968828,
-					2130968830,
-					2130968831,
-					2130968835,
-					2130968836,
-					2130968837,
-					2130968839,
-					2130968875};
+					2130968769,
+					2130968838,
+					2130968840,
+					2130968842,
+					2130968843,
+					2130968847,
+					2130968848,
+					2130968849,
+					2130968851,
+					2130968887};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -14682,12 +17344,12 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F040038,0x7F040039,0x7F04003B,0x7F04003C }
+			// aapt resource value: { 0x7F040044,0x7F040045,0x7F040047,0x7F040048 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130968632,
-					2130968633,
-					2130968635,
-					2130968636};
+					2130968644,
+					2130968645,
+					2130968647,
+					2130968648};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -14701,28 +17363,28 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F040026 }
+			// aapt resource value: { 0x7F040032 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130968614};
+					2130968626};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F040058,0x7F040059,0x7F04005A,0x7F04005B,0x7F04005C,0x7F04005D,0x7F040097,0x7F040098,0x7F040099,0x7F04009A,0x7F04009B }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F040064,0x7F040065,0x7F040066,0x7F040067,0x7F040068,0x7F040069,0x7F0400A3,0x7F0400A4,0x7F0400A5,0x7F0400A6,0x7F0400A7 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130968664,
-					2130968665,
-					2130968666,
-					2130968667,
-					2130968668,
-					2130968669,
-					2130968727,
-					2130968728,
-					2130968729,
-					2130968730,
-					2130968731};
+					2130968676,
+					2130968677,
+					2130968678,
+					2130968679,
+					2130968680,
+					2130968681,
+					2130968739,
+					2130968740,
+					2130968741,
+					2130968742,
+					2130968743};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -14763,51 +17425,51 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F040061,0x7F040062,0x7F040063,0x7F040065,0x7F040066,0x7F040067,0x7F040069,0x7F04006A,0x7F04006B,0x7F04006C,0x7F04006D,0x7F04006E,0x7F040073,0x7F040074,0x7F040075,0x7F040077,0x7F040078,0x7F040079,0x7F04007A,0x7F04007B,0x7F04007C,0x7F04007D,0x7F0400E3,0x7F0400ED,0x7F0400F1,0x7F04014D,0x7F040159,0x7F0401AE,0x7F0401B0 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F04006D,0x7F04006E,0x7F04006F,0x7F040071,0x7F040072,0x7F040073,0x7F040075,0x7F040076,0x7F040077,0x7F040078,0x7F040079,0x7F04007A,0x7F04007F,0x7F040080,0x7F040081,0x7F040083,0x7F040084,0x7F040085,0x7F040086,0x7F040087,0x7F040088,0x7F040089,0x7F0400EF,0x7F0400F9,0x7F0400FD,0x7F040159,0x7F040165,0x7F0401BA,0x7F0401BC }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130968673,
-					2130968674,
-					2130968675,
-					2130968677,
-					2130968678,
-					2130968679,
-					2130968681,
-					2130968682,
-					2130968683,
-					2130968684,
 					2130968685,
 					2130968686,
+					2130968687,
+					2130968689,
+					2130968690,
 					2130968691,
-					2130968692,
 					2130968693,
+					2130968694,
 					2130968695,
 					2130968696,
 					2130968697,
 					2130968698,
+					2130968703,
+					2130968704,
+					2130968705,
+					2130968707,
+					2130968708,
+					2130968709,
+					2130968710,
+					2130968711,
+					2130968712,
+					2130968713,
+					2130968815,
+					2130968825,
+					2130968829,
+					2130968921,
+					2130968933,
+					2130969018,
+					2130969020};
+			
+			// aapt resource value: { 0x7F04006C,0x7F04007B,0x7F04007C,0x7F04007D,0x7F040169,0x7F04016A }
+			public static int[] ChipGroup = new int[] {
+					2130968684,
 					2130968699,
 					2130968700,
 					2130968701,
-					2130968803,
-					2130968813,
-					2130968817,
-					2130968909,
-					2130968921,
-					2130969006,
-					2130969008};
-			
-			// aapt resource value: { 0x7F040060,0x7F04006F,0x7F040070,0x7F040071,0x7F04015D,0x7F04015E }
-			public static int[] ChipGroup = new int[] {
-					2130968672,
-					2130968687,
-					2130968688,
-					2130968689,
-					2130968925,
-					2130968926};
+					2130968937,
+					2130968938};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -14929,24 +17591,24 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F040081,0x7F040082,0x7F04009C,0x7F0400BC,0x7F0400BD,0x7F0400BE,0x7F0400BF,0x7F0400C0,0x7F0400C1,0x7F0400C2,0x7F04014E,0x7F040150,0x7F04016E,0x7F0401BB,0x7F0401BC,0x7F0401C6 }
+			// aapt resource value: { 0x7F04008D,0x7F04008E,0x7F0400A8,0x7F0400C8,0x7F0400C9,0x7F0400CA,0x7F0400CB,0x7F0400CC,0x7F0400CD,0x7F0400CE,0x7F04015A,0x7F04015C,0x7F04017A,0x7F0401C7,0x7F0401C8,0x7F0401D2 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130968705,
-					2130968706,
-					2130968732,
-					2130968764,
-					2130968765,
-					2130968766,
-					2130968767,
-					2130968768,
-					2130968769,
-					2130968770,
-					2130968910,
-					2130968912,
-					2130968942,
-					2130969019,
-					2130969020,
-					2130969030};
+					2130968717,
+					2130968718,
+					2130968744,
+					2130968776,
+					2130968777,
+					2130968778,
+					2130968779,
+					2130968780,
+					2130968781,
+					2130968782,
+					2130968922,
+					2130968924,
+					2130968954,
+					2130969031,
+					2130969032,
+					2130969042};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -14978,10 +17640,10 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F04010E,0x7F04010F }
+			// aapt resource value: { 0x7F04011A,0x7F04011B }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130968846,
-					2130968847};
+					2130968858,
+					2130968859};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -15007,11 +17669,11 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F040027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F040033 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130968615};
+					2130968627};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -15022,11 +17684,11 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F040056,0x7F040057 }
+			// aapt resource value: { 0x1010107,0x7F040062,0x7F040063 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130968662,
-					2130968663};
+					2130968674,
+					2130968675};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -15037,23 +17699,23 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F040106,0x7F04016D }
+			// aapt resource value: { 0x7F040112,0x7F040179 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130968838,
-					2130968941};
+					2130968850,
+					2130968953};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F04010B,0x7F04010C,0x7F04010D,0x7F040110,0x7F040111,0x7F040112 }
+			// aapt resource value: { 0x10100B3,0x7F040117,0x7F040118,0x7F040119,0x7F04011C,0x7F04011D,0x7F04011E }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130968843,
-					2130968844,
-					2130968845,
-					2130968848,
-					2130968849,
-					2130968850};
+					2130968855,
+					2130968856,
+					2130968857,
+					2130968860,
+					2130968861,
+					2130968862};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -15079,10 +17741,10 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F040041,0x7F040042 }
+			// aapt resource value: { 0x7F04004D,0x7F04004E }
 			public static int[] DesignTheme = new int[] {
-					2130968641,
-					2130968642};
+					2130968653,
+					2130968654};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -15090,16 +17752,16 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F040029,0x7F04002A,0x7F040036,0x7F040083,0x7F0400AE,0x7F0400DC,0x7F040162,0x7F0401B2 }
+			// aapt resource value: { 0x7F040035,0x7F040036,0x7F040042,0x7F04008F,0x7F0400BA,0x7F0400E8,0x7F04016E,0x7F0401BE }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130968617,
-					2130968618,
+					2130968629,
 					2130968630,
-					2130968707,
-					2130968750,
-					2130968796,
-					2130968930,
-					2130969010};
+					2130968642,
+					2130968719,
+					2130968762,
+					2130968808,
+					2130968942,
+					2130969022};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -15125,21 +17787,21 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F040034,0x7F040035,0x7F04003D,0x7F0400B5,0x7F0400C7,0x7F0400C8,0x7F0400E3,0x7F0400EB,0x7F040129,0x7F040143,0x7F04014D,0x7F040159,0x7F0401D0 }
+			// aapt resource value: { 0x7F040040,0x7F040041,0x7F040049,0x7F0400C1,0x7F0400D3,0x7F0400D4,0x7F0400EF,0x7F0400F7,0x7F040135,0x7F04014F,0x7F040159,0x7F040165,0x7F0401DC }
 			public static int[] FloatingActionButton = new int[] {
-					2130968628,
-					2130968629,
-					2130968637,
-					2130968757,
-					2130968775,
-					2130968776,
-					2130968803,
-					2130968811,
-					2130968873,
-					2130968899,
-					2130968909,
+					2130968640,
+					2130968641,
+					2130968649,
+					2130968769,
+					2130968787,
+					2130968788,
+					2130968815,
+					2130968823,
+					2130968885,
+					2130968911,
 					2130968921,
-					2130969040};
+					2130968933,
+					2130969052};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -15147,9 +17809,9 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F040037 }
+			// aapt resource value: { 0x7F040043 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130968631};
+					2130968643};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -15187,10 +17849,10 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F040101,0x7F040117 }
+			// aapt resource value: { 0x7F04010D,0x7F040123 }
 			public static int[] FlowLayout = new int[] {
-					2130968833,
-					2130968855};
+					2130968845,
+					2130968867};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -15198,27 +17860,27 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0400D2,0x7F0400D3,0x7F0400D4,0x7F0400D5,0x7F0400D6,0x7F0400D7 }
+			// aapt resource value: { 0x7F0400DE,0x7F0400DF,0x7F0400E0,0x7F0400E1,0x7F0400E2,0x7F0400E3 }
 			public static int[] FontFamily = new int[] {
-					2130968786,
-					2130968787,
-					2130968788,
-					2130968789,
-					2130968790,
-					2130968791};
+					2130968798,
+					2130968799,
+					2130968800,
+					2130968801,
+					2130968802,
+					2130968803};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0400D0,0x7F0400D8,0x7F0400D9,0x7F0400DA,0x7F0401CF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0400DC,0x7F0400E4,0x7F0400E5,0x7F0400E6,0x7F0401DB }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130968784,
-					2130968792,
-					2130968793,
-					2130968794,
-					2130969039};
+					2130968796,
+					2130968804,
+					2130968805,
+					2130968806,
+					2130969051};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -15268,11 +17930,11 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0400DB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0400E7 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130968795};
+					2130968807};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -15345,17 +18007,17 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0400AA,0x7F0400AC,0x7F04012A,0x7F040158 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0400B6,0x7F0400B8,0x7F040136,0x7F040164 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130968746,
-					2130968748,
-					2130968874,
-					2130968920};
+					2130968758,
+					2130968760,
+					2130968886,
+					2130968932};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -15414,24 +18076,24 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F040034,0x7F040035,0x7F04009F,0x7F0400EC,0x7F0400EE,0x7F0400EF,0x7F0400F0,0x7F0400F2,0x7F0400F3,0x7F04014D,0x7F04016F,0x7F040170 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F040040,0x7F040041,0x7F0400AB,0x7F0400F8,0x7F0400FA,0x7F0400FB,0x7F0400FC,0x7F0400FE,0x7F0400FF,0x7F040159,0x7F04017B,0x7F04017C }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130968628,
-					2130968629,
-					2130968735,
-					2130968812,
-					2130968814,
-					2130968815,
-					2130968816,
-					2130968818,
-					2130968819,
-					2130968909,
-					2130968943,
-					2130968944};
+					2130968640,
+					2130968641,
+					2130968747,
+					2130968824,
+					2130968826,
+					2130968827,
+					2130968828,
+					2130968830,
+					2130968831,
+					2130968921,
+					2130968955,
+					2130968956};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -15481,10 +18143,10 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F04016F,0x7F040170 }
+			// aapt resource value: { 0x7F04017B,0x7F04017C }
 			public static int[] MaterialCardView = new int[] {
-					2130968943,
-					2130968944};
+					2130968955,
+					2130968956};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -15492,40 +18154,40 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F040041,0x7F040042,0x7F040068,0x7F040072,0x7F040076,0x7F040084,0x7F040085,0x7F04008B,0x7F04008C,0x7F04008D,0x7F0400B4,0x7F0400CF,0x7F040125,0x7F040126,0x7F040130,0x7F04014F,0x7F04015F,0x7F040192,0x7F040197,0x7F040198,0x7F040199,0x7F04019A,0x7F04019B,0x7F04019C,0x7F04019D,0x7F04019E,0x7F04019F,0x7F0401A0,0x7F0401A5,0x7F0401AA,0x7F0401AB,0x7F0401AF }
+			// aapt resource value: { 0x7F04004D,0x7F04004E,0x7F040074,0x7F04007E,0x7F040082,0x7F040090,0x7F040091,0x7F040097,0x7F040098,0x7F040099,0x7F0400C0,0x7F0400DB,0x7F040131,0x7F040132,0x7F04013C,0x7F04015B,0x7F04016B,0x7F04019E,0x7F0401A3,0x7F0401A4,0x7F0401A5,0x7F0401A6,0x7F0401A7,0x7F0401A8,0x7F0401A9,0x7F0401AA,0x7F0401AB,0x7F0401AC,0x7F0401B1,0x7F0401B6,0x7F0401B7,0x7F0401BB }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130968641,
-					2130968642,
-					2130968680,
-					2130968690,
-					2130968694,
-					2130968708,
-					2130968709,
-					2130968715,
-					2130968716,
-					2130968717,
-					2130968756,
-					2130968783,
-					2130968869,
-					2130968870,
-					2130968880,
-					2130968911,
-					2130968927,
-					2130968978,
-					2130968983,
-					2130968984,
-					2130968985,
-					2130968986,
-					2130968987,
-					2130968988,
-					2130968989,
+					2130968653,
+					2130968654,
+					2130968692,
+					2130968702,
+					2130968706,
+					2130968720,
+					2130968721,
+					2130968727,
+					2130968728,
+					2130968729,
+					2130968768,
+					2130968795,
+					2130968881,
+					2130968882,
+					2130968892,
+					2130968923,
+					2130968939,
 					2130968990,
-					2130968991,
-					2130968992,
+					2130968995,
+					2130968996,
 					2130968997,
+					2130968998,
+					2130968999,
+					2130969000,
+					2130969001,
 					2130969002,
 					2130969003,
-					2130969007};
+					2130969004,
+					2130969009,
+					2130969014,
+					2130969015,
+					2130969019};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -15650,7 +18312,7 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F04000D,0x7F04001F,0x7F040020,0x7F040028,0x7F040090,0x7F0400F2,0x7F0400F3,0x7F040131,0x7F040157,0x7F0401CB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F04000D,0x7F04001F,0x7F040020,0x7F040034,0x7F04009C,0x7F0400FE,0x7F0400FF,0x7F04013D,0x7F040163,0x7F0401D7 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -15668,13 +18330,13 @@ namespace CoinHybridApp.Droid
 					2130968589,
 					2130968607,
 					2130968608,
-					2130968616,
-					2130968720,
-					2130968818,
-					2130968819,
-					2130968881,
-					2130968919,
-					2130969035};
+					2130968628,
+					2130968732,
+					2130968830,
+					2130968831,
+					2130968893,
+					2130968931,
+					2130969047};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -15745,7 +18407,7 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F040142,0x7F040171 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F04014E,0x7F04017D }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -15754,8 +18416,8 @@ namespace CoinHybridApp.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130968898,
-					2130968945};
+					2130968910,
+					2130968957};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -15784,20 +18446,20 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0400B5,0x7F0400DE,0x7F0400FA,0x7F0400FB,0x7F0400FD,0x7F0400FF,0x7F040102,0x7F040105,0x7F04012B }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0400C1,0x7F0400EA,0x7F040106,0x7F040107,0x7F040109,0x7F04010B,0x7F04010E,0x7F040111,0x7F040137 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130968757,
-					2130968798,
-					2130968826,
-					2130968827,
-					2130968829,
-					2130968831,
-					2130968834,
-					2130968837,
-					2130968875};
+					2130968769,
+					2130968810,
+					2130968838,
+					2130968839,
+					2130968841,
+					2130968843,
+					2130968846,
+					2130968849,
+					2130968887};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -15835,15 +18497,15 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F040132 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F04013E }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130968882};
+					2130968894};
 			
-			// aapt resource value: { 0x7F040168 }
+			// aapt resource value: { 0x7F040174 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130968936};
+					2130968948};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -15857,10 +18519,61 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F040133,0x7F040136 }
+			// aapt resource value: { 0x7F040022,0x7F040023,0x7F040024,0x7F040025,0x7F040026,0x7F040027,0x7F040028,0x7F040029,0x7F04002A,0x7F04002B,0x7F04002C,0x7F04002D }
+			public static int[] ProgressWheel = new int[] {
+					2130968610,
+					2130968611,
+					2130968612,
+					2130968613,
+					2130968614,
+					2130968615,
+					2130968616,
+					2130968617,
+					2130968618,
+					2130968619,
+					2130968620,
+					2130968621};
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahBarColor = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahBarLength = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahBarWidth = 2;
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahCircleColor = 3;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahDelayMillis = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRadius = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahRimColor = 6;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahRimWidth = 7;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahSpinSpeed = 8;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahText = 9;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahTextColor = 10;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahTextSize = 11;
+			
+			// aapt resource value: { 0x7F04013F,0x7F040142 }
 			public static int[] RecycleListView = new int[] {
-					2130968883,
-					2130968886};
+					2130968895,
+					2130968898};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -15868,19 +18581,19 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0400C9,0x7F0400CA,0x7F0400CB,0x7F0400CC,0x7F0400CD,0x7F04010A,0x7F04014C,0x7F040161,0x7F040167 }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0400D5,0x7F0400D6,0x7F0400D7,0x7F0400D8,0x7F0400D9,0x7F040116,0x7F040158,0x7F04016D,0x7F040173 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130968777,
-					2130968778,
-					2130968779,
-					2130968780,
-					2130968781,
-					2130968842,
-					2130968908,
-					2130968929,
-					2130968935};
+					2130968789,
+					2130968790,
+					2130968791,
+					2130968792,
+					2130968793,
+					2130968854,
+					2130968920,
+					2130968941,
+					2130968947};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -15915,39 +18628,39 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F0400F8 }
+			// aapt resource value: { 0x7F040104 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130968824};
+					2130968836};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F04003A }
+			// aapt resource value: { 0x7F040046 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130968634};
+					2130968646};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F040077,0x7F04008F,0x7F0400A5,0x7F0400DD,0x7F0400F4,0x7F040109,0x7F040146,0x7F040147,0x7F040151,0x7F040152,0x7F040172,0x7F040177,0x7F0401D2 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F040083,0x7F04009B,0x7F0400B1,0x7F0400E9,0x7F040100,0x7F040115,0x7F040152,0x7F040153,0x7F04015D,0x7F04015E,0x7F04017E,0x7F040183,0x7F0401DE }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130968695,
-					2130968719,
-					2130968741,
-					2130968797,
-					2130968820,
-					2130968841,
-					2130968902,
-					2130968903,
-					2130968913,
+					2130968707,
+					2130968731,
+					2130968753,
+					2130968809,
+					2130968832,
+					2130968853,
 					2130968914,
-					2130968946,
-					2130968951,
-					2130969042};
+					2130968915,
+					2130968925,
+					2130968926,
+					2130968958,
+					2130968963,
+					2130969054};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -16000,16 +18713,16 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F04015F,0x7F040160 }
+			// aapt resource value: { 0x7F04016B,0x7F04016C }
 			public static int[] Snackbar = new int[] {
-					2130968927,
-					2130968928};
+					2130968939,
+					2130968940};
 			
-			// aapt resource value: { 0x101011F,0x7F0400B5,0x7F040127 }
+			// aapt resource value: { 0x101011F,0x7F0400C1,0x7F040133 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130968757,
-					2130968871};
+					2130968769,
+					2130968883};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -16026,13 +18739,13 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F040140 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F04014C }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130968896};
+					2130968908};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -16083,22 +18796,22 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F04015A,0x7F040165,0x7F040178,0x7F040179,0x7F04017B,0x7F0401B3,0x7F0401B4,0x7F0401B5,0x7F0401CC,0x7F0401CD,0x7F0401CE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F040166,0x7F040171,0x7F040184,0x7F040185,0x7F040187,0x7F0401BF,0x7F0401C0,0x7F0401C1,0x7F0401D8,0x7F0401D9,0x7F0401DA }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130968922,
-					2130968933,
-					2130968952,
-					2130968953,
-					2130968955,
-					2130969011,
-					2130969012,
-					2130969013,
-					2130969036,
-					2130969037,
-					2130969038};
+					2130968934,
+					2130968945,
+					2130968964,
+					2130968965,
+					2130968967,
+					2130969023,
+					2130969024,
+					2130969025,
+					2130969048,
+					2130969049,
+					2130969050};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -16157,20 +18870,8 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F04017C,0x7F04017D,0x7F04017E,0x7F04017F,0x7F040180,0x7F040181,0x7F040182,0x7F040183,0x7F040184,0x7F040185,0x7F040186,0x7F040187,0x7F040188,0x7F040189,0x7F04018A,0x7F04018B,0x7F04018C,0x7F04018D,0x7F04018E,0x7F04018F,0x7F040190,0x7F040191,0x7F040193,0x7F040194,0x7F040195 }
+			// aapt resource value: { 0x7F040188,0x7F040189,0x7F04018A,0x7F04018B,0x7F04018C,0x7F04018D,0x7F04018E,0x7F04018F,0x7F040190,0x7F040191,0x7F040192,0x7F040193,0x7F040194,0x7F040195,0x7F040196,0x7F040197,0x7F040198,0x7F040199,0x7F04019A,0x7F04019B,0x7F04019C,0x7F04019D,0x7F04019F,0x7F0401A0,0x7F0401A1 }
 			public static int[] TabLayout = new int[] {
-					2130968956,
-					2130968957,
-					2130968958,
-					2130968959,
-					2130968960,
-					2130968961,
-					2130968962,
-					2130968963,
-					2130968964,
-					2130968965,
-					2130968966,
-					2130968967,
 					2130968968,
 					2130968969,
 					2130968970,
@@ -16181,9 +18882,21 @@ namespace CoinHybridApp.Droid
 					2130968975,
 					2130968976,
 					2130968977,
+					2130968978,
 					2130968979,
 					2130968980,
-					2130968981};
+					2130968981,
+					2130968982,
+					2130968983,
+					2130968984,
+					2130968985,
+					2130968986,
+					2130968987,
+					2130968988,
+					2130968989,
+					2130968991,
+					2130968992,
+					2130968993};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -16260,7 +18973,7 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0400D1,0x7F040196 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0400DD,0x7F0401A2 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -16273,8 +18986,8 @@ namespace CoinHybridApp.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130968785,
-					2130968982};
+					2130968797,
+					2130968994};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -16315,36 +19028,36 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F040043,0x7F040044,0x7F040045,0x7F040046,0x7F040047,0x7F040048,0x7F040049,0x7F04004A,0x7F04004B,0x7F0400A0,0x7F0400A1,0x7F0400A2,0x7F0400A3,0x7F0400B8,0x7F0400B9,0x7F0400E0,0x7F0400E1,0x7F0400E2,0x7F0400E6,0x7F0400E7,0x7F0400E8,0x7F04013A,0x7F04013B,0x7F04013C,0x7F04013D,0x7F04013E }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F04004F,0x7F040050,0x7F040051,0x7F040052,0x7F040053,0x7F040054,0x7F040055,0x7F040056,0x7F040057,0x7F0400AC,0x7F0400AD,0x7F0400AE,0x7F0400AF,0x7F0400C4,0x7F0400C5,0x7F0400EC,0x7F0400ED,0x7F0400EE,0x7F0400F2,0x7F0400F3,0x7F0400F4,0x7F040146,0x7F040147,0x7F040148,0x7F040149,0x7F04014A }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130968643,
-					2130968644,
-					2130968645,
-					2130968646,
-					2130968647,
-					2130968648,
-					2130968649,
-					2130968650,
-					2130968651,
-					2130968736,
-					2130968737,
-					2130968738,
-					2130968739,
-					2130968760,
-					2130968761,
-					2130968800,
-					2130968801,
-					2130968802,
-					2130968806,
-					2130968807,
-					2130968808,
-					2130968890,
-					2130968891,
-					2130968892,
-					2130968893,
-					2130968894};
+					2130968655,
+					2130968656,
+					2130968657,
+					2130968658,
+					2130968659,
+					2130968660,
+					2130968661,
+					2130968662,
+					2130968663,
+					2130968748,
+					2130968749,
+					2130968750,
+					2130968751,
+					2130968772,
+					2130968773,
+					2130968812,
+					2130968813,
+					2130968814,
+					2130968818,
+					2130968819,
+					2130968820,
+					2130968902,
+					2130968903,
+					2130968904,
+					2130968905,
+					2130968906};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -16430,11 +19143,11 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0400B6,0x7F0400B7 }
+			// aapt resource value: { 0x1010034,0x7F0400C2,0x7F0400C3 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130968758,
-					2130968759};
+					2130968770,
+					2130968771};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -16445,37 +19158,37 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F040051,0x7F04007F,0x7F040080,0x7F040091,0x7F040092,0x7F040093,0x7F040094,0x7F040095,0x7F040096,0x7F040123,0x7F040124,0x7F040128,0x7F04012D,0x7F04012E,0x7F040140,0x7F040173,0x7F040174,0x7F040175,0x7F0401BB,0x7F0401BD,0x7F0401BE,0x7F0401BF,0x7F0401C0,0x7F0401C1,0x7F0401C2,0x7F0401C3,0x7F0401C4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F04005D,0x7F04008B,0x7F04008C,0x7F04009D,0x7F04009E,0x7F04009F,0x7F0400A0,0x7F0400A1,0x7F0400A2,0x7F04012F,0x7F040130,0x7F040134,0x7F040139,0x7F04013A,0x7F04014C,0x7F04017F,0x7F040180,0x7F040181,0x7F0401C7,0x7F0401C9,0x7F0401CA,0x7F0401CB,0x7F0401CC,0x7F0401CD,0x7F0401CE,0x7F0401CF,0x7F0401D0 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130968657,
-					2130968703,
-					2130968704,
-					2130968721,
-					2130968722,
-					2130968723,
-					2130968724,
-					2130968725,
-					2130968726,
-					2130968867,
-					2130968868,
-					2130968872,
-					2130968877,
-					2130968878,
-					2130968896,
-					2130968947,
-					2130968948,
-					2130968949,
-					2130969019,
-					2130969021,
-					2130969022,
-					2130969023,
-					2130969024,
-					2130969025,
-					2130969026,
-					2130969027,
-					2130969028};
+					2130968669,
+					2130968715,
+					2130968716,
+					2130968733,
+					2130968734,
+					2130968735,
+					2130968736,
+					2130968737,
+					2130968738,
+					2130968879,
+					2130968880,
+					2130968884,
+					2130968889,
+					2130968890,
+					2130968908,
+					2130968959,
+					2130968960,
+					2130968961,
+					2130969031,
+					2130969033,
+					2130969034,
+					2130969035,
+					2130969036,
+					2130969037,
+					2130969038,
+					2130969039,
+					2130969040};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -16564,19 +19277,19 @@ namespace CoinHybridApp.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F040134,0x7F040135,0x7F0401B1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F040140,0x7F040141,0x7F0401BD }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130968884,
-					2130968885,
-					2130969009};
+					2130968896,
+					2130968897,
+					2130969021};
 			
-			// aapt resource value: { 0x10100D4,0x7F040034,0x7F040035 }
+			// aapt resource value: { 0x10100D4,0x7F040040,0x7F040041 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130968628,
-					2130968629};
+					2130968640,
+					2130968641};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;

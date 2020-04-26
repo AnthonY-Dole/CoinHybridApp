@@ -1,4 +1,5 @@
-﻿using CoinHybridApp.Controls;
+﻿using Acr.UserDialogs;
+using CoinHybridApp.Controls;
 using CoinHybridApp.Models;
 using CoinHybridApp.ViewModel;
 using System;
@@ -30,15 +31,37 @@ namespace CoinHybridApp
             borderlessPicker1.Focus();
         }
 
-        
 
+        public async void HandleConfirmation(BuySellViewModel sender)
+        {
+           
+            var config = new ConfirmConfig()
+            {
+                Title = "Revendre?",
+                Message = "Voulez vous revendre du "+vm.SelectedCrypto.Name + "qui vaut " +vm.SelectedCrypto.PriceUsd+"$ ?",
+                OkText = "Oui",
+                CancelText = "Non",
+            };
+            if (await UserDialogs.Instance.ConfirmAsync(config))
+            {
+                vm.DoSomething();
+            }
+        }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             await vm.UpdateAssetsLimitAsync();
+            MessagingCenter.Subscribe<BuySellViewModel>(this, "CallViewFromViewModel", HandleConfirmation);
 
         }
+       
 
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+
+            MessagingCenter.Unsubscribe<BuySellViewModel>(this, "CallViewFromViewModel");
+        }
         private void Button_Clicked(object sender, EventArgs e)
         {
             vm.newBuy();
