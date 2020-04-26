@@ -7,8 +7,8 @@
              x:Class="CoinHybridApp.BuySell">
     <ContentPage.Content>
 
-
-        <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
             <StackLayout Orientation="Horizontal" >
 
                 <Image Source="{Binding SelectedCrypto.ImageUrl}"  HeightRequest="40" WidthRequest="40" HorizontalOptions="CenterAndExpand" />
@@ -62,7 +62,7 @@
             </ListView>
         </StackLayout>
 
-
+        </ScrollView>
 
 
 

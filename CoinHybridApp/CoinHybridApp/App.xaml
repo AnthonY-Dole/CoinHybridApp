@@ -7,18 +7,6 @@
              
              x:Class="CoinHybridApp.App">
    <Application.Resources>
-        <ResourceDictionary>
-            <!-- COLORS -->
-            <Color x:Key="Primary">#263238</Color>
-            <Color x:Key="PrimaryDark">#222D32</Color>
-            <Color x:Key="Accent">#00AFF0</Color>
-
-            <!-- STYLES -->
-            <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="{StaticResource Primary}" />
-                <Setter Property="BarTextColor" Value="White" />
-                <Setter Property="BackgroundColor" Value="#FFFFFF" />
-            </Style>
-        </ResourceDictionary>
+       
     </Application.Resources>
 </Application>

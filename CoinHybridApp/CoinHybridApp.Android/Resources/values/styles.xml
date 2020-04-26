@@ -32,7 +32,5 @@
     <item name="android:windowNoTitle">true</item>
     <item name="android:windowFullscreen">true</item>
   </style>
-  <style name="Theme.AppCompat.DayNight"
-    parent="Theme.AppCompat.Light">
-  </style>
+ 
 </resources>

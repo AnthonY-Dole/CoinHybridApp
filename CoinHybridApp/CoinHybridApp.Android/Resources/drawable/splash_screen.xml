@@ -6,7 +6,7 @@
   <item>
     <bitmap
         android:src="@drawable/logo128"
-        android:tileMode="disabled"
+       
         android:gravity="center"
         />
     
