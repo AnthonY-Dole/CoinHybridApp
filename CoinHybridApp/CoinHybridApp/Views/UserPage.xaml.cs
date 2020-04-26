@@ -18,16 +18,16 @@ namespace CoinHybridApp
         public UserPage()
         {
             InitializeComponent();
-            VM = new DisplayUserDataViewModel(data.currentUser);
-            this.BindingContext = VM;
         }
 
         protected override void OnAppearing()
         {
-            base.OnAppearing();
+            VM = new DisplayUserDataViewModel(data.currentUser);
+            this.BindingContext = VM;
             VM.refresh();
-
+            base.OnAppearing();
         }
+
         private void createUserPage(object sender, EventArgs e)
         {
             Device.BeginInvokeOnMainThread(async () =>
