@@ -42,7 +42,7 @@ namespace CoinHybridApp.Models
         public CryptoModel(string PName, string PAbrev, string Pdetail, string PImage, string Pprice, string PmaxSupply, string PcirculatingSupply)
         {
             Name = PName;
-            Abreviation = PAbrev;
+            Abreviation = PAbrev.ToUpper();
             Details = Pdetail;
             Image = PImage;
             Price = Pprice;

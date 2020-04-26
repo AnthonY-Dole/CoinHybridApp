@@ -1,4 +1,5 @@
-﻿using CoinHybridApp.ViewModel;
+﻿using CoinHybridApp.Models;
+using CoinHybridApp.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,25 @@ namespace CoinHybridApp.Views
             {
                 VM.RefreshData();
             }
+        }
+
+        private void Delete_Clicked(object sender, EventArgs e)
+        {
+            CryptoModel Asset = null;
+            var b = (Button)sender;
+
+            var ob = b.BindingContext as CryptoModel;
+
+            if (ob != null)
+
+            {
+
+                Asset = ob;
+
+            }
+
+            VM.DeleteCrypto(Asset);
+            VM.RefreshData();
         }
     }
 }

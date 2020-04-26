@@ -12,6 +12,7 @@ namespace CoinHybridApp.ViewModel
 {
     public class CreatedAssetListViewModel : BaseViewModel
     {
+        CryptoModel Asset = new CryptoModel();
         ObservableCollection<CryptoModel> assets = new ObservableCollection<CryptoModel>();
         public ObservableCollection<CryptoModel> Assets
         {
@@ -41,11 +42,23 @@ namespace CoinHybridApp.ViewModel
         {
             List<CryptoModel> listeAsset = new List<CryptoModel>(DAL.CryptoModelDAL.GetAssets());
 
+
             if (listeAsset != null && listeAsset.Any())
             {
                 assets.Clear();
                 assets.AddRange(listeAsset);
             }
+            else
+            {
+                assets = new ObservableCollection<CryptoModel>();
+            }
+        }
+
+        public void DeleteCrypto(CryptoModel asset)
+        {
+            Asset = asset;
+
+            CryptoModelDAL.DeleteAsset(Asset);
         }
 
     }

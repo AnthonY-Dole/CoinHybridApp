@@ -33,9 +33,9 @@
                         <ColumnDefinition Width="1*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Entry Grid.Column="0" HorizontalTextAlignment="Center"  Placeholder="Nom"  Text="{Binding Nom,Mode=TwoWay}" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold" />
-                    <Entry Grid.Column="1" HorizontalTextAlignment="Center"  Placeholder="Abréviation" Text="{Binding Abrev,Mode=TwoWay}" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold"  />
-                    <Entry Grid.Column="2" HorizontalTextAlignment="Center"  Placeholder="Prix $" Text="{Binding Price,Mode=TwoWay}" Keyboard="Numeric" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold"/>
+                    <Entry x:Name="Name" Grid.Column="0" HorizontalTextAlignment="Center"  Placeholder="Nom"  Text="{Binding Nom,Mode=TwoWay}" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold" />
+                    <Entry x:Name="Abrev" Grid.Column="1" HorizontalTextAlignment="Center"  Placeholder="Abréviation" Text="{Binding Abrev,Mode=TwoWay}" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold"  />
+                    <Entry x:Name="Price" Grid.Column="2" HorizontalTextAlignment="Center"  Placeholder="Prix $" Text="{Binding Price,Mode=TwoWay}" Keyboard="Numeric" Margin="0,0,0,10"  FontSize="Medium" FontAttributes="Bold" />
 
                 </Grid>
 
@@ -44,15 +44,15 @@
                 <StackLayout  Grid.Row="3">
                     <Label Margin="20,0" HorizontalTextAlignment="Start"  FontSize="Title" FontAttributes="Bold"
 				Text="Informations:" />
-                    <Entry Placeholder="Circulating supply" Margin="20,0" Keyboard="Numeric" HorizontalTextAlignment="Start"  FontSize="Medium"
+                    <Entry x:Name="Circ" Placeholder="Circulating supply" Margin="20,0" Keyboard="Numeric" HorizontalTextAlignment="Start"  FontSize="Medium"
                    
 				Text="{Binding CircuSupply,Mode=TwoWay}"  />
-                    <Entry Placeholder="Max supply" Margin="20,0" Keyboard="Numeric" HorizontalTextAlignment="Start"  FontSize="Medium"
+                    <Entry x:Name="Max" Placeholder="Max supply" Margin="20,0" Keyboard="Numeric" HorizontalTextAlignment="Start"  FontSize="Medium"
                    
-				Text="{Binding MaxSupply,Mode=TwoWay}" />
+				Text="{Binding MaxSupply,Mode=TwoWay}"  />
                     <Label  Margin="20,0" HorizontalTextAlignment="Start" FontSize="Title" FontAttributes="Bold"
 				Text="Description:" />
-                    <Editor Margin="20,0,20,0"  FontSize="Medium"
+                    <Editor x:Name="Det" Margin="20,0,20,0"  FontSize="Medium"
                  Text="{Binding Details,Mode=TwoWay}" />
                 </StackLayout>
 

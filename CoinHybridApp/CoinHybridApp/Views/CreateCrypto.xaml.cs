@@ -21,11 +21,54 @@ namespace CoinHybridApp.Views
             this.BindingContext = VM;
         }
 
-        private void ButtonCreate_Clicked(object sender, EventArgs e)
+        private async void ButtonCreate_Clicked(object sender, EventArgs e)
         {
-            VM.newAsset();
-            Navigation.PopAsync();
+            string Name = this.FindByName<Entry>("Name").Text;
+            string Abrev = this.FindByName<Entry>("Abrev").Text;
+            string Price = this.FindByName<Entry>("Price").Text;
+            string Circ = this.FindByName<Entry>("Circ").Text;
+            string Max = this.FindByName<Entry>("Max").Text;
+            string Det = this.FindByName<Editor>("Det").Text;
+
+            if (Name == null || Abrev == null || Price == null || Circ == null || Max == null || Det == null)
+            {
+                await DisplayAlert("Alert", "Make sure to complete all entry.", "OK");
+            }
+            else if(Convert.ToDecimal(Circ) > Convert.ToDecimal(Max))
+            {
+                await DisplayAlert("Alert", "Circulating supply can't exceed max supply.", "OK");
+            }
+            else if(Abrev.Count() > 4)
+            {
+                await DisplayAlert("Alert", "Abbreviation can't exceed 4 characters.", "OK");
+
+            }
+            else
+            {
+                VM.newAsset();
+                this.FindByName<Entry>("Name").Text = string.Empty;
+                this.FindByName<Entry>("Abrev").Text = string.Empty;
+                this.FindByName<Entry>("Price").Text = string.Empty;
+                this.FindByName<Entry>("Circ").Text = string.Empty;
+                this.FindByName<Entry>("Max").Text = string.Empty;
+                this.FindByName<Editor>("Det").Text = string.Empty;
+            }
         }
+
+        private async Task AlertAsync(string i)
+        {
+            if(i == "1")
+            {
+                await DisplayAlert("Alert", "Make sure to complete all entry.", "OK");
+
+            }
+            else
+            {
+                await DisplayAlert("Alert", "Circulating supply can't exceed max supply.", "OK");
+            }
+
+        }
+
 
         private async void ButtonList_Clicked(object sender, EventArgs e)
         {
